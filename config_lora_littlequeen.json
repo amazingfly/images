@@ -1,0 +1,48 @@
+{
+  "prompt_count": 500,
+  "output_dir": "./scripts/output_lora_littlequeen_identity_generated_longrun",
+  "upscaled_dir": "./scripts/output_lora_littlequeen_identity_generated_longrun/upscaled",
+  "prompts_file": "./scripts/prompts_littlequeen_lora.json",
+  "local_files_only": true,
+  "pipeline": {
+    "regenerate_prompts": true
+  },
+  "lora": {
+    "enabled": true,
+    "path": "./LORA/lora_littlequeen.safetensors",
+    "adapter_name": "littlequeen",
+    "scale": 1.0,
+    "fuse": false
+  },
+  "two_pass": {
+    "enabled": true,
+    "draft_source": "generated",
+    "draft_lora_scale": 0.55,
+    "draft_num_inference_steps": 22,
+    "draft_guidance_scale": 6.5,
+    "refine_lora_scale": 1.35,
+    "refine_num_inference_steps": 50,
+    "refine_guidance_scale": 6.0,
+    "strength": 0.65,
+    "save_drafts": true
+  },
+  "generation": {
+    "width": 640,
+    "height": 448,
+    "num_inference_steps": 20,
+    "guidance_scale": 7.5,
+    "skip_existing": false,
+    "style_prompt": "softly glowing fairytale, cute anime storybook style, clean bold line art, soft cel-shading, warm golden lighting, family-animation polish",
+    "character_prompt": "long chestnut-brown hair, warm brown eyes, big golden spiked crown, pink-magenta puff-sleeve dress, small gold pendant",
+    "negative_prompt": "duplicate queen, second queen, two queens, duplicate girl, second girl, extra person, clone, green eyes, teal eyes, red eyes, purple hair, pink hair, magenta hair, short hair, chibi, oversized head, extreme close-up, close-up portrait, cropped, out of frame"
+  },
+  "upscale": {
+    "width": 1920,
+    "height": 1080,
+    "mode": "contain_blur",
+    "foreground_scale": 0.94,
+    "background_blur": 45,
+    "skip_existing": true
+  },
+  "prompt_request": "Generate Little Queen LoRA test prompts with one <tlqueen> in a pink dress using a gem-incrusted wand to blast a non-human monster."
+}

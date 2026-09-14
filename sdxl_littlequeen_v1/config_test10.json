@@ -1,0 +1,76 @@
+{
+  "name": "littlequeen_sdxl_q8_lcm_test10",
+  "binary": ".tooling/stable-diffusion.cpp/build-cpu/bin/sd-cli",
+  "model": "models/quantized/sd_xl_base_1.0-q8_0.gguf",
+  "lora_dir": "models/loras",
+  "output_root": "outputs/test10",
+  "log_root": "logs/test10",
+  "generation": {
+    "width": 768,
+    "height": 1024,
+    "steps": 6,
+    "cfg_scale": 1.0,
+    "sampling_method": "lcm",
+    "scheduler": "discrete",
+    "threads": 6,
+    "rng": "cpu",
+    "mmap": true,
+    "vae_tiling": false,
+    "lora_apply_mode": "at_runtime"
+  },
+  "memory": {
+    "sample_interval_seconds": 1.0,
+    "minimum_available_mb": 1200,
+    "maximum_process_rss_mb": 12500,
+    "maximum_swap_used_mb": 4096
+  },
+  "loras": [
+    {
+      "name": "lcm-lora-sdxl",
+      "weight": 1.0
+    }
+  ],
+  "negative_prompt": "two girls, multiple people, duplicate character, twin, clone, cropped second face, malformed face, asymmetrical eyes, deformed body, extra limbs, extra fingers, fused hands, oversized head, chibi proportions, cropped crown, cropped feet, text, watermark, low detail, blurry",
+  "prompts": [
+    {
+      "seed": 81001,
+      "prompt": "single full-body young fairy-tale queen, softly rounded face, large expressive warm brown eyes, petite natural proportions, long wavy hair, small spiked crown, puff-sleeve ball gown, standing in a bright palace garden, polished anime storybook illustration"
+    },
+    {
+      "seed": 81002,
+      "prompt": "single three-quarter-view young fairy-tale queen, softly rounded face, large expressive hazel eyes, petite natural proportions, long braided hair, jeweled crown, puff-sleeve ball gown, holding a crystal wand beside glowing flowers, polished anime storybook illustration"
+    },
+    {
+      "seed": 81003,
+      "prompt": "single full-body young fairy-tale queen, clear symmetrical face, large expressive blue eyes, petite natural proportions, long loose curls, delicate crown, emerald puff-sleeve ball gown, casting a ribbon of harmless magic, polished anime storybook illustration"
+    },
+    {
+      "seed": 81004,
+      "prompt": "single waist-up young fairy-tale queen, softly rounded face in clear view, large expressive brown eyes, natural head and shoulder proportions, long wavy silver hair, small gold crown, violet puff-sleeve gown, holding a star-tipped scepter, polished anime storybook illustration"
+    },
+    {
+      "seed": 81005,
+      "prompt": "single full-body young fairy-tale queen running through a candy castle courtyard, clear cheerful face, petite natural proportions, long ponytail, small spiked crown, blue puff-sleeve ball gown, crystal wand raised, polished anime storybook illustration"
+    },
+    {
+      "seed": 81006,
+      "prompt": "single seated young fairy-tale queen on a carved palace step, softly rounded face, large expressive green eyes, natural childlike proportions, long half-up hair, pearl crown, rose-red puff-sleeve ball gown, polished anime storybook illustration"
+    },
+    {
+      "seed": 81007,
+      "prompt": "single full-body young fairy-tale queen facing a tiny friendly dragon, clear determined face, petite natural proportions, long flowing black hair, silver crown, white and gold puff-sleeve ball gown, magic shield glowing from her wand, polished anime storybook illustration"
+    },
+    {
+      "seed": 81008,
+      "prompt": "single close three-quarter portrait of a young fairy-tale queen, entire crown and shoulders visible, softly rounded symmetrical face, large expressive amber eyes, long wavy auburn hair, gemmed crown, teal puff-sleeve gown, polished anime storybook illustration"
+    },
+    {
+      "seed": 81009,
+      "prompt": "single full-body young fairy-tale queen leaping during a magical power-up, clear focused face, petite natural proportions, long windblown hair, spiked crown, magenta puff-sleeve ball gown, bright energy aura without obscuring her body, polished anime storybook illustration"
+    },
+    {
+      "seed": 81010,
+      "prompt": "single full-body young fairy-tale queen greeting a harmless flower monster, clear smiling face, petite natural proportions, long side braid, crystal crown, orange puff-sleeve ball gown, holding a jeweled scepter, polished anime storybook illustration"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "name": "littlequeen_sdxl_q8_lcm_tune900",
+  "binary": ".tooling/stable-diffusion.cpp/build-cpu/bin/sd-cli",
+  "model": "models/quantized/sd_xl_base_1.0-q8_0.gguf",
+  "lora_dir": "models/loras",
+  "output_root": "outputs/tuning",
+  "log_root": "logs/tuning",
+  "generation": {
+    "width": 768,
+    "height": 1024,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "sampling_method": "lcm",
+    "scheduler": "discrete",
+    "threads": 6,
+    "rng": "cpu",
+    "mmap": true,
+    "vae_tiling": false,
+    "lora_apply_mode": "at_runtime"
+  },
+  "memory": {
+    "sample_interval_seconds": 1.0,
+    "minimum_available_mb": 1200,
+    "maximum_process_rss_mb": 12500,
+    "maximum_swap_used_mb": 4096
+  },
+  "loras": [
+    {
+      "name": "lcm-lora-sdxl",
+      "weight": 1.0
+    },
+    {
+      "name": "lqxl_sdxl_v1-step900",
+      "weight": 0.65
+    }
+  ],
+  "negative_prompt": "close-up, portrait, cropped body, out of frame, cropped crown, cropped feet, missing arms, missing forearms, missing hands, hidden hands, extra limbs, extra arms, extra fingers, fused hands, holding a staff, holding a wand, holding a sword, extra crown, duplicate crown, floating crown, two girls, multiple people, twin, clone, adult woman, mature body, broad adult shoulders, low neckline, cleavage, photorealistic, blonde hair, black hair, blue dress, malformed face, asymmetrical eyes, crossed eyes, open mouth, visible teeth, text, watermark, low detail, blurry",
+  "prompts": [
+    {
+      "seed": 93001,
+      "prompt": "wide full-body action shot, entire figure visible from crown to boots, feet inside frame, solo, lqxl Little Queen, canonical round face, petite child proportions, warm brown eyes, brown hair in a high windblown ponytail with straight bangs, one small gold crown, short-sleeve pink battle dress with gold trim and flared skirt, powering up in a wide grounded stance, both clenched fists clearly visible at her sides, brilliant gold energy aura around her body, determined closed-mouth expression, polished anime action illustration"
+    }
+  ]
+}

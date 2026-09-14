@@ -1,0 +1,637 @@
+{
+  "description": "Stacked Little Queen identity plus Moonstar outfit LoRA test",
+  "image_count": 100,
+  "first_seed": 101001,
+  "outfit_description_in_prompts": false,
+  "location_counts": {
+    "rose_garden": 5,
+    "palace_courtyard": 5,
+    "marble_hall": 5,
+    "cloudy_hill": 5,
+    "forest_stream": 5,
+    "village_street": 5,
+    "crystal_lake": 5,
+    "castle_courtyard": 5,
+    "evening_stars": 5,
+    "autumn_forest": 5,
+    "greenhouse": 5,
+    "sunset_balcony": 5,
+    "snowy_courtyard": 5,
+    "lantern_festival": 5,
+    "crystal_cavern": 5,
+    "storybook_library": 5,
+    "seaside_path": 5,
+    "waterfall": 5,
+    "wildflower_meadow": 5,
+    "moonlit_bridge": 5
+  },
+  "variation_counts": {
+    "calm_no_prop": 20,
+    "walking_rose_crown": 20,
+    "turning_moon_circlet": 20,
+    "magic_star_wand": 20,
+    "reading_no_crown": 20
+  },
+  "prompts": [
+    {
+      "seed": 101001,
+      "location_id": "rose_garden",
+      "variation_id": "calm_no_prop",
+      "prompt": "wide full-body front view, entire head and both shoes inside frame, empty hands visible, standing calmly, solo, lqmoonfit, lqxl Little Queen, in a quiet rose garden, polished anime storybook illustration"
+    },
+    {
+      "seed": 101002,
+      "location_id": "rose_garden",
+      "variation_id": "walking_rose_crown",
+      "prompt": "full-body three-quarter view, entire gold rose crown and both shoes inside frame, empty hands visible, taking one graceful step, solo, lqmoonfit, lqxl Little Queen, in a quiet rose garden, polished anime storybook illustration"
+    },
+    {
+      "seed": 101003,
+      "location_id": "rose_garden",
+      "variation_id": "turning_moon_circlet",
+      "prompt": "wide full-body motion view, entire silver moon circlet and both shoes inside frame, turning as her hair and skirt flow, solo, lqmoonfit, lqxl Little Queen, in a quiet rose garden, polished anime storybook illustration"
+    },
+    {
+      "seed": 101004,
+      "location_id": "rose_garden",
+      "variation_id": "magic_star_wand",
+      "prompt": "wide full-body action view, entire head, star wand, and both shoes inside frame, raising one star wand as a bright magical aura begins, solo, lqmoonfit, lqxl Little Queen, in a quiet rose garden, polished anime storybook illustration"
+    },
+    {
+      "seed": 101005,
+      "location_id": "rose_garden",
+      "variation_id": "reading_no_crown",
+      "prompt": "full-body seated view, entire uncovered head and both shoes inside frame, no crown, reading an open storybook held in both hands, solo, lqmoonfit, lqxl Little Queen, in a quiet rose garden, polished anime storybook illustration"
+    },
+    {
+      "seed": 101006,
+      "location_id": "palace_courtyard",
+      "variation_id": "calm_no_prop",
+      "prompt": "wide full-body front view, entire head and both shoes inside frame, empty hands visible, standing calmly, solo, lqmoonfit, lqxl Little Queen, in a sunlit palace courtyard, polished anime storybook illustration"
+    },
+    {
+      "seed": 101007,
+      "location_id": "palace_courtyard",
+      "variation_id": "walking_rose_crown",
+      "prompt": "full-body three-quarter view, entire gold rose crown and both shoes inside frame, empty hands visible, taking one graceful step, solo, lqmoonfit, lqxl Little Queen, in a sunlit palace courtyard, polished anime storybook illustration"
+    },
+    {
+      "seed": 101008,
+      "location_id": "palace_courtyard",
+      "variation_id": "turning_moon_circlet",
+      "prompt": "wide full-body motion view, entire silver moon circlet and both shoes inside frame, turning as her hair and skirt flow, solo, lqmoonfit, lqxl Little Queen, in a sunlit palace courtyard, polished anime storybook illustration"
+    },
+    {
+      "seed": 101009,
+      "location_id": "palace_courtyard",
+      "variation_id": "magic_star_wand",
+      "prompt": "wide full-body action view, entire head, star wand, and both shoes inside frame, raising one star wand as a bright magical aura begins, solo, lqmoonfit, lqxl Little Queen, in a sunlit palace courtyard, polished anime storybook illustration"
+    },
+    {
+      "seed": 101010,
+      "location_id": "palace_courtyard",
+      "variation_id": "reading_no_crown",
+      "prompt": "full-body seated view, entire uncovered head and both shoes inside frame, no crown, reading an open storybook held in both hands, solo, lqmoonfit, lqxl Little Queen, in a sunlit palace courtyard, polished anime storybook illustration"
+    },
+    {
+      "seed": 101011,
+      "location_id": "marble_hall",
+      "variation_id": "calm_no_prop",
+      "prompt": "wide full-body front view, entire head and both shoes inside frame, empty hands visible, standing calmly, solo, lqmoonfit, lqxl Little Queen, inside a bright marble hall, polished anime storybook illustration"
+    },
+    {
+      "seed": 101012,
+      "location_id": "marble_hall",
+      "variation_id": "walking_rose_crown",
+      "prompt": "full-body three-quarter view, entire gold rose crown and both shoes inside frame, empty hands visible, taking one graceful step, solo, lqmoonfit, lqxl Little Queen, inside a bright marble hall, polished anime storybook illustration"
+    },
+    {
+      "seed": 101013,
+      "location_id": "marble_hall",
+      "variation_id": "turning_moon_circlet",
+      "prompt": "wide full-body motion view, entire silver moon circlet and both shoes inside frame, turning as her hair and skirt flow, solo, lqmoonfit, lqxl Little Queen, inside a bright marble hall, polished anime storybook illustration"
+    },
+    {
+      "seed": 101014,
+      "location_id": "marble_hall",
+      "variation_id": "magic_star_wand",
+      "prompt": "wide full-body action view, entire head, star wand, and both shoes inside frame, raising one star wand as a bright magical aura begins, solo, lqmoonfit, lqxl Little Queen, inside a bright marble hall, polished anime storybook illustration"
+    },
+    {
+      "seed": 101015,
+      "location_id": "marble_hall",
+      "variation_id": "reading_no_crown",
+      "prompt": "full-body seated view, entire uncovered head and both shoes inside frame, no crown, reading an open storybook held in both hands, solo, lqmoonfit, lqxl Little Queen, inside a bright marble hall, polished anime storybook illustration"
+    },
+    {
+      "seed": 101016,
+      "location_id": "cloudy_hill",
+      "variation_id": "calm_no_prop",
+      "prompt": "wide full-body front view, entire head and both shoes inside frame, empty hands visible, standing calmly, solo, lqmoonfit, lqxl Little Queen, beneath a cloudy sky on a green hill, polished anime storybook illustration"
+    },
+    {
+      "seed": 101017,
+      "location_id": "cloudy_hill",
+      "variation_id": "walking_rose_crown",
+      "prompt": "full-body three-quarter view, entire gold rose crown and both shoes inside frame, empty hands visible, taking one graceful step, solo, lqmoonfit, lqxl Little Queen, beneath a cloudy sky on a green hill, polished anime storybook illustration"
+    },
+    {
+      "seed": 101018,
+      "location_id": "cloudy_hill",
+      "variation_id": "turning_moon_circlet",
+      "prompt": "wide full-body motion view, entire silver moon circlet and both shoes inside frame, turning as her hair and skirt flow, solo, lqmoonfit, lqxl Little Queen, beneath a cloudy sky on a green hill, polished anime storybook illustration"
+    },
+    {
+      "seed": 101019,
+      "location_id": "cloudy_hill",
+      "variation_id": "magic_star_wand",
+      "prompt": "wide full-body action view, entire head, star wand, and both shoes inside frame, raising one star wand as a bright magical aura begins, solo, lqmoonfit, lqxl Little Queen, beneath a cloudy sky on a green hill, polished anime storybook illustration"
+    },
+    {
+      "seed": 101020,
+      "location_id": "cloudy_hill",
+      "variation_id": "reading_no_crown",
+      "prompt": "full-body seated view, entire uncovered head and both shoes inside frame, no crown, reading an open storybook held in both hands, solo, lqmoonfit, lqxl Little Queen, beneath a cloudy sky on a green hill, polished anime storybook illustration"
+    },
+    {
+      "seed": 101021,
+      "location_id": "forest_stream",
+      "variation_id": "calm_no_prop",
+      "prompt": "wide full-body front view, entire head and both shoes inside frame, empty hands visible, standing calmly, solo, lqmoonfit, lqxl Little Queen, beside a clear forest stream, polished anime storybook illustration"
+    },
+    {
+      "seed": 101022,
+      "location_id": "forest_stream",
+      "variation_id": "walking_rose_crown",
+      "prompt": "full-body three-quarter view, entire gold rose crown and both shoes inside frame, empty hands visible, taking one graceful step, solo, lqmoonfit, lqxl Little Queen, beside a clear forest stream, polished anime storybook illustration"
+    },
+    {
+      "seed": 101023,
+      "location_id": "forest_stream",
+      "variation_id": "turning_moon_circlet",
+      "prompt": "wide full-body motion view, entire silver moon circlet and both shoes inside frame, turning as her hair and skirt flow, solo, lqmoonfit, lqxl Little Queen, beside a clear forest stream, polished anime storybook illustration"
+    },
+    {
+      "seed": 101024,
+      "location_id": "forest_stream",
+      "variation_id": "magic_star_wand",
+      "prompt": "wide full-body action view, entire head, star wand, and both shoes inside frame, raising one star wand as a bright magical aura begins, solo, lqmoonfit, lqxl Little Queen, beside a clear forest stream, polished anime storybook illustration"
+    },
+    {
+      "seed": 101025,
+      "location_id": "forest_stream",
+      "variation_id": "reading_no_crown",
+      "prompt": "full-body seated view, entire uncovered head and both shoes inside frame, no crown, reading an open storybook held in both hands, solo, lqmoonfit, lqxl Little Queen, beside a clear forest stream, polished anime storybook illustration"
+    },
+    {
+      "seed": 101026,
+      "location_id": "village_street",
+      "variation_id": "calm_no_prop",
+      "prompt": "wide full-body front view, entire head and both shoes inside frame, empty hands visible, standing calmly, solo, lqmoonfit, lqxl Little Queen, on a cheerful village street, polished anime storybook illustration"
+    },
+    {
+      "seed": 101027,
+      "location_id": "village_street",
+      "variation_id": "walking_rose_crown",
+      "prompt": "full-body three-quarter view, entire gold rose crown and both shoes inside frame, empty hands visible, taking one graceful step, solo, lqmoonfit, lqxl Little Queen, on a cheerful village street, polished anime storybook illustration"
+    },
+    {
+      "seed": 101028,
+      "location_id": "village_street",
+      "variation_id": "turning_moon_circlet",
+      "prompt": "wide full-body motion view, entire silver moon circlet and both shoes inside frame, turning as her hair and skirt flow, solo, lqmoonfit, lqxl Little Queen, on a cheerful village street, polished anime storybook illustration"
+    },
+    {
+      "seed": 101029,
+      "location_id": "village_street",
+      "variation_id": "magic_star_wand",
+      "prompt": "wide full-body action view, entire head, star wand, and both shoes inside frame, raising one star wand as a bright magical aura begins, solo, lqmoonfit, lqxl Little Queen, on a cheerful village street, polished anime storybook illustration"
+    },
+    {
+      "seed": 101030,
+      "location_id": "village_street",
+      "variation_id": "reading_no_crown",
+      "prompt": "full-body seated view, entire uncovered head and both shoes inside frame, no crown, reading an open storybook held in both hands, solo, lqmoonfit, lqxl Little Queen, on a cheerful village street, polished anime storybook illustration"
+    },
+    {
+      "seed": 101031,
+      "location_id": "crystal_lake",
+      "variation_id": "calm_no_prop",
+      "prompt": "wide full-body front view, entire head and both shoes inside frame, empty hands visible, standing calmly, solo, lqmoonfit, lqxl Little Queen, near a still crystal lake, polished anime storybook illustration"
+    },
+    {
+      "seed": 101032,
+      "location_id": "crystal_lake",
+      "variation_id": "walking_rose_crown",
+      "prompt": "full-body three-quarter view, entire gold rose crown and both shoes inside frame, empty hands visible, taking one graceful step, solo, lqmoonfit, lqxl Little Queen, near a still crystal lake, polished anime storybook illustration"
+    },
+    {
+      "seed": 101033,
+      "location_id": "crystal_lake",
+      "variation_id": "turning_moon_circlet",
+      "prompt": "wide full-body motion view, entire silver moon circlet and both shoes inside frame, turning as her hair and skirt flow, solo, lqmoonfit, lqxl Little Queen, near a still crystal lake, polished anime storybook illustration"
+    },
+    {
+      "seed": 101034,
+      "location_id": "crystal_lake",
+      "variation_id": "magic_star_wand",
+      "prompt": "wide full-body action view, entire head, star wand, and both shoes inside frame, raising one star wand as a bright magical aura begins, solo, lqmoonfit, lqxl Little Queen, near a still crystal lake, polished anime storybook illustration"
+    },
+    {
+      "seed": 101035,
+      "location_id": "crystal_lake",
+      "variation_id": "reading_no_crown",
+      "prompt": "full-body seated view, entire uncovered head and both shoes inside frame, no crown, reading an open storybook held in both hands, solo, lqmoonfit, lqxl Little Queen, near a still crystal lake, polished anime storybook illustration"
+    },
+    {
+      "seed": 101036,
+      "location_id": "castle_courtyard",
+      "variation_id": "calm_no_prop",
+      "prompt": "wide full-body front view, entire head and both shoes inside frame, empty hands visible, standing calmly, solo, lqmoonfit, lqxl Little Queen, in an open castle courtyard, polished anime storybook illustration"
+    },
+    {
+      "seed": 101037,
+      "location_id": "castle_courtyard",
+      "variation_id": "walking_rose_crown",
+      "prompt": "full-body three-quarter view, entire gold rose crown and both shoes inside frame, empty hands visible, taking one graceful step, solo, lqmoonfit, lqxl Little Queen, in an open castle courtyard, polished anime storybook illustration"
+    },
+    {
+      "seed": 101038,
+      "location_id": "castle_courtyard",
+      "variation_id": "turning_moon_circlet",
+      "prompt": "wide full-body motion view, entire silver moon circlet and both shoes inside frame, turning as her hair and skirt flow, solo, lqmoonfit, lqxl Little Queen, in an open castle courtyard, polished anime storybook illustration"
+    },
+    {
+      "seed": 101039,
+      "location_id": "castle_courtyard",
+      "variation_id": "magic_star_wand",
+      "prompt": "wide full-body action view, entire head, star wand, and both shoes inside frame, raising one star wand as a bright magical aura begins, solo, lqmoonfit, lqxl Little Queen, in an open castle courtyard, polished anime storybook illustration"
+    },
+    {
+      "seed": 101040,
+      "location_id": "castle_courtyard",
+      "variation_id": "reading_no_crown",
+      "prompt": "full-body seated view, entire uncovered head and both shoes inside frame, no crown, reading an open storybook held in both hands, solo, lqmoonfit, lqxl Little Queen, in an open castle courtyard, polished anime storybook illustration"
+    },
+    {
+      "seed": 101041,
+      "location_id": "evening_stars",
+      "variation_id": "calm_no_prop",
+      "prompt": "wide full-body front view, entire head and both shoes inside frame, empty hands visible, standing calmly, solo, lqmoonfit, lqxl Little Queen, under the evening stars, polished anime storybook illustration"
+    },
+    {
+      "seed": 101042,
+      "location_id": "evening_stars",
+      "variation_id": "walking_rose_crown",
+      "prompt": "full-body three-quarter view, entire gold rose crown and both shoes inside frame, empty hands visible, taking one graceful step, solo, lqmoonfit, lqxl Little Queen, under the evening stars, polished anime storybook illustration"
+    },
+    {
+      "seed": 101043,
+      "location_id": "evening_stars",
+      "variation_id": "turning_moon_circlet",
+      "prompt": "wide full-body motion view, entire silver moon circlet and both shoes inside frame, turning as her hair and skirt flow, solo, lqmoonfit, lqxl Little Queen, under the evening stars, polished anime storybook illustration"
+    },
+    {
+      "seed": 101044,
+      "location_id": "evening_stars",
+      "variation_id": "magic_star_wand",
+      "prompt": "wide full-body action view, entire head, star wand, and both shoes inside frame, raising one star wand as a bright magical aura begins, solo, lqmoonfit, lqxl Little Queen, under the evening stars, polished anime storybook illustration"
+    },
+    {
+      "seed": 101045,
+      "location_id": "evening_stars",
+      "variation_id": "reading_no_crown",
+      "prompt": "full-body seated view, entire uncovered head and both shoes inside frame, no crown, reading an open storybook held in both hands, solo, lqmoonfit, lqxl Little Queen, under the evening stars, polished anime storybook illustration"
+    },
+    {
+      "seed": 101046,
+      "location_id": "autumn_forest",
+      "variation_id": "calm_no_prop",
+      "prompt": "wide full-body front view, entire head and both shoes inside frame, empty hands visible, standing calmly, solo, lqmoonfit, lqxl Little Queen, among glowing autumn trees, polished anime storybook illustration"
+    },
+    {
+      "seed": 101047,
+      "location_id": "autumn_forest",
+      "variation_id": "walking_rose_crown",
+      "prompt": "full-body three-quarter view, entire gold rose crown and both shoes inside frame, empty hands visible, taking one graceful step, solo, lqmoonfit, lqxl Little Queen, among glowing autumn trees, polished anime storybook illustration"
+    },
+    {
+      "seed": 101048,
+      "location_id": "autumn_forest",
+      "variation_id": "turning_moon_circlet",
+      "prompt": "wide full-body motion view, entire silver moon circlet and both shoes inside frame, turning as her hair and skirt flow, solo, lqmoonfit, lqxl Little Queen, among glowing autumn trees, polished anime storybook illustration"
+    },
+    {
+      "seed": 101049,
+      "location_id": "autumn_forest",
+      "variation_id": "magic_star_wand",
+      "prompt": "wide full-body action view, entire head, star wand, and both shoes inside frame, raising one star wand as a bright magical aura begins, solo, lqmoonfit, lqxl Little Queen, among glowing autumn trees, polished anime storybook illustration"
+    },
+    {
+      "seed": 101050,
+      "location_id": "autumn_forest",
+      "variation_id": "reading_no_crown",
+      "prompt": "full-body seated view, entire uncovered head and both shoes inside frame, no crown, reading an open storybook held in both hands, solo, lqmoonfit, lqxl Little Queen, among glowing autumn trees, polished anime storybook illustration"
+    },
+    {
+      "seed": 101051,
+      "location_id": "greenhouse",
+      "variation_id": "calm_no_prop",
+      "prompt": "wide full-body front view, entire head and both shoes inside frame, empty hands visible, standing calmly, solo, lqmoonfit, lqxl Little Queen, inside a flowering greenhouse, polished anime storybook illustration"
+    },
+    {
+      "seed": 101052,
+      "location_id": "greenhouse",
+      "variation_id": "walking_rose_crown",
+      "prompt": "full-body three-quarter view, entire gold rose crown and both shoes inside frame, empty hands visible, taking one graceful step, solo, lqmoonfit, lqxl Little Queen, inside a flowering greenhouse, polished anime storybook illustration"
+    },
+    {
+      "seed": 101053,
+      "location_id": "greenhouse",
+      "variation_id": "turning_moon_circlet",
+      "prompt": "wide full-body motion view, entire silver moon circlet and both shoes inside frame, turning as her hair and skirt flow, solo, lqmoonfit, lqxl Little Queen, inside a flowering greenhouse, polished anime storybook illustration"
+    },
+    {
+      "seed": 101054,
+      "location_id": "greenhouse",
+      "variation_id": "magic_star_wand",
+      "prompt": "wide full-body action view, entire head, star wand, and both shoes inside frame, raising one star wand as a bright magical aura begins, solo, lqmoonfit, lqxl Little Queen, inside a flowering greenhouse, polished anime storybook illustration"
+    },
+    {
+      "seed": 101055,
+      "location_id": "greenhouse",
+      "variation_id": "reading_no_crown",
+      "prompt": "full-body seated view, entire uncovered head and both shoes inside frame, no crown, reading an open storybook held in both hands, solo, lqmoonfit, lqxl Little Queen, inside a flowering greenhouse, polished anime storybook illustration"
+    },
+    {
+      "seed": 101056,
+      "location_id": "sunset_balcony",
+      "variation_id": "calm_no_prop",
+      "prompt": "wide full-body front view, entire head and both shoes inside frame, empty hands visible, standing calmly, solo, lqmoonfit, lqxl Little Queen, on a palace balcony at sunset, polished anime storybook illustration"
+    },
+    {
+      "seed": 101057,
+      "location_id": "sunset_balcony",
+      "variation_id": "walking_rose_crown",
+      "prompt": "full-body three-quarter view, entire gold rose crown and both shoes inside frame, empty hands visible, taking one graceful step, solo, lqmoonfit, lqxl Little Queen, on a palace balcony at sunset, polished anime storybook illustration"
+    },
+    {
+      "seed": 101058,
+      "location_id": "sunset_balcony",
+      "variation_id": "turning_moon_circlet",
+      "prompt": "wide full-body motion view, entire silver moon circlet and both shoes inside frame, turning as her hair and skirt flow, solo, lqmoonfit, lqxl Little Queen, on a palace balcony at sunset, polished anime storybook illustration"
+    },
+    {
+      "seed": 101059,
+      "location_id": "sunset_balcony",
+      "variation_id": "magic_star_wand",
+      "prompt": "wide full-body action view, entire head, star wand, and both shoes inside frame, raising one star wand as a bright magical aura begins, solo, lqmoonfit, lqxl Little Queen, on a palace balcony at sunset, polished anime storybook illustration"
+    },
+    {
+      "seed": 101060,
+      "location_id": "sunset_balcony",
+      "variation_id": "reading_no_crown",
+      "prompt": "full-body seated view, entire uncovered head and both shoes inside frame, no crown, reading an open storybook held in both hands, solo, lqmoonfit, lqxl Little Queen, on a palace balcony at sunset, polished anime storybook illustration"
+    },
+    {
+      "seed": 101061,
+      "location_id": "snowy_courtyard",
+      "variation_id": "calm_no_prop",
+      "prompt": "wide full-body front view, entire head and both shoes inside frame, empty hands visible, standing calmly, solo, lqmoonfit, lqxl Little Queen, in a snowy castle courtyard, polished anime storybook illustration"
+    },
+    {
+      "seed": 101062,
+      "location_id": "snowy_courtyard",
+      "variation_id": "walking_rose_crown",
+      "prompt": "full-body three-quarter view, entire gold rose crown and both shoes inside frame, empty hands visible, taking one graceful step, solo, lqmoonfit, lqxl Little Queen, in a snowy castle courtyard, polished anime storybook illustration"
+    },
+    {
+      "seed": 101063,
+      "location_id": "snowy_courtyard",
+      "variation_id": "turning_moon_circlet",
+      "prompt": "wide full-body motion view, entire silver moon circlet and both shoes inside frame, turning as her hair and skirt flow, solo, lqmoonfit, lqxl Little Queen, in a snowy castle courtyard, polished anime storybook illustration"
+    },
+    {
+      "seed": 101064,
+      "location_id": "snowy_courtyard",
+      "variation_id": "magic_star_wand",
+      "prompt": "wide full-body action view, entire head, star wand, and both shoes inside frame, raising one star wand as a bright magical aura begins, solo, lqmoonfit, lqxl Little Queen, in a snowy castle courtyard, polished anime storybook illustration"
+    },
+    {
+      "seed": 101065,
+      "location_id": "snowy_courtyard",
+      "variation_id": "reading_no_crown",
+      "prompt": "full-body seated view, entire uncovered head and both shoes inside frame, no crown, reading an open storybook held in both hands, solo, lqmoonfit, lqxl Little Queen, in a snowy castle courtyard, polished anime storybook illustration"
+    },
+    {
+      "seed": 101066,
+      "location_id": "lantern_festival",
+      "variation_id": "calm_no_prop",
+      "prompt": "wide full-body front view, entire head and both shoes inside frame, empty hands visible, standing calmly, solo, lqmoonfit, lqxl Little Queen, at a lantern festival, polished anime storybook illustration"
+    },
+    {
+      "seed": 101067,
+      "location_id": "lantern_festival",
+      "variation_id": "walking_rose_crown",
+      "prompt": "full-body three-quarter view, entire gold rose crown and both shoes inside frame, empty hands visible, taking one graceful step, solo, lqmoonfit, lqxl Little Queen, at a lantern festival, polished anime storybook illustration"
+    },
+    {
+      "seed": 101068,
+      "location_id": "lantern_festival",
+      "variation_id": "turning_moon_circlet",
+      "prompt": "wide full-body motion view, entire silver moon circlet and both shoes inside frame, turning as her hair and skirt flow, solo, lqmoonfit, lqxl Little Queen, at a lantern festival, polished anime storybook illustration"
+    },
+    {
+      "seed": 101069,
+      "location_id": "lantern_festival",
+      "variation_id": "magic_star_wand",
+      "prompt": "wide full-body action view, entire head, star wand, and both shoes inside frame, raising one star wand as a bright magical aura begins, solo, lqmoonfit, lqxl Little Queen, at a lantern festival, polished anime storybook illustration"
+    },
+    {
+      "seed": 101070,
+      "location_id": "lantern_festival",
+      "variation_id": "reading_no_crown",
+      "prompt": "full-body seated view, entire uncovered head and both shoes inside frame, no crown, reading an open storybook held in both hands, solo, lqmoonfit, lqxl Little Queen, at a lantern festival, polished anime storybook illustration"
+    },
+    {
+      "seed": 101071,
+      "location_id": "crystal_cavern",
+      "variation_id": "calm_no_prop",
+      "prompt": "wide full-body front view, entire head and both shoes inside frame, empty hands visible, standing calmly, solo, lqmoonfit, lqxl Little Queen, inside a glowing crystal cavern, polished anime storybook illustration"
+    },
+    {
+      "seed": 101072,
+      "location_id": "crystal_cavern",
+      "variation_id": "walking_rose_crown",
+      "prompt": "full-body three-quarter view, entire gold rose crown and both shoes inside frame, empty hands visible, taking one graceful step, solo, lqmoonfit, lqxl Little Queen, inside a glowing crystal cavern, polished anime storybook illustration"
+    },
+    {
+      "seed": 101073,
+      "location_id": "crystal_cavern",
+      "variation_id": "turning_moon_circlet",
+      "prompt": "wide full-body motion view, entire silver moon circlet and both shoes inside frame, turning as her hair and skirt flow, solo, lqmoonfit, lqxl Little Queen, inside a glowing crystal cavern, polished anime storybook illustration"
+    },
+    {
+      "seed": 101074,
+      "location_id": "crystal_cavern",
+      "variation_id": "magic_star_wand",
+      "prompt": "wide full-body action view, entire head, star wand, and both shoes inside frame, raising one star wand as a bright magical aura begins, solo, lqmoonfit, lqxl Little Queen, inside a glowing crystal cavern, polished anime storybook illustration"
+    },
+    {
+      "seed": 101075,
+      "location_id": "crystal_cavern",
+      "variation_id": "reading_no_crown",
+      "prompt": "full-body seated view, entire uncovered head and both shoes inside frame, no crown, reading an open storybook held in both hands, solo, lqmoonfit, lqxl Little Queen, inside a glowing crystal cavern, polished anime storybook illustration"
+    },
+    {
+      "seed": 101076,
+      "location_id": "storybook_library",
+      "variation_id": "calm_no_prop",
+      "prompt": "wide full-body front view, entire head and both shoes inside frame, empty hands visible, standing calmly, solo, lqmoonfit, lqxl Little Queen, inside a grand storybook library, polished anime storybook illustration"
+    },
+    {
+      "seed": 101077,
+      "location_id": "storybook_library",
+      "variation_id": "walking_rose_crown",
+      "prompt": "full-body three-quarter view, entire gold rose crown and both shoes inside frame, empty hands visible, taking one graceful step, solo, lqmoonfit, lqxl Little Queen, inside a grand storybook library, polished anime storybook illustration"
+    },
+    {
+      "seed": 101078,
+      "location_id": "storybook_library",
+      "variation_id": "turning_moon_circlet",
+      "prompt": "wide full-body motion view, entire silver moon circlet and both shoes inside frame, turning as her hair and skirt flow, solo, lqmoonfit, lqxl Little Queen, inside a grand storybook library, polished anime storybook illustration"
+    },
+    {
+      "seed": 101079,
+      "location_id": "storybook_library",
+      "variation_id": "magic_star_wand",
+      "prompt": "wide full-body action view, entire head, star wand, and both shoes inside frame, raising one star wand as a bright magical aura begins, solo, lqmoonfit, lqxl Little Queen, inside a grand storybook library, polished anime storybook illustration"
+    },
+    {
+      "seed": 101080,
+      "location_id": "storybook_library",
+      "variation_id": "reading_no_crown",
+      "prompt": "full-body seated view, entire uncovered head and both shoes inside frame, no crown, reading an open storybook held in both hands, solo, lqmoonfit, lqxl Little Queen, inside a grand storybook library, polished anime storybook illustration"
+    },
+    {
+      "seed": 101081,
+      "location_id": "seaside_path",
+      "variation_id": "calm_no_prop",
+      "prompt": "wide full-body front view, entire head and both shoes inside frame, empty hands visible, standing calmly, solo, lqmoonfit, lqxl Little Queen, on a bright seaside path, polished anime storybook illustration"
+    },
+    {
+      "seed": 101082,
+      "location_id": "seaside_path",
+      "variation_id": "walking_rose_crown",
+      "prompt": "full-body three-quarter view, entire gold rose crown and both shoes inside frame, empty hands visible, taking one graceful step, solo, lqmoonfit, lqxl Little Queen, on a bright seaside path, polished anime storybook illustration"
+    },
+    {
+      "seed": 101083,
+      "location_id": "seaside_path",
+      "variation_id": "turning_moon_circlet",
+      "prompt": "wide full-body motion view, entire silver moon circlet and both shoes inside frame, turning as her hair and skirt flow, solo, lqmoonfit, lqxl Little Queen, on a bright seaside path, polished anime storybook illustration"
+    },
+    {
+      "seed": 101084,
+      "location_id": "seaside_path",
+      "variation_id": "magic_star_wand",
+      "prompt": "wide full-body action view, entire head, star wand, and both shoes inside frame, raising one star wand as a bright magical aura begins, solo, lqmoonfit, lqxl Little Queen, on a bright seaside path, polished anime storybook illustration"
+    },
+    {
+      "seed": 101085,
+      "location_id": "seaside_path",
+      "variation_id": "reading_no_crown",
+      "prompt": "full-body seated view, entire uncovered head and both shoes inside frame, no crown, reading an open storybook held in both hands, solo, lqmoonfit, lqxl Little Queen, on a bright seaside path, polished anime storybook illustration"
+    },
+    {
+      "seed": 101086,
+      "location_id": "waterfall",
+      "variation_id": "calm_no_prop",
+      "prompt": "wide full-body front view, entire head and both shoes inside frame, empty hands visible, standing calmly, solo, lqmoonfit, lqxl Little Queen, near a gentle waterfall, polished anime storybook illustration"
+    },
+    {
+      "seed": 101087,
+      "location_id": "waterfall",
+      "variation_id": "walking_rose_crown",
+      "prompt": "full-body three-quarter view, entire gold rose crown and both shoes inside frame, empty hands visible, taking one graceful step, solo, lqmoonfit, lqxl Little Queen, near a gentle waterfall, polished anime storybook illustration"
+    },
+    {
+      "seed": 101088,
+      "location_id": "waterfall",
+      "variation_id": "turning_moon_circlet",
+      "prompt": "wide full-body motion view, entire silver moon circlet and both shoes inside frame, turning as her hair and skirt flow, solo, lqmoonfit, lqxl Little Queen, near a gentle waterfall, polished anime storybook illustration"
+    },
+    {
+      "seed": 101089,
+      "location_id": "waterfall",
+      "variation_id": "magic_star_wand",
+      "prompt": "wide full-body action view, entire head, star wand, and both shoes inside frame, raising one star wand as a bright magical aura begins, solo, lqmoonfit, lqxl Little Queen, near a gentle waterfall, polished anime storybook illustration"
+    },
+    {
+      "seed": 101090,
+      "location_id": "waterfall",
+      "variation_id": "reading_no_crown",
+      "prompt": "full-body seated view, entire uncovered head and both shoes inside frame, no crown, reading an open storybook held in both hands, solo, lqmoonfit, lqxl Little Queen, near a gentle waterfall, polished anime storybook illustration"
+    },
+    {
+      "seed": 101091,
+      "location_id": "wildflower_meadow",
+      "variation_id": "calm_no_prop",
+      "prompt": "wide full-body front view, entire head and both shoes inside frame, empty hands visible, standing calmly, solo, lqmoonfit, lqxl Little Queen, in a wildflower meadow, polished anime storybook illustration"
+    },
+    {
+      "seed": 101092,
+      "location_id": "wildflower_meadow",
+      "variation_id": "walking_rose_crown",
+      "prompt": "full-body three-quarter view, entire gold rose crown and both shoes inside frame, empty hands visible, taking one graceful step, solo, lqmoonfit, lqxl Little Queen, in a wildflower meadow, polished anime storybook illustration"
+    },
+    {
+      "seed": 101093,
+      "location_id": "wildflower_meadow",
+      "variation_id": "turning_moon_circlet",
+      "prompt": "wide full-body motion view, entire silver moon circlet and both shoes inside frame, turning as her hair and skirt flow, solo, lqmoonfit, lqxl Little Queen, in a wildflower meadow, polished anime storybook illustration"
+    },
+    {
+      "seed": 101094,
+      "location_id": "wildflower_meadow",
+      "variation_id": "magic_star_wand",
+      "prompt": "wide full-body action view, entire head, star wand, and both shoes inside frame, raising one star wand as a bright magical aura begins, solo, lqmoonfit, lqxl Little Queen, in a wildflower meadow, polished anime storybook illustration"
+    },
+    {
+      "seed": 101095,
+      "location_id": "wildflower_meadow",
+      "variation_id": "reading_no_crown",
+      "prompt": "full-body seated view, entire uncovered head and both shoes inside frame, no crown, reading an open storybook held in both hands, solo, lqmoonfit, lqxl Little Queen, in a wildflower meadow, polished anime storybook illustration"
+    },
+    {
+      "seed": 101096,
+      "location_id": "moonlit_bridge",
+      "variation_id": "calm_no_prop",
+      "prompt": "wide full-body front view, entire head and both shoes inside frame, empty hands visible, standing calmly, solo, lqmoonfit, lqxl Little Queen, on a moonlit stone bridge, polished anime storybook illustration"
+    },
+    {
+      "seed": 101097,
+      "location_id": "moonlit_bridge",
+      "variation_id": "walking_rose_crown",
+      "prompt": "full-body three-quarter view, entire gold rose crown and both shoes inside frame, empty hands visible, taking one graceful step, solo, lqmoonfit, lqxl Little Queen, on a moonlit stone bridge, polished anime storybook illustration"
+    },
+    {
+      "seed": 101098,
+      "location_id": "moonlit_bridge",
+      "variation_id": "turning_moon_circlet",
+      "prompt": "wide full-body motion view, entire silver moon circlet and both shoes inside frame, turning as her hair and skirt flow, solo, lqmoonfit, lqxl Little Queen, on a moonlit stone bridge, polished anime storybook illustration"
+    },
+    {
+      "seed": 101099,
+      "location_id": "moonlit_bridge",
+      "variation_id": "magic_star_wand",
+      "prompt": "wide full-body action view, entire head, star wand, and both shoes inside frame, raising one star wand as a bright magical aura begins, solo, lqmoonfit, lqxl Little Queen, on a moonlit stone bridge, polished anime storybook illustration"
+    },
+    {
+      "seed": 101100,
+      "location_id": "moonlit_bridge",
+      "variation_id": "reading_no_crown",
+      "prompt": "full-body seated view, entire uncovered head and both shoes inside frame, no crown, reading an open storybook held in both hands, solo, lqmoonfit, lqxl Little Queen, on a moonlit stone bridge, polished anime storybook illustration"
+    }
+  ]
+}

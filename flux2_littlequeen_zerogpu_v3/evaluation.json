@@ -1,0 +1,24 @@
+{
+  "purpose": "Compare v2 and v3 checkpoints with matched seeds and identical prompts; repeat with trigger-only and identity-prefix prompts.",
+  "identity_prefix": "LQK4N, a little queen with a rounded childlike face, large warm brown eyes, a small nose, soft round cheeks, and long chestnut-brown hair with bangs",
+  "seeds": [271828, 314159],
+  "lora_scales": [0.8, 1.0],
+  "scenes": [
+    "stands facing the viewer against a plain pale blue background, full body visible, wearing a simple pink dress and golden crown.",
+    "looks to the left in profile, head and shoulders portrait, wearing a golden crown.",
+    "laughs with delight while sitting on a wooden bench, wearing a green coat.",
+    "looks worried while holding a small book, waist-up view in a library.",
+    "runs across a snowy field in a blue winter coat, full body visible.",
+    "raises a gem-tipped wand toward a small stone monster on a rocky path, full body visible.",
+    "stands beside a tall elderly witch with a long angular face, narrow grey eyes and white hair, wearing a black pointed hat. The queen wears pink and holds a golden shield. Both are fully visible.",
+    "waves to an adult bearded guard wearing steel armor in a castle doorway. The queen wears a yellow dress. Both are fully visible."
+  ],
+  "review_criteria": [
+    "same facial geometry and perceived age across scenes",
+    "stable head-to-body proportions",
+    "other characters have distinct identities",
+    "no unintended duplicate queen",
+    "no gibberish text or major hand/anatomy defects",
+    "requested pose, clothing and action remain controllable"
+  ]
+}

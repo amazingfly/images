@@ -1,0 +1,131 @@
+{
+  "name": "littlequeen_accessories_v3_validation",
+  "prompts": [
+    {
+      "case_id": "baseline_plain",
+      "seed": 128001,
+      "identity_weight": 0.9,
+      "outfit_weight": 0.0,
+      "regalia_weight": 0.0,
+      "equipment_weight": 0.0,
+      "prompt": "full-body front view, entire head and both shoes framed, inside a plain blue stone hall, solo, one girl, lqxl Little Queen, polished anime storybook illustration, wearing a simple blue travel dress, bare head, empty hands, no crown, no jewelry, no wand, no staff"
+    },
+    {
+      "case_id": "regalia_w025",
+      "seed": 128002,
+      "identity_weight": 0.9,
+      "outfit_weight": 0.0,
+      "regalia_weight": 0.25,
+      "equipment_weight": 0.0,
+      "prompt": "full-body front view, entire crown, both ears, neckline, wrists, and both shoes framed, inside a plain blue stone hall, solo, one girl, lqxl Little Queen, polished anime storybook illustration, wearing a simple blue travel dress, lqmoonregalia3, wearing exactly one Moonstar flame-leaf crown: a symmetrical polished gold diadem with five to seven pointed leaf flames, one centered amber-rose oval moonstone and smaller matching side gems; one matched pair of long gold leaf-drop earrings; one gold filigree collar necklace with a centered amber moonstone; matching engraved gold cuffs, empty hands, no wand, no staff, no floral archway"
+    },
+    {
+      "case_id": "regalia_w045",
+      "seed": 128002,
+      "identity_weight": 0.9,
+      "outfit_weight": 0.0,
+      "regalia_weight": 0.45,
+      "equipment_weight": 0.0,
+      "prompt": "full-body front view, entire crown, both ears, neckline, wrists, and both shoes framed, inside a plain blue stone hall, solo, one girl, lqxl Little Queen, polished anime storybook illustration, wearing a simple blue travel dress, lqmoonregalia3, wearing exactly one Moonstar flame-leaf crown: a symmetrical polished gold diadem with five to seven pointed leaf flames, one centered amber-rose oval moonstone and smaller matching side gems; one matched pair of long gold leaf-drop earrings; one gold filigree collar necklace with a centered amber moonstone; matching engraved gold cuffs, empty hands, no wand, no staff, no floral archway"
+    },
+    {
+      "case_id": "regalia_w065",
+      "seed": 128002,
+      "identity_weight": 0.9,
+      "outfit_weight": 0.0,
+      "regalia_weight": 0.65,
+      "equipment_weight": 0.0,
+      "prompt": "full-body front view, entire crown, both ears, neckline, wrists, and both shoes framed, inside a plain blue stone hall, solo, one girl, lqxl Little Queen, polished anime storybook illustration, wearing a simple blue travel dress, lqmoonregalia3, wearing exactly one Moonstar flame-leaf crown: a symmetrical polished gold diadem with five to seven pointed leaf flames, one centered amber-rose oval moonstone and smaller matching side gems; one matched pair of long gold leaf-drop earrings; one gold filigree collar necklace with a centered amber moonstone; matching engraved gold cuffs, empty hands, no wand, no staff, no floral archway"
+    },
+    {
+      "case_id": "regalia_woodland",
+      "seed": 128003,
+      "identity_weight": 0.9,
+      "outfit_weight": 0.0,
+      "regalia_weight": 0.45,
+      "equipment_weight": 0.0,
+      "prompt": "waist-up three-quarter portrait, entire crown, both ears, neckline, and wrists framed, in a mossy green woodland clearing, solo, one girl, lqxl Little Queen, polished anime storybook illustration, wearing a simple ivory dress, lqmoonregalia3, wearing exactly one Moonstar flame-leaf crown: a symmetrical polished gold diadem with five to seven pointed leaf flames, one centered amber-rose oval moonstone and smaller matching side gems; one matched pair of long gold leaf-drop earrings; one gold filigree collar necklace with a centered amber moonstone; matching engraved gold cuffs, empty hands, no wand, no staff, no floral archway"
+    },
+    {
+      "case_id": "regalia_seaside",
+      "seed": 128004,
+      "identity_weight": 0.9,
+      "outfit_weight": 0.0,
+      "regalia_weight": 0.45,
+      "equipment_weight": 0.0,
+      "prompt": "full-body turning view, entire crown, wrists, and both shoes framed, on a windy blue seaside cliff, solo, one girl, lqxl Little Queen, polished anime storybook illustration, wearing a simple burgundy dress, lqmoonregalia3, wearing exactly one Moonstar flame-leaf crown: a symmetrical polished gold diadem with five to seven pointed leaf flames, one centered amber-rose oval moonstone and smaller matching side gems; one matched pair of long gold leaf-drop earrings; one gold filigree collar necklace with a centered amber moonstone; matching engraved gold cuffs, empty hands, no wand, no staff, no floral archway"
+    },
+    {
+      "case_id": "staff_w025",
+      "seed": 128010,
+      "identity_weight": 0.9,
+      "outfit_weight": 0.0,
+      "regalia_weight": 0.0,
+      "equipment_weight": 0.25,
+      "prompt": "full-body presentation, entire head, complete staff, both hands, and both shoes framed, inside a plain gray practice room, solo, one girl, lqxl Little Queen, polished anime storybook illustration, wearing a simple green travel dress, bare head, lqrosekeeper3, holding exactly one complete signature Rosekeeper wand-staff at human scale: one natural pink rose finial, one long straight slender gold shaft, one small rose crystal, and one clear faceted teardrop crystal in a gold cage at the base; fingers closed naturally around the shaft, no floral archway, no rose garden"
+    },
+    {
+      "case_id": "staff_w045",
+      "seed": 128010,
+      "identity_weight": 0.9,
+      "outfit_weight": 0.0,
+      "regalia_weight": 0.0,
+      "equipment_weight": 0.45,
+      "prompt": "full-body presentation, entire head, complete staff, both hands, and both shoes framed, inside a plain gray practice room, solo, one girl, lqxl Little Queen, polished anime storybook illustration, wearing a simple green travel dress, bare head, lqrosekeeper3, holding exactly one complete signature Rosekeeper wand-staff at human scale: one natural pink rose finial, one long straight slender gold shaft, one small rose crystal, and one clear faceted teardrop crystal in a gold cage at the base; fingers closed naturally around the shaft, no floral archway, no rose garden"
+    },
+    {
+      "case_id": "staff_w065",
+      "seed": 128010,
+      "identity_weight": 0.9,
+      "outfit_weight": 0.0,
+      "regalia_weight": 0.0,
+      "equipment_weight": 0.65,
+      "prompt": "full-body presentation, entire head, complete staff, both hands, and both shoes framed, inside a plain gray practice room, solo, one girl, lqxl Little Queen, polished anime storybook illustration, wearing a simple green travel dress, bare head, lqrosekeeper3, holding exactly one complete signature Rosekeeper wand-staff at human scale: one natural pink rose finial, one long straight slender gold shaft, one small rose crystal, and one clear faceted teardrop crystal in a gold cage at the base; fingers closed naturally around the shaft, no floral archway, no rose garden"
+    },
+    {
+      "case_id": "staff_snow",
+      "seed": 128011,
+      "identity_weight": 0.9,
+      "outfit_weight": 0.0,
+      "regalia_weight": 0.0,
+      "equipment_weight": 0.45,
+      "prompt": "full-body walking view, entire head, complete staff, both hands, and both shoes framed, staff lowered diagonally at her side, on a snowy pine path, solo, one girl, lqxl Little Queen, polished anime storybook illustration, wearing a simple navy winter dress, bare head, lqrosekeeper3, holding exactly one complete signature Rosekeeper wand-staff at human scale: one natural pink rose finial, one long straight slender gold shaft, one small rose crystal, and one clear faceted teardrop crystal in a gold cage at the base; fingers closed naturally around the shaft, no floral archway, no rose garden"
+    },
+    {
+      "case_id": "staff_desert",
+      "seed": 128012,
+      "identity_weight": 0.9,
+      "outfit_weight": 0.0,
+      "regalia_weight": 0.0,
+      "equipment_weight": 0.45,
+      "prompt": "full-body casting stance, entire head, complete staff, both hands, and both shoes framed, on a dry desert plain, solo, one girl, lqxl Little Queen, polished anime storybook illustration, wearing a simple ivory travel dress, bare head, lqrosekeeper3, holding exactly one complete signature Rosekeeper wand-staff at human scale: one natural pink rose finial, one long straight slender gold shaft, one small rose crystal, and one clear faceted teardrop crystal in a gold cage at the base; fingers closed naturally around the shaft, no floral archway, no rose garden"
+    },
+    {
+      "case_id": "both_plain",
+      "seed": 128020,
+      "identity_weight": 0.9,
+      "outfit_weight": 0.0,
+      "regalia_weight": 0.45,
+      "equipment_weight": 0.45,
+      "prompt": "full-body guard stance, entire crown, complete staff, both hands, and both shoes framed, inside a plain gray stone gate, solo, one girl, lqxl Little Queen, polished anime storybook illustration, wearing a simple violet dress, lqmoonregalia3, wearing exactly one Moonstar flame-leaf crown: a symmetrical polished gold diadem with five to seven pointed leaf flames, one centered amber-rose oval moonstone and smaller matching side gems; one matched pair of long gold leaf-drop earrings; one gold filigree collar necklace with a centered amber moonstone; matching engraved gold cuffs, lqrosekeeper3, holding exactly one complete signature Rosekeeper wand-staff at human scale: one natural pink rose finial, one long straight slender gold shaft, one small rose crystal, and one clear faceted teardrop crystal in a gold cage at the base; fingers closed naturally around the shaft, no floral archway, no rose garden"
+    },
+    {
+      "case_id": "both_outfit_stack",
+      "seed": 128021,
+      "identity_weight": 0.9,
+      "outfit_weight": 0.55,
+      "regalia_weight": 0.45,
+      "equipment_weight": 0.45,
+      "prompt": "full-body guard stance, entire crown, complete staff, both hands, and both shoes framed, on a simple lakeside dock, solo, one girl, lqxl Little Queen, polished anime storybook illustration, lqmoonfit, lqmoonregalia3, wearing exactly one Moonstar flame-leaf crown: a symmetrical polished gold diadem with five to seven pointed leaf flames, one centered amber-rose oval moonstone and smaller matching side gems; one matched pair of long gold leaf-drop earrings; one gold filigree collar necklace with a centered amber moonstone; matching engraved gold cuffs, lqrosekeeper3, holding exactly one complete signature Rosekeeper wand-staff at human scale: one natural pink rose finial, one long straight slender gold shaft, one small rose crystal, and one clear faceted teardrop crystal in a gold cage at the base; fingers closed naturally around the shaft, no floral archway, no rose garden"
+    },
+    {
+      "case_id": "regalia_outfit_stack",
+      "seed": 128022,
+      "identity_weight": 0.9,
+      "outfit_weight": 0.55,
+      "regalia_weight": 0.45,
+      "equipment_weight": 0.0,
+      "prompt": "waist-up front portrait, entire crown, both ears, neckline, and wrists framed, inside a plain wood-paneled library, solo, one girl, lqxl Little Queen, polished anime storybook illustration, lqmoonfit, lqmoonregalia3, wearing exactly one Moonstar flame-leaf crown: a symmetrical polished gold diadem with five to seven pointed leaf flames, one centered amber-rose oval moonstone and smaller matching side gems; one matched pair of long gold leaf-drop earrings; one gold filigree collar necklace with a centered amber moonstone; matching engraved gold cuffs, empty hands, no wand, no staff, no floral archway"
+    }
+  ]
+}

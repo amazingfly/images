@@ -1,0 +1,50 @@
+{
+  "prompt_count": 200,
+  "output_dir": "./scripts/output",
+  "upscaled_dir": "./scripts/output/upscaled",
+  "prompts_file": "./scripts/prompts.json",
+  "local_files_only": true,
+  "pipeline": {
+    "regenerate_prompts": false
+  },
+  "prompt_generation": {
+    "provider": "llama_cpp_server",
+    "server_binary": "/home/derek/projects/hug/gemma4_uncensored/llama.cpp/build/bin/llama-server",
+    "model_path": "/home/derek/projects/hug/gemma4_uncensored/models/gemma4/Gemma-4-E4B-Uncensored-HauhauCS-Aggressive-Q5_K_M.gguf",
+    "host": "127.0.0.1",
+    "port": 18080,
+    "threads": 6,
+    "context_size": 8192,
+    "batch_size": 1,
+    "llama_batch_size": 512,
+    "llama_ubatch_size": 128,
+    "cache_ram_mb": 256,
+    "startup_timeout_seconds": 180,
+    "request_timeout_seconds": 1800,
+    "max_new_tokens_per_prompt": 80,
+    "max_new_tokens_cap": 160,
+    "temperature": 0.9,
+    "top_p": 0.95,
+    "minimum_words": 18,
+    "maximum_words": 28,
+    "similarity_limit": 0.82
+  },
+  "generation": {
+    "width": 512,
+    "height": 768,
+    "num_inference_steps": 50,
+    "guidance_scale": 7.5,
+    "skip_existing": false,
+    "style_prompt": "cyberpunk anime, cel shading, bold outlines, vibrant colors, cinematic long shot",
+    "negative_prompt": "extreme close-up, close-up portrait, tight crop, cropped composition, out of frame, truncated subject, oversized face, macro shot"
+  },
+  "upscale": {
+    "width": 1920,
+    "height": 1080,
+    "mode": "contain_blur",
+    "foreground_scale": 0.94,
+    "background_blur": 45,
+    "skip_existing": true
+  },
+  "prompt_request": "Generate an image generation prompt for death pixie cute, anime, pixie, pink, black skulls, demonic, pink, death, pixie"
+}

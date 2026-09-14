@@ -1,0 +1,8 @@
+diffusers
+transformers
+accelerate
+safetensors
+Pillow
+psutil
+requests
+opencv-python-headless

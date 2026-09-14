@@ -1,0 +1,33 @@
+{
+  "name": "littlequeen_sdxl_v2_q8_lcm_local100",
+  "binary": ".tooling/stable-diffusion.cpp/build-cpu/bin/sd-cli",
+  "model": "models/quantized/sd_xl_base_1.0-q8_0.gguf",
+  "lora_dir": "models/loras",
+  "output_root": "outputs/lora_v2_local100",
+  "log_root": "logs/lora_v2_local100",
+  "prompts_file": "config_lora_v2_local100_prompts.json",
+  "generation": {
+    "width": 768,
+    "height": 1024,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "sampling_method": "lcm",
+    "scheduler": "discrete",
+    "threads": 6,
+    "rng": "cpu",
+    "mmap": true,
+    "vae_tiling": false,
+    "lora_apply_mode": "at_runtime"
+  },
+  "memory": {
+    "sample_interval_seconds": 1.0,
+    "minimum_available_mb": 1200,
+    "maximum_process_rss_mb": 12500,
+    "maximum_swap_used_mb": 4096
+  },
+  "loras": [
+    {"name": "lcm-lora-sdxl", "weight": 1.0},
+    {"name": "lqxl_sdxl_v2", "weight": 1.0}
+  ],
+  "negative_prompt": "close-up crop, cropped body, cropped head, cropped crown, cropped feet, out of frame, two people, multiple people, duplicate, twins, clone, extra limbs, missing limbs, malformed hands, adult, photorealistic, text, watermark, blurry"
+}

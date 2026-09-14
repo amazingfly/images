@@ -1,0 +1,19 @@
+[general]
+caption_extension = ".txt"
+shuffle_caption = false
+keep_tokens = 1
+
+[[datasets]]
+resolution = [1024, 1024]
+batch_size = 1
+enable_bucket = true
+min_bucket_reso = 512
+max_bucket_reso = 1536
+bucket_reso_steps = 64
+bucket_no_upscale = false
+
+  [[datasets.subsets]]
+  image_dir = "/content/lqaccessories_v3/train_staff/1_lqrosekeeper3"
+  num_repeats = 2
+  caption_extension = ".txt"
+  alpha_mask = true

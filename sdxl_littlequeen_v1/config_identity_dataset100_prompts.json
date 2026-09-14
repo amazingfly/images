@@ -1,0 +1,717 @@
+{
+  "description": "Little Queen SDXL identity-strengthening dataset v2",
+  "image_count": 100,
+  "first_seed": 95001,
+  "scene_counts": {
+    "palace_courtyard": 13,
+    "crystal_lake": 13,
+    "castle_greenhouse": 13,
+    "village_street": 13,
+    "castle_balcony": 12,
+    "autumn_forest": 12,
+    "throne_hall": 12,
+    "sunrise_hill": 12
+  },
+  "prompts": [
+    {
+      "seed": 95001,
+      "scene_id": "palace_courtyard",
+      "scene": "standing in a sunlit palace courtyard",
+      "clip_l_content_tokens": 88,
+      "prompt": "wide full-body view, whole figure inside frame from head to shoes, both hands visible, lqxl, solo, one pointed gold crown with rose jewels, long wavy chestnut hair with straight bangs, petite storybook child, round face, large glossy ruby-brown eyes, fair peach skin, narrow shoulders, rose-pink puff-sleeve princess dress with gold trim, standing in a sunlit palace courtyard, polished anime storybook illustration"
+    },
+    {
+      "seed": 95002,
+      "scene_id": "crystal_lake",
+      "scene": "walking beside a quiet crystal lake",
+      "clip_l_content_tokens": 87,
+      "prompt": "wide full-body view, whole figure inside frame from head to shoes, both hands visible, lqxl, solo, one pointed gold crown with rose jewels, long wavy chestnut hair with straight bangs, petite storybook child, round face, large glossy ruby-brown eyes, fair peach skin, narrow shoulders, rose-pink puff-sleeve princess dress with gold trim, walking beside a quiet crystal lake, polished anime storybook illustration"
+    },
+    {
+      "seed": 95003,
+      "scene_id": "castle_greenhouse",
+      "scene": "standing in a flowering castle greenhouse",
+      "clip_l_content_tokens": 87,
+      "prompt": "wide full-body view, whole figure inside frame from head to shoes, both hands visible, lqxl, solo, one pointed gold crown with rose jewels, long wavy chestnut hair with straight bangs, petite storybook child, round face, large glossy ruby-brown eyes, fair peach skin, narrow shoulders, rose-pink puff-sleeve princess dress with gold trim, standing in a flowering castle greenhouse, polished anime storybook illustration"
+    },
+    {
+      "seed": 95004,
+      "scene_id": "village_street",
+      "scene": "turning on a bright village street",
+      "clip_l_content_tokens": 87,
+      "prompt": "wide full-body view, whole figure inside frame from head to shoes, both hands visible, lqxl, solo, one pointed gold crown with rose jewels, long wavy chestnut hair with straight bangs, petite storybook child, round face, large glossy ruby-brown eyes, fair peach skin, narrow shoulders, rose-pink puff-sleeve princess dress with gold trim, turning on a bright village street, polished anime storybook illustration"
+    },
+    {
+      "seed": 95005,
+      "scene_id": "castle_balcony",
+      "scene": "beneath a starry castle balcony",
+      "clip_l_content_tokens": 86,
+      "prompt": "wide full-body view, whole figure inside frame from head to shoes, both hands visible, lqxl, solo, one pointed gold crown with rose jewels, long wavy chestnut hair with straight bangs, petite storybook child, round face, large glossy ruby-brown eyes, fair peach skin, narrow shoulders, rose-pink puff-sleeve princess dress with gold trim, beneath a starry castle balcony, polished anime storybook illustration"
+    },
+    {
+      "seed": 95006,
+      "scene_id": "autumn_forest",
+      "scene": "walking through an enchanted autumn forest",
+      "clip_l_content_tokens": 87,
+      "prompt": "wide full-body view, whole figure inside frame from head to shoes, both hands visible, lqxl, solo, one pointed gold crown with rose jewels, long wavy chestnut hair with straight bangs, petite storybook child, round face, large glossy ruby-brown eyes, fair peach skin, narrow shoulders, rose-pink puff-sleeve princess dress with gold trim, walking through an enchanted autumn forest, polished anime storybook illustration"
+    },
+    {
+      "seed": 95007,
+      "scene_id": "throne_hall",
+      "scene": "inside a luminous marble throne hall",
+      "clip_l_content_tokens": 87,
+      "prompt": "wide full-body view, whole figure inside frame from head to shoes, both hands visible, lqxl, solo, one pointed gold crown with rose jewels, long wavy chestnut hair with straight bangs, petite storybook child, round face, large glossy ruby-brown eyes, fair peach skin, narrow shoulders, rose-pink puff-sleeve princess dress with gold trim, inside a luminous marble throne hall, polished anime storybook illustration"
+    },
+    {
+      "seed": 95008,
+      "scene_id": "sunrise_hill",
+      "scene": "on a windy hill at sunrise",
+      "clip_l_content_tokens": 87,
+      "prompt": "wide full-body view, whole figure inside frame from head to shoes, both hands visible, lqxl, solo, one pointed gold crown with rose jewels, long wavy chestnut hair with straight bangs, petite storybook child, round face, large glossy ruby-brown eyes, fair peach skin, narrow shoulders, rose-pink puff-sleeve princess dress with gold trim, on a windy hill at sunrise, polished anime storybook illustration"
+    },
+    {
+      "seed": 95009,
+      "scene_id": "palace_courtyard",
+      "scene": "standing in a sunlit palace courtyard",
+      "clip_l_content_tokens": 88,
+      "prompt": "wide full-body view, whole figure inside frame from head to shoes, both hands visible, lqxl, solo, one pointed gold crown with rose jewels, long wavy chestnut hair with straight bangs, petite storybook child, round face, large glossy ruby-brown eyes, fair peach skin, narrow shoulders, rose-pink puff-sleeve princess dress with gold trim, standing in a sunlit palace courtyard, polished anime storybook illustration"
+    },
+    {
+      "seed": 95010,
+      "scene_id": "crystal_lake",
+      "scene": "walking beside a quiet crystal lake",
+      "clip_l_content_tokens": 87,
+      "prompt": "wide full-body view, whole figure inside frame from head to shoes, both hands visible, lqxl, solo, one pointed gold crown with rose jewels, long wavy chestnut hair with straight bangs, petite storybook child, round face, large glossy ruby-brown eyes, fair peach skin, narrow shoulders, rose-pink puff-sleeve princess dress with gold trim, walking beside a quiet crystal lake, polished anime storybook illustration"
+    },
+    {
+      "seed": 95011,
+      "scene_id": "castle_greenhouse",
+      "scene": "standing in a flowering castle greenhouse",
+      "clip_l_content_tokens": 87,
+      "prompt": "wide full-body view, whole figure inside frame from head to shoes, both hands visible, lqxl, solo, one pointed gold crown with rose jewels, long wavy chestnut hair with straight bangs, petite storybook child, round face, large glossy ruby-brown eyes, fair peach skin, narrow shoulders, rose-pink puff-sleeve princess dress with gold trim, standing in a flowering castle greenhouse, polished anime storybook illustration"
+    },
+    {
+      "seed": 95012,
+      "scene_id": "village_street",
+      "scene": "turning on a bright village street",
+      "clip_l_content_tokens": 87,
+      "prompt": "wide full-body view, whole figure inside frame from head to shoes, both hands visible, lqxl, solo, one pointed gold crown with rose jewels, long wavy chestnut hair with straight bangs, petite storybook child, round face, large glossy ruby-brown eyes, fair peach skin, narrow shoulders, rose-pink puff-sleeve princess dress with gold trim, turning on a bright village street, polished anime storybook illustration"
+    },
+    {
+      "seed": 95013,
+      "scene_id": "castle_balcony",
+      "scene": "beneath a starry castle balcony",
+      "clip_l_content_tokens": 86,
+      "prompt": "wide full-body view, whole figure inside frame from head to shoes, both hands visible, lqxl, solo, one pointed gold crown with rose jewels, long wavy chestnut hair with straight bangs, petite storybook child, round face, large glossy ruby-brown eyes, fair peach skin, narrow shoulders, rose-pink puff-sleeve princess dress with gold trim, beneath a starry castle balcony, polished anime storybook illustration"
+    },
+    {
+      "seed": 95014,
+      "scene_id": "autumn_forest",
+      "scene": "walking through an enchanted autumn forest",
+      "clip_l_content_tokens": 87,
+      "prompt": "wide full-body view, whole figure inside frame from head to shoes, both hands visible, lqxl, solo, one pointed gold crown with rose jewels, long wavy chestnut hair with straight bangs, petite storybook child, round face, large glossy ruby-brown eyes, fair peach skin, narrow shoulders, rose-pink puff-sleeve princess dress with gold trim, walking through an enchanted autumn forest, polished anime storybook illustration"
+    },
+    {
+      "seed": 95015,
+      "scene_id": "throne_hall",
+      "scene": "inside a luminous marble throne hall",
+      "clip_l_content_tokens": 87,
+      "prompt": "wide full-body view, whole figure inside frame from head to shoes, both hands visible, lqxl, solo, one pointed gold crown with rose jewels, long wavy chestnut hair with straight bangs, petite storybook child, round face, large glossy ruby-brown eyes, fair peach skin, narrow shoulders, rose-pink puff-sleeve princess dress with gold trim, inside a luminous marble throne hall, polished anime storybook illustration"
+    },
+    {
+      "seed": 95016,
+      "scene_id": "sunrise_hill",
+      "scene": "on a windy hill at sunrise",
+      "clip_l_content_tokens": 87,
+      "prompt": "wide full-body view, whole figure inside frame from head to shoes, both hands visible, lqxl, solo, one pointed gold crown with rose jewels, long wavy chestnut hair with straight bangs, petite storybook child, round face, large glossy ruby-brown eyes, fair peach skin, narrow shoulders, rose-pink puff-sleeve princess dress with gold trim, on a windy hill at sunrise, polished anime storybook illustration"
+    },
+    {
+      "seed": 95017,
+      "scene_id": "palace_courtyard",
+      "scene": "standing in a sunlit palace courtyard",
+      "clip_l_content_tokens": 88,
+      "prompt": "wide full-body view, whole figure inside frame from head to shoes, both hands visible, lqxl, solo, one pointed gold crown with rose jewels, long wavy chestnut hair with straight bangs, petite storybook child, round face, large glossy ruby-brown eyes, fair peach skin, narrow shoulders, rose-pink puff-sleeve princess dress with gold trim, standing in a sunlit palace courtyard, polished anime storybook illustration"
+    },
+    {
+      "seed": 95018,
+      "scene_id": "crystal_lake",
+      "scene": "walking beside a quiet crystal lake",
+      "clip_l_content_tokens": 87,
+      "prompt": "wide full-body view, whole figure inside frame from head to shoes, both hands visible, lqxl, solo, one pointed gold crown with rose jewels, long wavy chestnut hair with straight bangs, petite storybook child, round face, large glossy ruby-brown eyes, fair peach skin, narrow shoulders, rose-pink puff-sleeve princess dress with gold trim, walking beside a quiet crystal lake, polished anime storybook illustration"
+    },
+    {
+      "seed": 95019,
+      "scene_id": "castle_greenhouse",
+      "scene": "standing in a flowering castle greenhouse",
+      "clip_l_content_tokens": 87,
+      "prompt": "wide full-body view, whole figure inside frame from head to shoes, both hands visible, lqxl, solo, one pointed gold crown with rose jewels, long wavy chestnut hair with straight bangs, petite storybook child, round face, large glossy ruby-brown eyes, fair peach skin, narrow shoulders, rose-pink puff-sleeve princess dress with gold trim, standing in a flowering castle greenhouse, polished anime storybook illustration"
+    },
+    {
+      "seed": 95020,
+      "scene_id": "village_street",
+      "scene": "turning on a bright village street",
+      "clip_l_content_tokens": 87,
+      "prompt": "wide full-body view, whole figure inside frame from head to shoes, both hands visible, lqxl, solo, one pointed gold crown with rose jewels, long wavy chestnut hair with straight bangs, petite storybook child, round face, large glossy ruby-brown eyes, fair peach skin, narrow shoulders, rose-pink puff-sleeve princess dress with gold trim, turning on a bright village street, polished anime storybook illustration"
+    },
+    {
+      "seed": 95021,
+      "scene_id": "castle_balcony",
+      "scene": "beneath a starry castle balcony",
+      "clip_l_content_tokens": 86,
+      "prompt": "wide full-body view, whole figure inside frame from head to shoes, both hands visible, lqxl, solo, one pointed gold crown with rose jewels, long wavy chestnut hair with straight bangs, petite storybook child, round face, large glossy ruby-brown eyes, fair peach skin, narrow shoulders, rose-pink puff-sleeve princess dress with gold trim, beneath a starry castle balcony, polished anime storybook illustration"
+    },
+    {
+      "seed": 95022,
+      "scene_id": "autumn_forest",
+      "scene": "walking through an enchanted autumn forest",
+      "clip_l_content_tokens": 87,
+      "prompt": "wide full-body view, whole figure inside frame from head to shoes, both hands visible, lqxl, solo, one pointed gold crown with rose jewels, long wavy chestnut hair with straight bangs, petite storybook child, round face, large glossy ruby-brown eyes, fair peach skin, narrow shoulders, rose-pink puff-sleeve princess dress with gold trim, walking through an enchanted autumn forest, polished anime storybook illustration"
+    },
+    {
+      "seed": 95023,
+      "scene_id": "throne_hall",
+      "scene": "inside a luminous marble throne hall",
+      "clip_l_content_tokens": 87,
+      "prompt": "wide full-body view, whole figure inside frame from head to shoes, both hands visible, lqxl, solo, one pointed gold crown with rose jewels, long wavy chestnut hair with straight bangs, petite storybook child, round face, large glossy ruby-brown eyes, fair peach skin, narrow shoulders, rose-pink puff-sleeve princess dress with gold trim, inside a luminous marble throne hall, polished anime storybook illustration"
+    },
+    {
+      "seed": 95024,
+      "scene_id": "sunrise_hill",
+      "scene": "on a windy hill at sunrise",
+      "clip_l_content_tokens": 87,
+      "prompt": "wide full-body view, whole figure inside frame from head to shoes, both hands visible, lqxl, solo, one pointed gold crown with rose jewels, long wavy chestnut hair with straight bangs, petite storybook child, round face, large glossy ruby-brown eyes, fair peach skin, narrow shoulders, rose-pink puff-sleeve princess dress with gold trim, on a windy hill at sunrise, polished anime storybook illustration"
+    },
+    {
+      "seed": 95025,
+      "scene_id": "palace_courtyard",
+      "scene": "standing in a sunlit palace courtyard",
+      "clip_l_content_tokens": 88,
+      "prompt": "wide full-body view, whole figure inside frame from head to shoes, both hands visible, lqxl, solo, one pointed gold crown with rose jewels, long wavy chestnut hair with straight bangs, petite storybook child, round face, large glossy ruby-brown eyes, fair peach skin, narrow shoulders, rose-pink puff-sleeve princess dress with gold trim, standing in a sunlit palace courtyard, polished anime storybook illustration"
+    },
+    {
+      "seed": 95026,
+      "scene_id": "crystal_lake",
+      "scene": "walking beside a quiet crystal lake",
+      "clip_l_content_tokens": 87,
+      "prompt": "wide full-body view, whole figure inside frame from head to shoes, both hands visible, lqxl, solo, one pointed gold crown with rose jewels, long wavy chestnut hair with straight bangs, petite storybook child, round face, large glossy ruby-brown eyes, fair peach skin, narrow shoulders, rose-pink puff-sleeve princess dress with gold trim, walking beside a quiet crystal lake, polished anime storybook illustration"
+    },
+    {
+      "seed": 95027,
+      "scene_id": "castle_greenhouse",
+      "scene": "standing in a flowering castle greenhouse",
+      "clip_l_content_tokens": 87,
+      "prompt": "wide full-body view, whole figure inside frame from head to shoes, both hands visible, lqxl, solo, one pointed gold crown with rose jewels, long wavy chestnut hair with straight bangs, petite storybook child, round face, large glossy ruby-brown eyes, fair peach skin, narrow shoulders, rose-pink puff-sleeve princess dress with gold trim, standing in a flowering castle greenhouse, polished anime storybook illustration"
+    },
+    {
+      "seed": 95028,
+      "scene_id": "village_street",
+      "scene": "turning on a bright village street",
+      "clip_l_content_tokens": 87,
+      "prompt": "wide full-body view, whole figure inside frame from head to shoes, both hands visible, lqxl, solo, one pointed gold crown with rose jewels, long wavy chestnut hair with straight bangs, petite storybook child, round face, large glossy ruby-brown eyes, fair peach skin, narrow shoulders, rose-pink puff-sleeve princess dress with gold trim, turning on a bright village street, polished anime storybook illustration"
+    },
+    {
+      "seed": 95029,
+      "scene_id": "castle_balcony",
+      "scene": "beneath a starry castle balcony",
+      "clip_l_content_tokens": 86,
+      "prompt": "wide full-body view, whole figure inside frame from head to shoes, both hands visible, lqxl, solo, one pointed gold crown with rose jewels, long wavy chestnut hair with straight bangs, petite storybook child, round face, large glossy ruby-brown eyes, fair peach skin, narrow shoulders, rose-pink puff-sleeve princess dress with gold trim, beneath a starry castle balcony, polished anime storybook illustration"
+    },
+    {
+      "seed": 95030,
+      "scene_id": "autumn_forest",
+      "scene": "walking through an enchanted autumn forest",
+      "clip_l_content_tokens": 87,
+      "prompt": "wide full-body view, whole figure inside frame from head to shoes, both hands visible, lqxl, solo, one pointed gold crown with rose jewels, long wavy chestnut hair with straight bangs, petite storybook child, round face, large glossy ruby-brown eyes, fair peach skin, narrow shoulders, rose-pink puff-sleeve princess dress with gold trim, walking through an enchanted autumn forest, polished anime storybook illustration"
+    },
+    {
+      "seed": 95031,
+      "scene_id": "throne_hall",
+      "scene": "inside a luminous marble throne hall",
+      "clip_l_content_tokens": 87,
+      "prompt": "wide full-body view, whole figure inside frame from head to shoes, both hands visible, lqxl, solo, one pointed gold crown with rose jewels, long wavy chestnut hair with straight bangs, petite storybook child, round face, large glossy ruby-brown eyes, fair peach skin, narrow shoulders, rose-pink puff-sleeve princess dress with gold trim, inside a luminous marble throne hall, polished anime storybook illustration"
+    },
+    {
+      "seed": 95032,
+      "scene_id": "sunrise_hill",
+      "scene": "on a windy hill at sunrise",
+      "clip_l_content_tokens": 87,
+      "prompt": "wide full-body view, whole figure inside frame from head to shoes, both hands visible, lqxl, solo, one pointed gold crown with rose jewels, long wavy chestnut hair with straight bangs, petite storybook child, round face, large glossy ruby-brown eyes, fair peach skin, narrow shoulders, rose-pink puff-sleeve princess dress with gold trim, on a windy hill at sunrise, polished anime storybook illustration"
+    },
+    {
+      "seed": 95033,
+      "scene_id": "palace_courtyard",
+      "scene": "standing in a sunlit palace courtyard",
+      "clip_l_content_tokens": 88,
+      "prompt": "wide full-body view, whole figure inside frame from head to shoes, both hands visible, lqxl, solo, one pointed gold crown with rose jewels, long wavy chestnut hair with straight bangs, petite storybook child, round face, large glossy ruby-brown eyes, fair peach skin, narrow shoulders, rose-pink puff-sleeve princess dress with gold trim, standing in a sunlit palace courtyard, polished anime storybook illustration"
+    },
+    {
+      "seed": 95034,
+      "scene_id": "crystal_lake",
+      "scene": "walking beside a quiet crystal lake",
+      "clip_l_content_tokens": 87,
+      "prompt": "wide full-body view, whole figure inside frame from head to shoes, both hands visible, lqxl, solo, one pointed gold crown with rose jewels, long wavy chestnut hair with straight bangs, petite storybook child, round face, large glossy ruby-brown eyes, fair peach skin, narrow shoulders, rose-pink puff-sleeve princess dress with gold trim, walking beside a quiet crystal lake, polished anime storybook illustration"
+    },
+    {
+      "seed": 95035,
+      "scene_id": "castle_greenhouse",
+      "scene": "standing in a flowering castle greenhouse",
+      "clip_l_content_tokens": 87,
+      "prompt": "wide full-body view, whole figure inside frame from head to shoes, both hands visible, lqxl, solo, one pointed gold crown with rose jewels, long wavy chestnut hair with straight bangs, petite storybook child, round face, large glossy ruby-brown eyes, fair peach skin, narrow shoulders, rose-pink puff-sleeve princess dress with gold trim, standing in a flowering castle greenhouse, polished anime storybook illustration"
+    },
+    {
+      "seed": 95036,
+      "scene_id": "village_street",
+      "scene": "turning on a bright village street",
+      "clip_l_content_tokens": 87,
+      "prompt": "wide full-body view, whole figure inside frame from head to shoes, both hands visible, lqxl, solo, one pointed gold crown with rose jewels, long wavy chestnut hair with straight bangs, petite storybook child, round face, large glossy ruby-brown eyes, fair peach skin, narrow shoulders, rose-pink puff-sleeve princess dress with gold trim, turning on a bright village street, polished anime storybook illustration"
+    },
+    {
+      "seed": 95037,
+      "scene_id": "castle_balcony",
+      "scene": "beneath a starry castle balcony",
+      "clip_l_content_tokens": 86,
+      "prompt": "wide full-body view, whole figure inside frame from head to shoes, both hands visible, lqxl, solo, one pointed gold crown with rose jewels, long wavy chestnut hair with straight bangs, petite storybook child, round face, large glossy ruby-brown eyes, fair peach skin, narrow shoulders, rose-pink puff-sleeve princess dress with gold trim, beneath a starry castle balcony, polished anime storybook illustration"
+    },
+    {
+      "seed": 95038,
+      "scene_id": "autumn_forest",
+      "scene": "walking through an enchanted autumn forest",
+      "clip_l_content_tokens": 87,
+      "prompt": "wide full-body view, whole figure inside frame from head to shoes, both hands visible, lqxl, solo, one pointed gold crown with rose jewels, long wavy chestnut hair with straight bangs, petite storybook child, round face, large glossy ruby-brown eyes, fair peach skin, narrow shoulders, rose-pink puff-sleeve princess dress with gold trim, walking through an enchanted autumn forest, polished anime storybook illustration"
+    },
+    {
+      "seed": 95039,
+      "scene_id": "throne_hall",
+      "scene": "inside a luminous marble throne hall",
+      "clip_l_content_tokens": 87,
+      "prompt": "wide full-body view, whole figure inside frame from head to shoes, both hands visible, lqxl, solo, one pointed gold crown with rose jewels, long wavy chestnut hair with straight bangs, petite storybook child, round face, large glossy ruby-brown eyes, fair peach skin, narrow shoulders, rose-pink puff-sleeve princess dress with gold trim, inside a luminous marble throne hall, polished anime storybook illustration"
+    },
+    {
+      "seed": 95040,
+      "scene_id": "sunrise_hill",
+      "scene": "on a windy hill at sunrise",
+      "clip_l_content_tokens": 87,
+      "prompt": "wide full-body view, whole figure inside frame from head to shoes, both hands visible, lqxl, solo, one pointed gold crown with rose jewels, long wavy chestnut hair with straight bangs, petite storybook child, round face, large glossy ruby-brown eyes, fair peach skin, narrow shoulders, rose-pink puff-sleeve princess dress with gold trim, on a windy hill at sunrise, polished anime storybook illustration"
+    },
+    {
+      "seed": 95041,
+      "scene_id": "palace_courtyard",
+      "scene": "standing in a sunlit palace courtyard",
+      "clip_l_content_tokens": 88,
+      "prompt": "wide full-body view, whole figure inside frame from head to shoes, both hands visible, lqxl, solo, one pointed gold crown with rose jewels, long wavy chestnut hair with straight bangs, petite storybook child, round face, large glossy ruby-brown eyes, fair peach skin, narrow shoulders, rose-pink puff-sleeve princess dress with gold trim, standing in a sunlit palace courtyard, polished anime storybook illustration"
+    },
+    {
+      "seed": 95042,
+      "scene_id": "crystal_lake",
+      "scene": "walking beside a quiet crystal lake",
+      "clip_l_content_tokens": 87,
+      "prompt": "wide full-body view, whole figure inside frame from head to shoes, both hands visible, lqxl, solo, one pointed gold crown with rose jewels, long wavy chestnut hair with straight bangs, petite storybook child, round face, large glossy ruby-brown eyes, fair peach skin, narrow shoulders, rose-pink puff-sleeve princess dress with gold trim, walking beside a quiet crystal lake, polished anime storybook illustration"
+    },
+    {
+      "seed": 95043,
+      "scene_id": "castle_greenhouse",
+      "scene": "standing in a flowering castle greenhouse",
+      "clip_l_content_tokens": 87,
+      "prompt": "wide full-body view, whole figure inside frame from head to shoes, both hands visible, lqxl, solo, one pointed gold crown with rose jewels, long wavy chestnut hair with straight bangs, petite storybook child, round face, large glossy ruby-brown eyes, fair peach skin, narrow shoulders, rose-pink puff-sleeve princess dress with gold trim, standing in a flowering castle greenhouse, polished anime storybook illustration"
+    },
+    {
+      "seed": 95044,
+      "scene_id": "village_street",
+      "scene": "turning on a bright village street",
+      "clip_l_content_tokens": 87,
+      "prompt": "wide full-body view, whole figure inside frame from head to shoes, both hands visible, lqxl, solo, one pointed gold crown with rose jewels, long wavy chestnut hair with straight bangs, petite storybook child, round face, large glossy ruby-brown eyes, fair peach skin, narrow shoulders, rose-pink puff-sleeve princess dress with gold trim, turning on a bright village street, polished anime storybook illustration"
+    },
+    {
+      "seed": 95045,
+      "scene_id": "castle_balcony",
+      "scene": "beneath a starry castle balcony",
+      "clip_l_content_tokens": 86,
+      "prompt": "wide full-body view, whole figure inside frame from head to shoes, both hands visible, lqxl, solo, one pointed gold crown with rose jewels, long wavy chestnut hair with straight bangs, petite storybook child, round face, large glossy ruby-brown eyes, fair peach skin, narrow shoulders, rose-pink puff-sleeve princess dress with gold trim, beneath a starry castle balcony, polished anime storybook illustration"
+    },
+    {
+      "seed": 95046,
+      "scene_id": "autumn_forest",
+      "scene": "walking through an enchanted autumn forest",
+      "clip_l_content_tokens": 87,
+      "prompt": "wide full-body view, whole figure inside frame from head to shoes, both hands visible, lqxl, solo, one pointed gold crown with rose jewels, long wavy chestnut hair with straight bangs, petite storybook child, round face, large glossy ruby-brown eyes, fair peach skin, narrow shoulders, rose-pink puff-sleeve princess dress with gold trim, walking through an enchanted autumn forest, polished anime storybook illustration"
+    },
+    {
+      "seed": 95047,
+      "scene_id": "throne_hall",
+      "scene": "inside a luminous marble throne hall",
+      "clip_l_content_tokens": 87,
+      "prompt": "wide full-body view, whole figure inside frame from head to shoes, both hands visible, lqxl, solo, one pointed gold crown with rose jewels, long wavy chestnut hair with straight bangs, petite storybook child, round face, large glossy ruby-brown eyes, fair peach skin, narrow shoulders, rose-pink puff-sleeve princess dress with gold trim, inside a luminous marble throne hall, polished anime storybook illustration"
+    },
+    {
+      "seed": 95048,
+      "scene_id": "sunrise_hill",
+      "scene": "on a windy hill at sunrise",
+      "clip_l_content_tokens": 87,
+      "prompt": "wide full-body view, whole figure inside frame from head to shoes, both hands visible, lqxl, solo, one pointed gold crown with rose jewels, long wavy chestnut hair with straight bangs, petite storybook child, round face, large glossy ruby-brown eyes, fair peach skin, narrow shoulders, rose-pink puff-sleeve princess dress with gold trim, on a windy hill at sunrise, polished anime storybook illustration"
+    },
+    {
+      "seed": 95049,
+      "scene_id": "palace_courtyard",
+      "scene": "standing in a sunlit palace courtyard",
+      "clip_l_content_tokens": 88,
+      "prompt": "wide full-body view, whole figure inside frame from head to shoes, both hands visible, lqxl, solo, one pointed gold crown with rose jewels, long wavy chestnut hair with straight bangs, petite storybook child, round face, large glossy ruby-brown eyes, fair peach skin, narrow shoulders, rose-pink puff-sleeve princess dress with gold trim, standing in a sunlit palace courtyard, polished anime storybook illustration"
+    },
+    {
+      "seed": 95050,
+      "scene_id": "crystal_lake",
+      "scene": "walking beside a quiet crystal lake",
+      "clip_l_content_tokens": 87,
+      "prompt": "wide full-body view, whole figure inside frame from head to shoes, both hands visible, lqxl, solo, one pointed gold crown with rose jewels, long wavy chestnut hair with straight bangs, petite storybook child, round face, large glossy ruby-brown eyes, fair peach skin, narrow shoulders, rose-pink puff-sleeve princess dress with gold trim, walking beside a quiet crystal lake, polished anime storybook illustration"
+    },
+    {
+      "seed": 95051,
+      "scene_id": "castle_greenhouse",
+      "scene": "standing in a flowering castle greenhouse",
+      "clip_l_content_tokens": 87,
+      "prompt": "wide full-body view, whole figure inside frame from head to shoes, both hands visible, lqxl, solo, one pointed gold crown with rose jewels, long wavy chestnut hair with straight bangs, petite storybook child, round face, large glossy ruby-brown eyes, fair peach skin, narrow shoulders, rose-pink puff-sleeve princess dress with gold trim, standing in a flowering castle greenhouse, polished anime storybook illustration"
+    },
+    {
+      "seed": 95052,
+      "scene_id": "village_street",
+      "scene": "turning on a bright village street",
+      "clip_l_content_tokens": 87,
+      "prompt": "wide full-body view, whole figure inside frame from head to shoes, both hands visible, lqxl, solo, one pointed gold crown with rose jewels, long wavy chestnut hair with straight bangs, petite storybook child, round face, large glossy ruby-brown eyes, fair peach skin, narrow shoulders, rose-pink puff-sleeve princess dress with gold trim, turning on a bright village street, polished anime storybook illustration"
+    },
+    {
+      "seed": 95053,
+      "scene_id": "castle_balcony",
+      "scene": "beneath a starry castle balcony",
+      "clip_l_content_tokens": 86,
+      "prompt": "wide full-body view, whole figure inside frame from head to shoes, both hands visible, lqxl, solo, one pointed gold crown with rose jewels, long wavy chestnut hair with straight bangs, petite storybook child, round face, large glossy ruby-brown eyes, fair peach skin, narrow shoulders, rose-pink puff-sleeve princess dress with gold trim, beneath a starry castle balcony, polished anime storybook illustration"
+    },
+    {
+      "seed": 95054,
+      "scene_id": "autumn_forest",
+      "scene": "walking through an enchanted autumn forest",
+      "clip_l_content_tokens": 87,
+      "prompt": "wide full-body view, whole figure inside frame from head to shoes, both hands visible, lqxl, solo, one pointed gold crown with rose jewels, long wavy chestnut hair with straight bangs, petite storybook child, round face, large glossy ruby-brown eyes, fair peach skin, narrow shoulders, rose-pink puff-sleeve princess dress with gold trim, walking through an enchanted autumn forest, polished anime storybook illustration"
+    },
+    {
+      "seed": 95055,
+      "scene_id": "throne_hall",
+      "scene": "inside a luminous marble throne hall",
+      "clip_l_content_tokens": 87,
+      "prompt": "wide full-body view, whole figure inside frame from head to shoes, both hands visible, lqxl, solo, one pointed gold crown with rose jewels, long wavy chestnut hair with straight bangs, petite storybook child, round face, large glossy ruby-brown eyes, fair peach skin, narrow shoulders, rose-pink puff-sleeve princess dress with gold trim, inside a luminous marble throne hall, polished anime storybook illustration"
+    },
+    {
+      "seed": 95056,
+      "scene_id": "sunrise_hill",
+      "scene": "on a windy hill at sunrise",
+      "clip_l_content_tokens": 87,
+      "prompt": "wide full-body view, whole figure inside frame from head to shoes, both hands visible, lqxl, solo, one pointed gold crown with rose jewels, long wavy chestnut hair with straight bangs, petite storybook child, round face, large glossy ruby-brown eyes, fair peach skin, narrow shoulders, rose-pink puff-sleeve princess dress with gold trim, on a windy hill at sunrise, polished anime storybook illustration"
+    },
+    {
+      "seed": 95057,
+      "scene_id": "palace_courtyard",
+      "scene": "standing in a sunlit palace courtyard",
+      "clip_l_content_tokens": 88,
+      "prompt": "wide full-body view, whole figure inside frame from head to shoes, both hands visible, lqxl, solo, one pointed gold crown with rose jewels, long wavy chestnut hair with straight bangs, petite storybook child, round face, large glossy ruby-brown eyes, fair peach skin, narrow shoulders, rose-pink puff-sleeve princess dress with gold trim, standing in a sunlit palace courtyard, polished anime storybook illustration"
+    },
+    {
+      "seed": 95058,
+      "scene_id": "crystal_lake",
+      "scene": "walking beside a quiet crystal lake",
+      "clip_l_content_tokens": 87,
+      "prompt": "wide full-body view, whole figure inside frame from head to shoes, both hands visible, lqxl, solo, one pointed gold crown with rose jewels, long wavy chestnut hair with straight bangs, petite storybook child, round face, large glossy ruby-brown eyes, fair peach skin, narrow shoulders, rose-pink puff-sleeve princess dress with gold trim, walking beside a quiet crystal lake, polished anime storybook illustration"
+    },
+    {
+      "seed": 95059,
+      "scene_id": "castle_greenhouse",
+      "scene": "standing in a flowering castle greenhouse",
+      "clip_l_content_tokens": 87,
+      "prompt": "wide full-body view, whole figure inside frame from head to shoes, both hands visible, lqxl, solo, one pointed gold crown with rose jewels, long wavy chestnut hair with straight bangs, petite storybook child, round face, large glossy ruby-brown eyes, fair peach skin, narrow shoulders, rose-pink puff-sleeve princess dress with gold trim, standing in a flowering castle greenhouse, polished anime storybook illustration"
+    },
+    {
+      "seed": 95060,
+      "scene_id": "village_street",
+      "scene": "turning on a bright village street",
+      "clip_l_content_tokens": 87,
+      "prompt": "wide full-body view, whole figure inside frame from head to shoes, both hands visible, lqxl, solo, one pointed gold crown with rose jewels, long wavy chestnut hair with straight bangs, petite storybook child, round face, large glossy ruby-brown eyes, fair peach skin, narrow shoulders, rose-pink puff-sleeve princess dress with gold trim, turning on a bright village street, polished anime storybook illustration"
+    },
+    {
+      "seed": 95061,
+      "scene_id": "castle_balcony",
+      "scene": "beneath a starry castle balcony",
+      "clip_l_content_tokens": 86,
+      "prompt": "wide full-body view, whole figure inside frame from head to shoes, both hands visible, lqxl, solo, one pointed gold crown with rose jewels, long wavy chestnut hair with straight bangs, petite storybook child, round face, large glossy ruby-brown eyes, fair peach skin, narrow shoulders, rose-pink puff-sleeve princess dress with gold trim, beneath a starry castle balcony, polished anime storybook illustration"
+    },
+    {
+      "seed": 95062,
+      "scene_id": "autumn_forest",
+      "scene": "walking through an enchanted autumn forest",
+      "clip_l_content_tokens": 87,
+      "prompt": "wide full-body view, whole figure inside frame from head to shoes, both hands visible, lqxl, solo, one pointed gold crown with rose jewels, long wavy chestnut hair with straight bangs, petite storybook child, round face, large glossy ruby-brown eyes, fair peach skin, narrow shoulders, rose-pink puff-sleeve princess dress with gold trim, walking through an enchanted autumn forest, polished anime storybook illustration"
+    },
+    {
+      "seed": 95063,
+      "scene_id": "throne_hall",
+      "scene": "inside a luminous marble throne hall",
+      "clip_l_content_tokens": 87,
+      "prompt": "wide full-body view, whole figure inside frame from head to shoes, both hands visible, lqxl, solo, one pointed gold crown with rose jewels, long wavy chestnut hair with straight bangs, petite storybook child, round face, large glossy ruby-brown eyes, fair peach skin, narrow shoulders, rose-pink puff-sleeve princess dress with gold trim, inside a luminous marble throne hall, polished anime storybook illustration"
+    },
+    {
+      "seed": 95064,
+      "scene_id": "sunrise_hill",
+      "scene": "on a windy hill at sunrise",
+      "clip_l_content_tokens": 87,
+      "prompt": "wide full-body view, whole figure inside frame from head to shoes, both hands visible, lqxl, solo, one pointed gold crown with rose jewels, long wavy chestnut hair with straight bangs, petite storybook child, round face, large glossy ruby-brown eyes, fair peach skin, narrow shoulders, rose-pink puff-sleeve princess dress with gold trim, on a windy hill at sunrise, polished anime storybook illustration"
+    },
+    {
+      "seed": 95065,
+      "scene_id": "palace_courtyard",
+      "scene": "standing in a sunlit palace courtyard",
+      "clip_l_content_tokens": 88,
+      "prompt": "wide full-body view, whole figure inside frame from head to shoes, both hands visible, lqxl, solo, one pointed gold crown with rose jewels, long wavy chestnut hair with straight bangs, petite storybook child, round face, large glossy ruby-brown eyes, fair peach skin, narrow shoulders, rose-pink puff-sleeve princess dress with gold trim, standing in a sunlit palace courtyard, polished anime storybook illustration"
+    },
+    {
+      "seed": 95066,
+      "scene_id": "crystal_lake",
+      "scene": "walking beside a quiet crystal lake",
+      "clip_l_content_tokens": 87,
+      "prompt": "wide full-body view, whole figure inside frame from head to shoes, both hands visible, lqxl, solo, one pointed gold crown with rose jewels, long wavy chestnut hair with straight bangs, petite storybook child, round face, large glossy ruby-brown eyes, fair peach skin, narrow shoulders, rose-pink puff-sleeve princess dress with gold trim, walking beside a quiet crystal lake, polished anime storybook illustration"
+    },
+    {
+      "seed": 95067,
+      "scene_id": "castle_greenhouse",
+      "scene": "standing in a flowering castle greenhouse",
+      "clip_l_content_tokens": 87,
+      "prompt": "wide full-body view, whole figure inside frame from head to shoes, both hands visible, lqxl, solo, one pointed gold crown with rose jewels, long wavy chestnut hair with straight bangs, petite storybook child, round face, large glossy ruby-brown eyes, fair peach skin, narrow shoulders, rose-pink puff-sleeve princess dress with gold trim, standing in a flowering castle greenhouse, polished anime storybook illustration"
+    },
+    {
+      "seed": 95068,
+      "scene_id": "village_street",
+      "scene": "turning on a bright village street",
+      "clip_l_content_tokens": 87,
+      "prompt": "wide full-body view, whole figure inside frame from head to shoes, both hands visible, lqxl, solo, one pointed gold crown with rose jewels, long wavy chestnut hair with straight bangs, petite storybook child, round face, large glossy ruby-brown eyes, fair peach skin, narrow shoulders, rose-pink puff-sleeve princess dress with gold trim, turning on a bright village street, polished anime storybook illustration"
+    },
+    {
+      "seed": 95069,
+      "scene_id": "castle_balcony",
+      "scene": "beneath a starry castle balcony",
+      "clip_l_content_tokens": 86,
+      "prompt": "wide full-body view, whole figure inside frame from head to shoes, both hands visible, lqxl, solo, one pointed gold crown with rose jewels, long wavy chestnut hair with straight bangs, petite storybook child, round face, large glossy ruby-brown eyes, fair peach skin, narrow shoulders, rose-pink puff-sleeve princess dress with gold trim, beneath a starry castle balcony, polished anime storybook illustration"
+    },
+    {
+      "seed": 95070,
+      "scene_id": "autumn_forest",
+      "scene": "walking through an enchanted autumn forest",
+      "clip_l_content_tokens": 87,
+      "prompt": "wide full-body view, whole figure inside frame from head to shoes, both hands visible, lqxl, solo, one pointed gold crown with rose jewels, long wavy chestnut hair with straight bangs, petite storybook child, round face, large glossy ruby-brown eyes, fair peach skin, narrow shoulders, rose-pink puff-sleeve princess dress with gold trim, walking through an enchanted autumn forest, polished anime storybook illustration"
+    },
+    {
+      "seed": 95071,
+      "scene_id": "throne_hall",
+      "scene": "inside a luminous marble throne hall",
+      "clip_l_content_tokens": 87,
+      "prompt": "wide full-body view, whole figure inside frame from head to shoes, both hands visible, lqxl, solo, one pointed gold crown with rose jewels, long wavy chestnut hair with straight bangs, petite storybook child, round face, large glossy ruby-brown eyes, fair peach skin, narrow shoulders, rose-pink puff-sleeve princess dress with gold trim, inside a luminous marble throne hall, polished anime storybook illustration"
+    },
+    {
+      "seed": 95072,
+      "scene_id": "sunrise_hill",
+      "scene": "on a windy hill at sunrise",
+      "clip_l_content_tokens": 87,
+      "prompt": "wide full-body view, whole figure inside frame from head to shoes, both hands visible, lqxl, solo, one pointed gold crown with rose jewels, long wavy chestnut hair with straight bangs, petite storybook child, round face, large glossy ruby-brown eyes, fair peach skin, narrow shoulders, rose-pink puff-sleeve princess dress with gold trim, on a windy hill at sunrise, polished anime storybook illustration"
+    },
+    {
+      "seed": 95073,
+      "scene_id": "palace_courtyard",
+      "scene": "standing in a sunlit palace courtyard",
+      "clip_l_content_tokens": 88,
+      "prompt": "wide full-body view, whole figure inside frame from head to shoes, both hands visible, lqxl, solo, one pointed gold crown with rose jewels, long wavy chestnut hair with straight bangs, petite storybook child, round face, large glossy ruby-brown eyes, fair peach skin, narrow shoulders, rose-pink puff-sleeve princess dress with gold trim, standing in a sunlit palace courtyard, polished anime storybook illustration"
+    },
+    {
+      "seed": 95074,
+      "scene_id": "crystal_lake",
+      "scene": "walking beside a quiet crystal lake",
+      "clip_l_content_tokens": 87,
+      "prompt": "wide full-body view, whole figure inside frame from head to shoes, both hands visible, lqxl, solo, one pointed gold crown with rose jewels, long wavy chestnut hair with straight bangs, petite storybook child, round face, large glossy ruby-brown eyes, fair peach skin, narrow shoulders, rose-pink puff-sleeve princess dress with gold trim, walking beside a quiet crystal lake, polished anime storybook illustration"
+    },
+    {
+      "seed": 95075,
+      "scene_id": "castle_greenhouse",
+      "scene": "standing in a flowering castle greenhouse",
+      "clip_l_content_tokens": 87,
+      "prompt": "wide full-body view, whole figure inside frame from head to shoes, both hands visible, lqxl, solo, one pointed gold crown with rose jewels, long wavy chestnut hair with straight bangs, petite storybook child, round face, large glossy ruby-brown eyes, fair peach skin, narrow shoulders, rose-pink puff-sleeve princess dress with gold trim, standing in a flowering castle greenhouse, polished anime storybook illustration"
+    },
+    {
+      "seed": 95076,
+      "scene_id": "village_street",
+      "scene": "turning on a bright village street",
+      "clip_l_content_tokens": 87,
+      "prompt": "wide full-body view, whole figure inside frame from head to shoes, both hands visible, lqxl, solo, one pointed gold crown with rose jewels, long wavy chestnut hair with straight bangs, petite storybook child, round face, large glossy ruby-brown eyes, fair peach skin, narrow shoulders, rose-pink puff-sleeve princess dress with gold trim, turning on a bright village street, polished anime storybook illustration"
+    },
+    {
+      "seed": 95077,
+      "scene_id": "castle_balcony",
+      "scene": "beneath a starry castle balcony",
+      "clip_l_content_tokens": 86,
+      "prompt": "wide full-body view, whole figure inside frame from head to shoes, both hands visible, lqxl, solo, one pointed gold crown with rose jewels, long wavy chestnut hair with straight bangs, petite storybook child, round face, large glossy ruby-brown eyes, fair peach skin, narrow shoulders, rose-pink puff-sleeve princess dress with gold trim, beneath a starry castle balcony, polished anime storybook illustration"
+    },
+    {
+      "seed": 95078,
+      "scene_id": "autumn_forest",
+      "scene": "walking through an enchanted autumn forest",
+      "clip_l_content_tokens": 87,
+      "prompt": "wide full-body view, whole figure inside frame from head to shoes, both hands visible, lqxl, solo, one pointed gold crown with rose jewels, long wavy chestnut hair with straight bangs, petite storybook child, round face, large glossy ruby-brown eyes, fair peach skin, narrow shoulders, rose-pink puff-sleeve princess dress with gold trim, walking through an enchanted autumn forest, polished anime storybook illustration"
+    },
+    {
+      "seed": 95079,
+      "scene_id": "throne_hall",
+      "scene": "inside a luminous marble throne hall",
+      "clip_l_content_tokens": 87,
+      "prompt": "wide full-body view, whole figure inside frame from head to shoes, both hands visible, lqxl, solo, one pointed gold crown with rose jewels, long wavy chestnut hair with straight bangs, petite storybook child, round face, large glossy ruby-brown eyes, fair peach skin, narrow shoulders, rose-pink puff-sleeve princess dress with gold trim, inside a luminous marble throne hall, polished anime storybook illustration"
+    },
+    {
+      "seed": 95080,
+      "scene_id": "sunrise_hill",
+      "scene": "on a windy hill at sunrise",
+      "clip_l_content_tokens": 87,
+      "prompt": "wide full-body view, whole figure inside frame from head to shoes, both hands visible, lqxl, solo, one pointed gold crown with rose jewels, long wavy chestnut hair with straight bangs, petite storybook child, round face, large glossy ruby-brown eyes, fair peach skin, narrow shoulders, rose-pink puff-sleeve princess dress with gold trim, on a windy hill at sunrise, polished anime storybook illustration"
+    },
+    {
+      "seed": 95081,
+      "scene_id": "palace_courtyard",
+      "scene": "standing in a sunlit palace courtyard",
+      "clip_l_content_tokens": 88,
+      "prompt": "wide full-body view, whole figure inside frame from head to shoes, both hands visible, lqxl, solo, one pointed gold crown with rose jewels, long wavy chestnut hair with straight bangs, petite storybook child, round face, large glossy ruby-brown eyes, fair peach skin, narrow shoulders, rose-pink puff-sleeve princess dress with gold trim, standing in a sunlit palace courtyard, polished anime storybook illustration"
+    },
+    {
+      "seed": 95082,
+      "scene_id": "crystal_lake",
+      "scene": "walking beside a quiet crystal lake",
+      "clip_l_content_tokens": 87,
+      "prompt": "wide full-body view, whole figure inside frame from head to shoes, both hands visible, lqxl, solo, one pointed gold crown with rose jewels, long wavy chestnut hair with straight bangs, petite storybook child, round face, large glossy ruby-brown eyes, fair peach skin, narrow shoulders, rose-pink puff-sleeve princess dress with gold trim, walking beside a quiet crystal lake, polished anime storybook illustration"
+    },
+    {
+      "seed": 95083,
+      "scene_id": "castle_greenhouse",
+      "scene": "standing in a flowering castle greenhouse",
+      "clip_l_content_tokens": 87,
+      "prompt": "wide full-body view, whole figure inside frame from head to shoes, both hands visible, lqxl, solo, one pointed gold crown with rose jewels, long wavy chestnut hair with straight bangs, petite storybook child, round face, large glossy ruby-brown eyes, fair peach skin, narrow shoulders, rose-pink puff-sleeve princess dress with gold trim, standing in a flowering castle greenhouse, polished anime storybook illustration"
+    },
+    {
+      "seed": 95084,
+      "scene_id": "village_street",
+      "scene": "turning on a bright village street",
+      "clip_l_content_tokens": 87,
+      "prompt": "wide full-body view, whole figure inside frame from head to shoes, both hands visible, lqxl, solo, one pointed gold crown with rose jewels, long wavy chestnut hair with straight bangs, petite storybook child, round face, large glossy ruby-brown eyes, fair peach skin, narrow shoulders, rose-pink puff-sleeve princess dress with gold trim, turning on a bright village street, polished anime storybook illustration"
+    },
+    {
+      "seed": 95085,
+      "scene_id": "castle_balcony",
+      "scene": "beneath a starry castle balcony",
+      "clip_l_content_tokens": 86,
+      "prompt": "wide full-body view, whole figure inside frame from head to shoes, both hands visible, lqxl, solo, one pointed gold crown with rose jewels, long wavy chestnut hair with straight bangs, petite storybook child, round face, large glossy ruby-brown eyes, fair peach skin, narrow shoulders, rose-pink puff-sleeve princess dress with gold trim, beneath a starry castle balcony, polished anime storybook illustration"
+    },
+    {
+      "seed": 95086,
+      "scene_id": "autumn_forest",
+      "scene": "walking through an enchanted autumn forest",
+      "clip_l_content_tokens": 87,
+      "prompt": "wide full-body view, whole figure inside frame from head to shoes, both hands visible, lqxl, solo, one pointed gold crown with rose jewels, long wavy chestnut hair with straight bangs, petite storybook child, round face, large glossy ruby-brown eyes, fair peach skin, narrow shoulders, rose-pink puff-sleeve princess dress with gold trim, walking through an enchanted autumn forest, polished anime storybook illustration"
+    },
+    {
+      "seed": 95087,
+      "scene_id": "throne_hall",
+      "scene": "inside a luminous marble throne hall",
+      "clip_l_content_tokens": 87,
+      "prompt": "wide full-body view, whole figure inside frame from head to shoes, both hands visible, lqxl, solo, one pointed gold crown with rose jewels, long wavy chestnut hair with straight bangs, petite storybook child, round face, large glossy ruby-brown eyes, fair peach skin, narrow shoulders, rose-pink puff-sleeve princess dress with gold trim, inside a luminous marble throne hall, polished anime storybook illustration"
+    },
+    {
+      "seed": 95088,
+      "scene_id": "sunrise_hill",
+      "scene": "on a windy hill at sunrise",
+      "clip_l_content_tokens": 87,
+      "prompt": "wide full-body view, whole figure inside frame from head to shoes, both hands visible, lqxl, solo, one pointed gold crown with rose jewels, long wavy chestnut hair with straight bangs, petite storybook child, round face, large glossy ruby-brown eyes, fair peach skin, narrow shoulders, rose-pink puff-sleeve princess dress with gold trim, on a windy hill at sunrise, polished anime storybook illustration"
+    },
+    {
+      "seed": 95089,
+      "scene_id": "palace_courtyard",
+      "scene": "standing in a sunlit palace courtyard",
+      "clip_l_content_tokens": 88,
+      "prompt": "wide full-body view, whole figure inside frame from head to shoes, both hands visible, lqxl, solo, one pointed gold crown with rose jewels, long wavy chestnut hair with straight bangs, petite storybook child, round face, large glossy ruby-brown eyes, fair peach skin, narrow shoulders, rose-pink puff-sleeve princess dress with gold trim, standing in a sunlit palace courtyard, polished anime storybook illustration"
+    },
+    {
+      "seed": 95090,
+      "scene_id": "crystal_lake",
+      "scene": "walking beside a quiet crystal lake",
+      "clip_l_content_tokens": 87,
+      "prompt": "wide full-body view, whole figure inside frame from head to shoes, both hands visible, lqxl, solo, one pointed gold crown with rose jewels, long wavy chestnut hair with straight bangs, petite storybook child, round face, large glossy ruby-brown eyes, fair peach skin, narrow shoulders, rose-pink puff-sleeve princess dress with gold trim, walking beside a quiet crystal lake, polished anime storybook illustration"
+    },
+    {
+      "seed": 95091,
+      "scene_id": "castle_greenhouse",
+      "scene": "standing in a flowering castle greenhouse",
+      "clip_l_content_tokens": 87,
+      "prompt": "wide full-body view, whole figure inside frame from head to shoes, both hands visible, lqxl, solo, one pointed gold crown with rose jewels, long wavy chestnut hair with straight bangs, petite storybook child, round face, large glossy ruby-brown eyes, fair peach skin, narrow shoulders, rose-pink puff-sleeve princess dress with gold trim, standing in a flowering castle greenhouse, polished anime storybook illustration"
+    },
+    {
+      "seed": 95092,
+      "scene_id": "village_street",
+      "scene": "turning on a bright village street",
+      "clip_l_content_tokens": 87,
+      "prompt": "wide full-body view, whole figure inside frame from head to shoes, both hands visible, lqxl, solo, one pointed gold crown with rose jewels, long wavy chestnut hair with straight bangs, petite storybook child, round face, large glossy ruby-brown eyes, fair peach skin, narrow shoulders, rose-pink puff-sleeve princess dress with gold trim, turning on a bright village street, polished anime storybook illustration"
+    },
+    {
+      "seed": 95093,
+      "scene_id": "castle_balcony",
+      "scene": "beneath a starry castle balcony",
+      "clip_l_content_tokens": 86,
+      "prompt": "wide full-body view, whole figure inside frame from head to shoes, both hands visible, lqxl, solo, one pointed gold crown with rose jewels, long wavy chestnut hair with straight bangs, petite storybook child, round face, large glossy ruby-brown eyes, fair peach skin, narrow shoulders, rose-pink puff-sleeve princess dress with gold trim, beneath a starry castle balcony, polished anime storybook illustration"
+    },
+    {
+      "seed": 95094,
+      "scene_id": "autumn_forest",
+      "scene": "walking through an enchanted autumn forest",
+      "clip_l_content_tokens": 87,
+      "prompt": "wide full-body view, whole figure inside frame from head to shoes, both hands visible, lqxl, solo, one pointed gold crown with rose jewels, long wavy chestnut hair with straight bangs, petite storybook child, round face, large glossy ruby-brown eyes, fair peach skin, narrow shoulders, rose-pink puff-sleeve princess dress with gold trim, walking through an enchanted autumn forest, polished anime storybook illustration"
+    },
+    {
+      "seed": 95095,
+      "scene_id": "throne_hall",
+      "scene": "inside a luminous marble throne hall",
+      "clip_l_content_tokens": 87,
+      "prompt": "wide full-body view, whole figure inside frame from head to shoes, both hands visible, lqxl, solo, one pointed gold crown with rose jewels, long wavy chestnut hair with straight bangs, petite storybook child, round face, large glossy ruby-brown eyes, fair peach skin, narrow shoulders, rose-pink puff-sleeve princess dress with gold trim, inside a luminous marble throne hall, polished anime storybook illustration"
+    },
+    {
+      "seed": 95096,
+      "scene_id": "sunrise_hill",
+      "scene": "on a windy hill at sunrise",
+      "clip_l_content_tokens": 87,
+      "prompt": "wide full-body view, whole figure inside frame from head to shoes, both hands visible, lqxl, solo, one pointed gold crown with rose jewels, long wavy chestnut hair with straight bangs, petite storybook child, round face, large glossy ruby-brown eyes, fair peach skin, narrow shoulders, rose-pink puff-sleeve princess dress with gold trim, on a windy hill at sunrise, polished anime storybook illustration"
+    },
+    {
+      "seed": 95097,
+      "scene_id": "palace_courtyard",
+      "scene": "standing in a sunlit palace courtyard",
+      "clip_l_content_tokens": 88,
+      "prompt": "wide full-body view, whole figure inside frame from head to shoes, both hands visible, lqxl, solo, one pointed gold crown with rose jewels, long wavy chestnut hair with straight bangs, petite storybook child, round face, large glossy ruby-brown eyes, fair peach skin, narrow shoulders, rose-pink puff-sleeve princess dress with gold trim, standing in a sunlit palace courtyard, polished anime storybook illustration"
+    },
+    {
+      "seed": 95098,
+      "scene_id": "crystal_lake",
+      "scene": "walking beside a quiet crystal lake",
+      "clip_l_content_tokens": 87,
+      "prompt": "wide full-body view, whole figure inside frame from head to shoes, both hands visible, lqxl, solo, one pointed gold crown with rose jewels, long wavy chestnut hair with straight bangs, petite storybook child, round face, large glossy ruby-brown eyes, fair peach skin, narrow shoulders, rose-pink puff-sleeve princess dress with gold trim, walking beside a quiet crystal lake, polished anime storybook illustration"
+    },
+    {
+      "seed": 95099,
+      "scene_id": "castle_greenhouse",
+      "scene": "standing in a flowering castle greenhouse",
+      "clip_l_content_tokens": 87,
+      "prompt": "wide full-body view, whole figure inside frame from head to shoes, both hands visible, lqxl, solo, one pointed gold crown with rose jewels, long wavy chestnut hair with straight bangs, petite storybook child, round face, large glossy ruby-brown eyes, fair peach skin, narrow shoulders, rose-pink puff-sleeve princess dress with gold trim, standing in a flowering castle greenhouse, polished anime storybook illustration"
+    },
+    {
+      "seed": 95100,
+      "scene_id": "village_street",
+      "scene": "turning on a bright village street",
+      "clip_l_content_tokens": 87,
+      "prompt": "wide full-body view, whole figure inside frame from head to shoes, both hands visible, lqxl, solo, one pointed gold crown with rose jewels, long wavy chestnut hair with straight bangs, petite storybook child, round face, large glossy ruby-brown eyes, fair peach skin, narrow shoulders, rose-pink puff-sleeve princess dress with gold trim, turning on a bright village street, polished anime storybook illustration"
+    }
+  ]
+}

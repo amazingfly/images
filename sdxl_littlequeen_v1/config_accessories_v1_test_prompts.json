@@ -1,0 +1,76 @@
+{
+  "description": "Canonical Little Queen regalia and equipment checkpoints grid",
+  "image_count": 7,
+  "prompts": [
+    {
+      "seed": 121001,
+      "case_id": "regalia300_w040",
+      "item_id": "none",
+      "regalia_weight": 0.4,
+      "equipment_weight": 0.0,
+      "regalia_adapter": "regalia300",
+      "equipment_adapter": "equipment",
+      "prompt": "full-body front view, entire crown and both shoes framed, inside a plain blue stone hall, solo, lqxl Little Queen, lqmoonfit, lqmoonregalia, the exact matching Moonstar regalia: slim symmetrical polished gold diadem with five upward flame-leaf points, one centered round amber moonstone and two pale leaf inlays, matching long hollow gold teardrop earrings, an ornate close gold collar with one oval rose crystal, matching narrow gold engraved gold wrist cuffs worn over the pink gloves, empty hands, no wand, no staff, no scepter, no weapon, polished anime storybook illustration"
+    },
+    {
+      "seed": 121001,
+      "case_id": "regalia300_w060",
+      "item_id": "none",
+      "regalia_weight": 0.6,
+      "equipment_weight": 0.0,
+      "regalia_adapter": "regalia300",
+      "equipment_adapter": "equipment",
+      "prompt": "full-body front view, entire crown and both shoes framed, inside a plain blue stone hall, solo, lqxl Little Queen, lqmoonfit, lqmoonregalia, the exact matching Moonstar regalia: slim symmetrical polished gold diadem with five upward flame-leaf points, one centered round amber moonstone and two pale leaf inlays, matching long hollow gold teardrop earrings, an ornate close gold collar with one oval rose crystal, matching narrow gold engraved gold wrist cuffs worn over the pink gloves, empty hands, no wand, no staff, no scepter, no weapon, polished anime storybook illustration"
+    },
+    {
+      "seed": 121010,
+      "case_id": "wand300_w030",
+      "item_id": "moonstar_wand",
+      "regalia_weight": 0.4,
+      "equipment_weight": 0.3,
+      "regalia_adapter": "regalia300",
+      "equipment_adapter": "equipment300",
+      "prompt": "wide full-body front view, entire crown, wand, both hands, and both shoes framed, holding the wand upright and clearly separated from her body, inside a plain blue stone hall, solo, lqxl Little Queen, lqmoonfit, lqmoonregalia, the exact matching Moonstar regalia: slim symmetrical polished gold diadem with five upward flame-leaf points, one centered round amber moonstone and two pale leaf inlays, matching long hollow gold teardrop earrings, an ornate close gold collar with one oval rose crystal, matching narrow gold engraved gold wrist cuffs worn over the pink gloves, lqmoonwand, holding exactly one signature Moonstar wand: one slender straight gold shaft, small ivory grip, one open gold crescent around one rose-pink crystal, one small five-point star tip, polished anime storybook illustration"
+    },
+    {
+      "seed": 121010,
+      "case_id": "wand300_w045",
+      "item_id": "moonstar_wand",
+      "regalia_weight": 0.4,
+      "equipment_weight": 0.45,
+      "regalia_adapter": "regalia300",
+      "equipment_adapter": "equipment300",
+      "prompt": "wide full-body front view, entire crown, wand, both hands, and both shoes framed, holding the wand upright and clearly separated from her body, inside a plain blue stone hall, solo, lqxl Little Queen, lqmoonfit, lqmoonregalia, the exact matching Moonstar regalia: slim symmetrical polished gold diadem with five upward flame-leaf points, one centered round amber moonstone and two pale leaf inlays, matching long hollow gold teardrop earrings, an ornate close gold collar with one oval rose crystal, matching narrow gold engraved gold wrist cuffs worn over the pink gloves, lqmoonwand, holding exactly one signature Moonstar wand: one slender straight gold shaft, small ivory grip, one open gold crescent around one rose-pink crystal, one small five-point star tip, polished anime storybook illustration"
+    },
+    {
+      "seed": 121010,
+      "case_id": "wand600_w030",
+      "item_id": "moonstar_wand",
+      "regalia_weight": 0.4,
+      "equipment_weight": 0.3,
+      "regalia_adapter": "regalia300",
+      "equipment_adapter": "equipment600",
+      "prompt": "wide full-body front view, entire crown, wand, both hands, and both shoes framed, holding the wand upright and clearly separated from her body, inside a plain blue stone hall, solo, lqxl Little Queen, lqmoonfit, lqmoonregalia, the exact matching Moonstar regalia: slim symmetrical polished gold diadem with five upward flame-leaf points, one centered round amber moonstone and two pale leaf inlays, matching long hollow gold teardrop earrings, an ornate close gold collar with one oval rose crystal, matching narrow gold engraved gold wrist cuffs worn over the pink gloves, lqmoonwand, holding exactly one signature Moonstar wand: one slender straight gold shaft, small ivory grip, one open gold crescent around one rose-pink crystal, one small five-point star tip, polished anime storybook illustration"
+    },
+    {
+      "seed": 121010,
+      "case_id": "wand600_w045",
+      "item_id": "moonstar_wand",
+      "regalia_weight": 0.4,
+      "equipment_weight": 0.45,
+      "regalia_adapter": "regalia300",
+      "equipment_adapter": "equipment600",
+      "prompt": "wide full-body front view, entire crown, wand, both hands, and both shoes framed, holding the wand upright and clearly separated from her body, inside a plain blue stone hall, solo, lqxl Little Queen, lqmoonfit, lqmoonregalia, the exact matching Moonstar regalia: slim symmetrical polished gold diadem with five upward flame-leaf points, one centered round amber moonstone and two pale leaf inlays, matching long hollow gold teardrop earrings, an ornate close gold collar with one oval rose crystal, matching narrow gold engraved gold wrist cuffs worn over the pink gloves, lqmoonwand, holding exactly one signature Moonstar wand: one slender straight gold shaft, small ivory grip, one open gold crescent around one rose-pink crystal, one small five-point star tip, polished anime storybook illustration"
+    },
+    {
+      "seed": 121010,
+      "case_id": "wand900_w030",
+      "item_id": "moonstar_wand",
+      "regalia_weight": 0.4,
+      "equipment_weight": 0.3,
+      "regalia_adapter": "regalia300",
+      "equipment_adapter": "equipment",
+      "prompt": "wide full-body front view, entire crown, wand, both hands, and both shoes framed, holding the wand upright and clearly separated from her body, inside a plain blue stone hall, solo, lqxl Little Queen, lqmoonfit, lqmoonregalia, the exact matching Moonstar regalia: slim symmetrical polished gold diadem with five upward flame-leaf points, one centered round amber moonstone and two pale leaf inlays, matching long hollow gold teardrop earrings, an ornate close gold collar with one oval rose crystal, matching narrow gold engraved gold wrist cuffs worn over the pink gloves, lqmoonwand, holding exactly one signature Moonstar wand: one slender straight gold shaft, small ivory grip, one open gold crescent around one rose-pink crystal, one small five-point star tip, polished anime storybook illustration"
+    }
+  ]
+}

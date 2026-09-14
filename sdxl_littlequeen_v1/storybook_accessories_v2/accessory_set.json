@@ -1,0 +1,32 @@
+{
+  "version": "littlequeen-storybook-accessories-v2-moonstar-wand",
+  "assets": {
+    "crown": "../storybook_accessories_v1/assets/moonstar_crown_trimmed.png",
+    "earring": "../storybook_accessories_v1/assets/moonstar_earring_trimmed.png",
+    "necklace": "../storybook_accessories_v1/assets/moonstar_necklace_trimmed.png",
+    "staff": "../storybook_accessories_v1/assets/moonstar_wand_v1.png"
+  },
+  "geometry": {
+    "crown_width_in_face_widths": 1.35,
+    "crown_max_width_in_person_widths": 0.62,
+    "crown_max_width_in_image_widths": 0.34,
+    "crown_band_below_face_top": 0.04,
+    "earring_height_in_face_heights": 0.22,
+    "earring_outset_in_face_widths": 0.025,
+    "earring_top_below_face_top": 0.58,
+    "necklace_width_in_face_widths": 0.58,
+    "necklace_max_width_in_person_widths": 0.24,
+    "necklace_top_below_face_bottom": 0.035,
+    "staff_height_in_person_heights": 0.48,
+    "staff_grip_fraction_from_top": 0.73,
+    "staff_anchor_outset_in_person_widths": 0.08,
+    "staff_angle_degrees": 7.0,
+    "staff_angle_outward": true
+  },
+  "design": {
+    "crown": "Moonstar five-flame polished-gold leaf diadem with a centered rose-amber moonstone, two amber side gems, and crescent-star engraving",
+    "earrings": "matched crescent and flame-leaf gold drops with rose-amber teardrop gems",
+    "necklace": "narrow symmetrical flame-leaf gold collar with a centered rose-amber moonstone and crescent charm",
+    "staff": "Moonstar short hand wand with a straight engraved gold shaft, one rose-amber oval moonstone in a crescent cradle, five flame-leaf rays, and one compact rose crystal end cap"
+  }
+}

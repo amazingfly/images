@@ -1,0 +1,78 @@
+{
+  "prompt_count": 500,
+  "output_dir": "./scripts/output_lora_littlequeen_dataset",
+  "upscaled_dir": "./scripts/output_lora_littlequeen_dataset/upscaled",
+  "prompts_file": "./scripts/prompts_littlequeen_dataset.json",
+  "manifest_file": "./scripts/output_lora_littlequeen_dataset/dataset_manifest.json",
+  "local_files_only": true,
+  "pipeline": {
+    "regenerate_prompts": false,
+    "ram_cooldown_seconds": 15
+  },
+  "prompt_generation": {
+    "provider": "llama_cpp_server",
+    "server_binary": "/home/derek/projects/hug/gemma4_uncensored/llama.cpp/build/bin/llama-server",
+    "model_path": "/home/derek/projects/hug/gemma4_uncensored/models/gemma4/Gemma-4-E4B-Uncensored-HauhauCS-Aggressive-Q5_K_M.gguf",
+    "host": "127.0.0.1",
+    "port": 18080,
+    "threads": 6,
+    "context_size": 8192,
+    "batch_size": 5,
+    "llama_batch_size": 512,
+    "llama_ubatch_size": 128,
+    "cache_ram_mb": 256,
+    "startup_timeout_seconds": 180,
+    "request_timeout_seconds": 1800,
+    "max_new_tokens_per_prompt": 24,
+    "max_new_tokens_cap": 384,
+    "temperature": 0.85,
+    "top_p": 0.9,
+    "minimum_words": 4,
+    "maximum_words": 12,
+    "similarity_limit": 0.78
+  },
+  "lora": {
+    "enabled": true,
+    "path": "./LORA/lora_littlequeen.safetensors",
+    "adapter_name": "littlequeen",
+    "scale": 1.0,
+    "fuse": false,
+    "load_unet": true,
+    "load_text_encoder": true
+  },
+  "two_pass": {
+    "enabled": true,
+    "draft_source": "generated",
+    "draft_lora_scale": 0.55,
+    "draft_num_inference_steps": 22,
+    "draft_guidance_scale": 6.5,
+    "refine_lora_scale": 1.35,
+    "refine_num_inference_steps": 50,
+    "refine_guidance_scale": 6.0,
+    "strength": 0.65,
+    "save_drafts": true
+  },
+  "generation": {
+    "width": 512,
+    "height": 768,
+    "num_inference_steps": 50,
+    "guidance_scale": 7.5,
+    "skip_existing": true,
+    "style_prompt": "softly glowing fairytale anime, clean bold line art, soft cel-shading, family-animation polish",
+    "character_prompt": "chestnut-brown hair, warm brown eyes, golden spiked crown, pink-magenta puff-sleeve dress",
+    "negative_prompt": "duplicate queen, second queen, two queens, duplicate girl, second girl, extra person, multiple people, clone, twin, mirror image, green eyes, teal eyes, red eyes, purple hair, pink hair, magenta hair, short hair, chibi, oversized head, close-up portrait, cropped, out of frame, bad hands, extra fingers"
+  },
+  "upscale": {
+    "width": 1080,
+    "height": 1920,
+    "mode": "contain_blur",
+    "foreground_scale": 0.94,
+    "background_blur": 45,
+    "skip_existing": true
+  },
+  "dataset": {
+    "write_caption_files": true,
+    "caption_extension": ".txt"
+  },
+  "prompt_request": "playful fairytale magic action scenes with harmless monsters, gemstones, wands, scepters, candy castles, flowers, toys, shields, sparkles, and adventure props"
+}

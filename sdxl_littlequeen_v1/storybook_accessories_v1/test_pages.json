@@ -1,0 +1,34 @@
+{
+  "pages": [
+    {
+      "id": "page_01",
+      "input": "outputs/lqxl_sdxl_v2_eval/minimal10_1200/output/selected/image_01_seed_97101.png",
+      "cleanup_mask": "storybook_accessories_v1/examples/page_01_auto_v4_cleanup_mask.png",
+      "seed": 130001
+    },
+    {
+      "id": "page_02",
+      "input": "outputs/lqxl_sdxl_v2_eval/minimal10_1200/output/selected/image_02_seed_97102.png",
+      "cleanup_mask": "storybook_accessories_v1/examples/page_02_auto_v4_cleanup_mask.png",
+      "seed": 130002
+    },
+    {
+      "id": "page_03",
+      "input": "outputs/lqxl_sdxl_v2_eval/minimal10_1200/output/selected/image_03_seed_97103.png",
+      "cleanup_mask": "storybook_accessories_v1/examples/page_03_auto_v4_cleanup_mask.png",
+      "seed": 130003
+    },
+    {
+      "id": "page_05",
+      "input": "outputs/lqxl_sdxl_v2_eval/minimal10_1200/output/selected/image_05_seed_97105.png",
+      "cleanup_mask": "storybook_accessories_v1/examples/page_05_auto_v4_cleanup_mask.png",
+      "seed": 130005
+    },
+    {
+      "id": "page_07",
+      "input": "outputs/lqxl_sdxl_v2_eval/minimal10_1200/output/selected/image_07_seed_97107.png",
+      "cleanup_mask": "storybook_accessories_v1/examples/page_07_auto_v4_cleanup_mask.png",
+      "seed": 130007
+    }
+  ]
+}

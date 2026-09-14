@@ -1,0 +1,35 @@
+[
+    {
+        "id": "lq_scene_000001",
+        "scene_prompt": "candy castle crumbling near sparkling sapphire flowers",
+        "prompt": "<tlqueen> candy castle crumbling near sparkling sapphire flowers",
+        "training_caption": "<tlqueen>, long chestnut-brown hair, warm brown eyes, big golden spiked crown, pink-magenta puff-sleeve dress, small gold pendant, candy castle crumbling near sparkling sapphire flowers",
+        "source": {
+            "type": "gemma4_e4b_llama_cpp_server",
+            "model_path": "/home/derek/projects/hug/gemma4_uncensored/models/gemma4/Gemma-4-E4B-Uncensored-HauhauCS-Aggressive-Q5_K_M.gguf"
+        },
+        "created_at": "2026-06-27T13:33:38"
+    },
+    {
+        "id": "lq_scene_000002",
+        "scene_prompt": "toy griffin battling a fluffy blue slime",
+        "prompt": "<tlqueen> toy griffin battling a fluffy blue slime",
+        "training_caption": "<tlqueen>, long chestnut-brown hair, warm brown eyes, big golden spiked crown, pink-magenta puff-sleeve dress, small gold pendant, toy griffin battling a fluffy blue slime",
+        "source": {
+            "type": "gemma4_e4b_llama_cpp_server",
+            "model_path": "/home/derek/projects/hug/gemma4_uncensored/models/gemma4/Gemma-4-E4B-Uncensored-HauhauCS-Aggressive-Q5_K_M.gguf"
+        },
+        "created_at": "2026-06-27T13:33:38"
+    },
+    {
+        "id": "lq_scene_000003",
+        "scene_prompt": "scepter casting bright green light onto moss",
+        "prompt": "<tlqueen> scepter casting bright green light onto moss",
+        "training_caption": "<tlqueen>, long chestnut-brown hair, warm brown eyes, big golden spiked crown, pink-magenta puff-sleeve dress, small gold pendant, scepter casting bright green light onto moss",
+        "source": {
+            "type": "gemma4_e4b_llama_cpp_server",
+            "model_path": "/home/derek/projects/hug/gemma4_uncensored/models/gemma4/Gemma-4-E4B-Uncensored-HauhauCS-Aggressive-Q5_K_M.gguf"
+        },
+        "created_at": "2026-06-27T13:33:38"
+    }
+]

@@ -1,0 +1,59 @@
+{
+  "version": "littlequeen-accessories-v4-test-prompts",
+  "prompts": [
+    {
+      "case_id": "regalia_garden",
+      "seed": 128101,
+      "identity_weight": 0.8,
+      "outfit_weight": 0.55,
+      "regalia_weight": 0.65,
+      "equipment_weight": 0.0,
+      "prompt": "lqxl Little Queen, lqmoonfit, lqmoonregalia4, solo, full body, wearing exactly one Moonstar crown with its matched earrings and necklace, standing in a sunny palace rose garden, gentle storybook anime illustration, complete crown and feet in frame"
+    },
+    {
+      "case_id": "regalia_library",
+      "seed": 128102,
+      "identity_weight": 0.8,
+      "outfit_weight": 0.55,
+      "regalia_weight": 0.75,
+      "equipment_weight": 0.0,
+      "prompt": "lqxl Little Queen, lqmoonfit, lqmoonregalia4, solo, three-quarter view, wearing exactly one Moonstar crown with its matched earrings and necklace, reading beside a tall library window, warm storybook anime illustration, complete crown in frame"
+    },
+    {
+      "case_id": "full_set_library",
+      "seed": 128103,
+      "identity_weight": 0.8,
+      "outfit_weight": 0.55,
+      "regalia_weight": 0.7,
+      "equipment_weight": 0.7,
+      "prompt": "lqxl Little Queen, lqmoonfit, lqmoonregalia4, lqmoonwand4, solo, full body, wearing exactly one Moonstar crown with matched earrings and necklace, holding exactly one complete Moonstar scepter upright in one hand, walking through an old royal library, gentle storybook anime illustration, complete crown wand and feet in frame"
+    },
+    {
+      "case_id": "full_set_moon_bridge",
+      "seed": 128104,
+      "identity_weight": 0.8,
+      "outfit_weight": 0.55,
+      "regalia_weight": 0.7,
+      "equipment_weight": 0.7,
+      "prompt": "lqxl Little Queen, lqmoonfit, lqmoonregalia4, lqmoonwand4, solo, full body, wearing exactly one Moonstar crown with matched earrings and necklace, holding exactly one complete Moonstar scepter beside her, crossing a moonlit stone bridge, magical storybook anime illustration, complete crown wand and feet in frame"
+    },
+    {
+      "case_id": "full_set_forest",
+      "seed": 128105,
+      "identity_weight": 0.8,
+      "outfit_weight": 0.55,
+      "regalia_weight": 0.75,
+      "equipment_weight": 0.8,
+      "prompt": "lqxl Little Queen, lqmoonfit, lqmoonregalia4, lqmoonwand4, solo, full body, wearing exactly one Moonstar crown with matched earrings and necklace, holding exactly one complete Moonstar scepter forward in one hand, exploring a luminous woodland path, gentle storybook anime illustration, complete crown wand and feet in frame"
+    },
+    {
+      "case_id": "full_set_balcony",
+      "seed": 128106,
+      "identity_weight": 0.8,
+      "outfit_weight": 0.55,
+      "regalia_weight": 0.8,
+      "equipment_weight": 0.85,
+      "prompt": "lqxl Little Queen, lqmoonfit, lqmoonregalia4, lqmoonwand4, solo, full body, wearing exactly one Moonstar crown with matched earrings and necklace, holding exactly one complete Moonstar scepter upright, standing on a sunrise castle balcony, elegant storybook anime illustration, complete crown wand and feet in frame"
+    }
+  ]
+}

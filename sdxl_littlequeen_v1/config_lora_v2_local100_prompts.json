@@ -1,0 +1,640 @@
+{
+  "description": "Little Queen SDXL v2 local production run",
+  "image_count": 100,
+  "first_seed": 98001,
+  "location_counts": {
+    "rose_garden": 4,
+    "palace_courtyard": 4,
+    "marble_hall": 4,
+    "cloudy_hill": 4,
+    "forest_stream": 4,
+    "village_street": 4,
+    "crystal_lake": 4,
+    "castle_courtyard": 4,
+    "evening_stars": 4,
+    "autumn_forest": 4,
+    "greenhouse": 4,
+    "sunset_balcony": 4,
+    "snowy_courtyard": 4,
+    "lantern_festival": 4,
+    "crystal_cavern": 4,
+    "storybook_library": 4,
+    "seaside_path": 4,
+    "waterfall": 4,
+    "wildflower_meadow": 4,
+    "moonlit_bridge": 4,
+    "garden_steps": 4,
+    "village_market": 4,
+    "windy_cliff": 4,
+    "dragon_sanctuary": 4,
+    "flower_maze": 4
+  },
+  "action_counts": {
+    "calm": 25,
+    "walking": 25,
+    "turning": 25,
+    "magic": 25
+  },
+  "prompts": [
+    {
+      "seed": 98001,
+      "location_id": "rose_garden",
+      "action_id": "calm",
+      "prompt": "wide full-body front view, entire crown and both shoes inside frame, both hands visible, standing calmly, solo, lqxl Little Queen, in a quiet rose garden, polished anime storybook illustration"
+    },
+    {
+      "seed": 98002,
+      "location_id": "rose_garden",
+      "action_id": "walking",
+      "prompt": "full-body three-quarter view, entire crown and both shoes inside frame, both hands visible, taking one graceful step, solo, lqxl Little Queen, in a quiet rose garden, polished anime storybook illustration"
+    },
+    {
+      "seed": 98003,
+      "location_id": "rose_garden",
+      "action_id": "turning",
+      "prompt": "wide full-body motion view, entire crown and both shoes inside frame, both hands visible, turning as her hair and skirt flow, solo, lqxl Little Queen, in a quiet rose garden, polished anime storybook illustration"
+    },
+    {
+      "seed": 98004,
+      "location_id": "rose_garden",
+      "action_id": "magic",
+      "prompt": "wide full-body action view, entire crown and both shoes inside frame, both hands visible, raising both hands as a bright magical aura begins, solo, lqxl Little Queen, in a quiet rose garden, polished anime storybook illustration"
+    },
+    {
+      "seed": 98005,
+      "location_id": "palace_courtyard",
+      "action_id": "calm",
+      "prompt": "wide full-body front view, entire crown and both shoes inside frame, both hands visible, standing calmly, solo, lqxl Little Queen, in a sunlit palace courtyard, polished anime storybook illustration"
+    },
+    {
+      "seed": 98006,
+      "location_id": "palace_courtyard",
+      "action_id": "walking",
+      "prompt": "full-body three-quarter view, entire crown and both shoes inside frame, both hands visible, taking one graceful step, solo, lqxl Little Queen, in a sunlit palace courtyard, polished anime storybook illustration"
+    },
+    {
+      "seed": 98007,
+      "location_id": "palace_courtyard",
+      "action_id": "turning",
+      "prompt": "wide full-body motion view, entire crown and both shoes inside frame, both hands visible, turning as her hair and skirt flow, solo, lqxl Little Queen, in a sunlit palace courtyard, polished anime storybook illustration"
+    },
+    {
+      "seed": 98008,
+      "location_id": "palace_courtyard",
+      "action_id": "magic",
+      "prompt": "wide full-body action view, entire crown and both shoes inside frame, both hands visible, raising both hands as a bright magical aura begins, solo, lqxl Little Queen, in a sunlit palace courtyard, polished anime storybook illustration"
+    },
+    {
+      "seed": 98009,
+      "location_id": "marble_hall",
+      "action_id": "calm",
+      "prompt": "wide full-body front view, entire crown and both shoes inside frame, both hands visible, standing calmly, solo, lqxl Little Queen, inside a bright marble hall, polished anime storybook illustration"
+    },
+    {
+      "seed": 98010,
+      "location_id": "marble_hall",
+      "action_id": "walking",
+      "prompt": "full-body three-quarter view, entire crown and both shoes inside frame, both hands visible, taking one graceful step, solo, lqxl Little Queen, inside a bright marble hall, polished anime storybook illustration"
+    },
+    {
+      "seed": 98011,
+      "location_id": "marble_hall",
+      "action_id": "turning",
+      "prompt": "wide full-body motion view, entire crown and both shoes inside frame, both hands visible, turning as her hair and skirt flow, solo, lqxl Little Queen, inside a bright marble hall, polished anime storybook illustration"
+    },
+    {
+      "seed": 98012,
+      "location_id": "marble_hall",
+      "action_id": "magic",
+      "prompt": "wide full-body action view, entire crown and both shoes inside frame, both hands visible, raising both hands as a bright magical aura begins, solo, lqxl Little Queen, inside a bright marble hall, polished anime storybook illustration"
+    },
+    {
+      "seed": 98013,
+      "location_id": "cloudy_hill",
+      "action_id": "calm",
+      "prompt": "wide full-body front view, entire crown and both shoes inside frame, both hands visible, standing calmly, solo, lqxl Little Queen, beneath a cloudy sky on a hill, polished anime storybook illustration"
+    },
+    {
+      "seed": 98014,
+      "location_id": "cloudy_hill",
+      "action_id": "walking",
+      "prompt": "full-body three-quarter view, entire crown and both shoes inside frame, both hands visible, taking one graceful step, solo, lqxl Little Queen, beneath a cloudy sky on a hill, polished anime storybook illustration"
+    },
+    {
+      "seed": 98015,
+      "location_id": "cloudy_hill",
+      "action_id": "turning",
+      "prompt": "wide full-body motion view, entire crown and both shoes inside frame, both hands visible, turning as her hair and skirt flow, solo, lqxl Little Queen, beneath a cloudy sky on a hill, polished anime storybook illustration"
+    },
+    {
+      "seed": 98016,
+      "location_id": "cloudy_hill",
+      "action_id": "magic",
+      "prompt": "wide full-body action view, entire crown and both shoes inside frame, both hands visible, raising both hands as a bright magical aura begins, solo, lqxl Little Queen, beneath a cloudy sky on a hill, polished anime storybook illustration"
+    },
+    {
+      "seed": 98017,
+      "location_id": "forest_stream",
+      "action_id": "calm",
+      "prompt": "wide full-body front view, entire crown and both shoes inside frame, both hands visible, standing calmly, solo, lqxl Little Queen, beside a forest stream, polished anime storybook illustration"
+    },
+    {
+      "seed": 98018,
+      "location_id": "forest_stream",
+      "action_id": "walking",
+      "prompt": "full-body three-quarter view, entire crown and both shoes inside frame, both hands visible, taking one graceful step, solo, lqxl Little Queen, beside a forest stream, polished anime storybook illustration"
+    },
+    {
+      "seed": 98019,
+      "location_id": "forest_stream",
+      "action_id": "turning",
+      "prompt": "wide full-body motion view, entire crown and both shoes inside frame, both hands visible, turning as her hair and skirt flow, solo, lqxl Little Queen, beside a forest stream, polished anime storybook illustration"
+    },
+    {
+      "seed": 98020,
+      "location_id": "forest_stream",
+      "action_id": "magic",
+      "prompt": "wide full-body action view, entire crown and both shoes inside frame, both hands visible, raising both hands as a bright magical aura begins, solo, lqxl Little Queen, beside a forest stream, polished anime storybook illustration"
+    },
+    {
+      "seed": 98021,
+      "location_id": "village_street",
+      "action_id": "calm",
+      "prompt": "wide full-body front view, entire crown and both shoes inside frame, both hands visible, standing calmly, solo, lqxl Little Queen, on a cheerful village street, polished anime storybook illustration"
+    },
+    {
+      "seed": 98022,
+      "location_id": "village_street",
+      "action_id": "walking",
+      "prompt": "full-body three-quarter view, entire crown and both shoes inside frame, both hands visible, taking one graceful step, solo, lqxl Little Queen, on a cheerful village street, polished anime storybook illustration"
+    },
+    {
+      "seed": 98023,
+      "location_id": "village_street",
+      "action_id": "turning",
+      "prompt": "wide full-body motion view, entire crown and both shoes inside frame, both hands visible, turning as her hair and skirt flow, solo, lqxl Little Queen, on a cheerful village street, polished anime storybook illustration"
+    },
+    {
+      "seed": 98024,
+      "location_id": "village_street",
+      "action_id": "magic",
+      "prompt": "wide full-body action view, entire crown and both shoes inside frame, both hands visible, raising both hands as a bright magical aura begins, solo, lqxl Little Queen, on a cheerful village street, polished anime storybook illustration"
+    },
+    {
+      "seed": 98025,
+      "location_id": "crystal_lake",
+      "action_id": "calm",
+      "prompt": "wide full-body front view, entire crown and both shoes inside frame, both hands visible, standing calmly, solo, lqxl Little Queen, near a still crystal lake, polished anime storybook illustration"
+    },
+    {
+      "seed": 98026,
+      "location_id": "crystal_lake",
+      "action_id": "walking",
+      "prompt": "full-body three-quarter view, entire crown and both shoes inside frame, both hands visible, taking one graceful step, solo, lqxl Little Queen, near a still crystal lake, polished anime storybook illustration"
+    },
+    {
+      "seed": 98027,
+      "location_id": "crystal_lake",
+      "action_id": "turning",
+      "prompt": "wide full-body motion view, entire crown and both shoes inside frame, both hands visible, turning as her hair and skirt flow, solo, lqxl Little Queen, near a still crystal lake, polished anime storybook illustration"
+    },
+    {
+      "seed": 98028,
+      "location_id": "crystal_lake",
+      "action_id": "magic",
+      "prompt": "wide full-body action view, entire crown and both shoes inside frame, both hands visible, raising both hands as a bright magical aura begins, solo, lqxl Little Queen, near a still crystal lake, polished anime storybook illustration"
+    },
+    {
+      "seed": 98029,
+      "location_id": "castle_courtyard",
+      "action_id": "calm",
+      "prompt": "wide full-body front view, entire crown and both shoes inside frame, both hands visible, standing calmly, solo, lqxl Little Queen, in an open castle courtyard, polished anime storybook illustration"
+    },
+    {
+      "seed": 98030,
+      "location_id": "castle_courtyard",
+      "action_id": "walking",
+      "prompt": "full-body three-quarter view, entire crown and both shoes inside frame, both hands visible, taking one graceful step, solo, lqxl Little Queen, in an open castle courtyard, polished anime storybook illustration"
+    },
+    {
+      "seed": 98031,
+      "location_id": "castle_courtyard",
+      "action_id": "turning",
+      "prompt": "wide full-body motion view, entire crown and both shoes inside frame, both hands visible, turning as her hair and skirt flow, solo, lqxl Little Queen, in an open castle courtyard, polished anime storybook illustration"
+    },
+    {
+      "seed": 98032,
+      "location_id": "castle_courtyard",
+      "action_id": "magic",
+      "prompt": "wide full-body action view, entire crown and both shoes inside frame, both hands visible, raising both hands as a bright magical aura begins, solo, lqxl Little Queen, in an open castle courtyard, polished anime storybook illustration"
+    },
+    {
+      "seed": 98033,
+      "location_id": "evening_stars",
+      "action_id": "calm",
+      "prompt": "wide full-body front view, entire crown and both shoes inside frame, both hands visible, standing calmly, solo, lqxl Little Queen, under the evening stars, polished anime storybook illustration"
+    },
+    {
+      "seed": 98034,
+      "location_id": "evening_stars",
+      "action_id": "walking",
+      "prompt": "full-body three-quarter view, entire crown and both shoes inside frame, both hands visible, taking one graceful step, solo, lqxl Little Queen, under the evening stars, polished anime storybook illustration"
+    },
+    {
+      "seed": 98035,
+      "location_id": "evening_stars",
+      "action_id": "turning",
+      "prompt": "wide full-body motion view, entire crown and both shoes inside frame, both hands visible, turning as her hair and skirt flow, solo, lqxl Little Queen, under the evening stars, polished anime storybook illustration"
+    },
+    {
+      "seed": 98036,
+      "location_id": "evening_stars",
+      "action_id": "magic",
+      "prompt": "wide full-body action view, entire crown and both shoes inside frame, both hands visible, raising both hands as a bright magical aura begins, solo, lqxl Little Queen, under the evening stars, polished anime storybook illustration"
+    },
+    {
+      "seed": 98037,
+      "location_id": "autumn_forest",
+      "action_id": "calm",
+      "prompt": "wide full-body front view, entire crown and both shoes inside frame, both hands visible, standing calmly, solo, lqxl Little Queen, among autumn trees, polished anime storybook illustration"
+    },
+    {
+      "seed": 98038,
+      "location_id": "autumn_forest",
+      "action_id": "walking",
+      "prompt": "full-body three-quarter view, entire crown and both shoes inside frame, both hands visible, taking one graceful step, solo, lqxl Little Queen, among autumn trees, polished anime storybook illustration"
+    },
+    {
+      "seed": 98039,
+      "location_id": "autumn_forest",
+      "action_id": "turning",
+      "prompt": "wide full-body motion view, entire crown and both shoes inside frame, both hands visible, turning as her hair and skirt flow, solo, lqxl Little Queen, among autumn trees, polished anime storybook illustration"
+    },
+    {
+      "seed": 98040,
+      "location_id": "autumn_forest",
+      "action_id": "magic",
+      "prompt": "wide full-body action view, entire crown and both shoes inside frame, both hands visible, raising both hands as a bright magical aura begins, solo, lqxl Little Queen, among autumn trees, polished anime storybook illustration"
+    },
+    {
+      "seed": 98041,
+      "location_id": "greenhouse",
+      "action_id": "calm",
+      "prompt": "wide full-body front view, entire crown and both shoes inside frame, both hands visible, standing calmly, solo, lqxl Little Queen, inside a flowering greenhouse, polished anime storybook illustration"
+    },
+    {
+      "seed": 98042,
+      "location_id": "greenhouse",
+      "action_id": "walking",
+      "prompt": "full-body three-quarter view, entire crown and both shoes inside frame, both hands visible, taking one graceful step, solo, lqxl Little Queen, inside a flowering greenhouse, polished anime storybook illustration"
+    },
+    {
+      "seed": 98043,
+      "location_id": "greenhouse",
+      "action_id": "turning",
+      "prompt": "wide full-body motion view, entire crown and both shoes inside frame, both hands visible, turning as her hair and skirt flow, solo, lqxl Little Queen, inside a flowering greenhouse, polished anime storybook illustration"
+    },
+    {
+      "seed": 98044,
+      "location_id": "greenhouse",
+      "action_id": "magic",
+      "prompt": "wide full-body action view, entire crown and both shoes inside frame, both hands visible, raising both hands as a bright magical aura begins, solo, lqxl Little Queen, inside a flowering greenhouse, polished anime storybook illustration"
+    },
+    {
+      "seed": 98045,
+      "location_id": "sunset_balcony",
+      "action_id": "calm",
+      "prompt": "wide full-body front view, entire crown and both shoes inside frame, both hands visible, standing calmly, solo, lqxl Little Queen, on a balcony at sunset, polished anime storybook illustration"
+    },
+    {
+      "seed": 98046,
+      "location_id": "sunset_balcony",
+      "action_id": "walking",
+      "prompt": "full-body three-quarter view, entire crown and both shoes inside frame, both hands visible, taking one graceful step, solo, lqxl Little Queen, on a balcony at sunset, polished anime storybook illustration"
+    },
+    {
+      "seed": 98047,
+      "location_id": "sunset_balcony",
+      "action_id": "turning",
+      "prompt": "wide full-body motion view, entire crown and both shoes inside frame, both hands visible, turning as her hair and skirt flow, solo, lqxl Little Queen, on a balcony at sunset, polished anime storybook illustration"
+    },
+    {
+      "seed": 98048,
+      "location_id": "sunset_balcony",
+      "action_id": "magic",
+      "prompt": "wide full-body action view, entire crown and both shoes inside frame, both hands visible, raising both hands as a bright magical aura begins, solo, lqxl Little Queen, on a balcony at sunset, polished anime storybook illustration"
+    },
+    {
+      "seed": 98049,
+      "location_id": "snowy_courtyard",
+      "action_id": "calm",
+      "prompt": "wide full-body front view, entire crown and both shoes inside frame, both hands visible, standing calmly, solo, lqxl Little Queen, in a snowy castle courtyard, polished anime storybook illustration"
+    },
+    {
+      "seed": 98050,
+      "location_id": "snowy_courtyard",
+      "action_id": "walking",
+      "prompt": "full-body three-quarter view, entire crown and both shoes inside frame, both hands visible, taking one graceful step, solo, lqxl Little Queen, in a snowy castle courtyard, polished anime storybook illustration"
+    },
+    {
+      "seed": 98051,
+      "location_id": "snowy_courtyard",
+      "action_id": "turning",
+      "prompt": "wide full-body motion view, entire crown and both shoes inside frame, both hands visible, turning as her hair and skirt flow, solo, lqxl Little Queen, in a snowy castle courtyard, polished anime storybook illustration"
+    },
+    {
+      "seed": 98052,
+      "location_id": "snowy_courtyard",
+      "action_id": "magic",
+      "prompt": "wide full-body action view, entire crown and both shoes inside frame, both hands visible, raising both hands as a bright magical aura begins, solo, lqxl Little Queen, in a snowy castle courtyard, polished anime storybook illustration"
+    },
+    {
+      "seed": 98053,
+      "location_id": "lantern_festival",
+      "action_id": "calm",
+      "prompt": "wide full-body front view, entire crown and both shoes inside frame, both hands visible, standing calmly, solo, lqxl Little Queen, at a lantern festival, polished anime storybook illustration"
+    },
+    {
+      "seed": 98054,
+      "location_id": "lantern_festival",
+      "action_id": "walking",
+      "prompt": "full-body three-quarter view, entire crown and both shoes inside frame, both hands visible, taking one graceful step, solo, lqxl Little Queen, at a lantern festival, polished anime storybook illustration"
+    },
+    {
+      "seed": 98055,
+      "location_id": "lantern_festival",
+      "action_id": "turning",
+      "prompt": "wide full-body motion view, entire crown and both shoes inside frame, both hands visible, turning as her hair and skirt flow, solo, lqxl Little Queen, at a lantern festival, polished anime storybook illustration"
+    },
+    {
+      "seed": 98056,
+      "location_id": "lantern_festival",
+      "action_id": "magic",
+      "prompt": "wide full-body action view, entire crown and both shoes inside frame, both hands visible, raising both hands as a bright magical aura begins, solo, lqxl Little Queen, at a lantern festival, polished anime storybook illustration"
+    },
+    {
+      "seed": 98057,
+      "location_id": "crystal_cavern",
+      "action_id": "calm",
+      "prompt": "wide full-body front view, entire crown and both shoes inside frame, both hands visible, standing calmly, solo, lqxl Little Queen, inside a glowing crystal cavern, polished anime storybook illustration"
+    },
+    {
+      "seed": 98058,
+      "location_id": "crystal_cavern",
+      "action_id": "walking",
+      "prompt": "full-body three-quarter view, entire crown and both shoes inside frame, both hands visible, taking one graceful step, solo, lqxl Little Queen, inside a glowing crystal cavern, polished anime storybook illustration"
+    },
+    {
+      "seed": 98059,
+      "location_id": "crystal_cavern",
+      "action_id": "turning",
+      "prompt": "wide full-body motion view, entire crown and both shoes inside frame, both hands visible, turning as her hair and skirt flow, solo, lqxl Little Queen, inside a glowing crystal cavern, polished anime storybook illustration"
+    },
+    {
+      "seed": 98060,
+      "location_id": "crystal_cavern",
+      "action_id": "magic",
+      "prompt": "wide full-body action view, entire crown and both shoes inside frame, both hands visible, raising both hands as a bright magical aura begins, solo, lqxl Little Queen, inside a glowing crystal cavern, polished anime storybook illustration"
+    },
+    {
+      "seed": 98061,
+      "location_id": "storybook_library",
+      "action_id": "calm",
+      "prompt": "wide full-body front view, entire crown and both shoes inside frame, both hands visible, standing calmly, solo, lqxl Little Queen, inside a grand storybook library, polished anime storybook illustration"
+    },
+    {
+      "seed": 98062,
+      "location_id": "storybook_library",
+      "action_id": "walking",
+      "prompt": "full-body three-quarter view, entire crown and both shoes inside frame, both hands visible, taking one graceful step, solo, lqxl Little Queen, inside a grand storybook library, polished anime storybook illustration"
+    },
+    {
+      "seed": 98063,
+      "location_id": "storybook_library",
+      "action_id": "turning",
+      "prompt": "wide full-body motion view, entire crown and both shoes inside frame, both hands visible, turning as her hair and skirt flow, solo, lqxl Little Queen, inside a grand storybook library, polished anime storybook illustration"
+    },
+    {
+      "seed": 98064,
+      "location_id": "storybook_library",
+      "action_id": "magic",
+      "prompt": "wide full-body action view, entire crown and both shoes inside frame, both hands visible, raising both hands as a bright magical aura begins, solo, lqxl Little Queen, inside a grand storybook library, polished anime storybook illustration"
+    },
+    {
+      "seed": 98065,
+      "location_id": "seaside_path",
+      "action_id": "calm",
+      "prompt": "wide full-body front view, entire crown and both shoes inside frame, both hands visible, standing calmly, solo, lqxl Little Queen, on a bright seaside path, polished anime storybook illustration"
+    },
+    {
+      "seed": 98066,
+      "location_id": "seaside_path",
+      "action_id": "walking",
+      "prompt": "full-body three-quarter view, entire crown and both shoes inside frame, both hands visible, taking one graceful step, solo, lqxl Little Queen, on a bright seaside path, polished anime storybook illustration"
+    },
+    {
+      "seed": 98067,
+      "location_id": "seaside_path",
+      "action_id": "turning",
+      "prompt": "wide full-body motion view, entire crown and both shoes inside frame, both hands visible, turning as her hair and skirt flow, solo, lqxl Little Queen, on a bright seaside path, polished anime storybook illustration"
+    },
+    {
+      "seed": 98068,
+      "location_id": "seaside_path",
+      "action_id": "magic",
+      "prompt": "wide full-body action view, entire crown and both shoes inside frame, both hands visible, raising both hands as a bright magical aura begins, solo, lqxl Little Queen, on a bright seaside path, polished anime storybook illustration"
+    },
+    {
+      "seed": 98069,
+      "location_id": "waterfall",
+      "action_id": "calm",
+      "prompt": "wide full-body front view, entire crown and both shoes inside frame, both hands visible, standing calmly, solo, lqxl Little Queen, near a gentle waterfall, polished anime storybook illustration"
+    },
+    {
+      "seed": 98070,
+      "location_id": "waterfall",
+      "action_id": "walking",
+      "prompt": "full-body three-quarter view, entire crown and both shoes inside frame, both hands visible, taking one graceful step, solo, lqxl Little Queen, near a gentle waterfall, polished anime storybook illustration"
+    },
+    {
+      "seed": 98071,
+      "location_id": "waterfall",
+      "action_id": "turning",
+      "prompt": "wide full-body motion view, entire crown and both shoes inside frame, both hands visible, turning as her hair and skirt flow, solo, lqxl Little Queen, near a gentle waterfall, polished anime storybook illustration"
+    },
+    {
+      "seed": 98072,
+      "location_id": "waterfall",
+      "action_id": "magic",
+      "prompt": "wide full-body action view, entire crown and both shoes inside frame, both hands visible, raising both hands as a bright magical aura begins, solo, lqxl Little Queen, near a gentle waterfall, polished anime storybook illustration"
+    },
+    {
+      "seed": 98073,
+      "location_id": "wildflower_meadow",
+      "action_id": "calm",
+      "prompt": "wide full-body front view, entire crown and both shoes inside frame, both hands visible, standing calmly, solo, lqxl Little Queen, in a wildflower meadow, polished anime storybook illustration"
+    },
+    {
+      "seed": 98074,
+      "location_id": "wildflower_meadow",
+      "action_id": "walking",
+      "prompt": "full-body three-quarter view, entire crown and both shoes inside frame, both hands visible, taking one graceful step, solo, lqxl Little Queen, in a wildflower meadow, polished anime storybook illustration"
+    },
+    {
+      "seed": 98075,
+      "location_id": "wildflower_meadow",
+      "action_id": "turning",
+      "prompt": "wide full-body motion view, entire crown and both shoes inside frame, both hands visible, turning as her hair and skirt flow, solo, lqxl Little Queen, in a wildflower meadow, polished anime storybook illustration"
+    },
+    {
+      "seed": 98076,
+      "location_id": "wildflower_meadow",
+      "action_id": "magic",
+      "prompt": "wide full-body action view, entire crown and both shoes inside frame, both hands visible, raising both hands as a bright magical aura begins, solo, lqxl Little Queen, in a wildflower meadow, polished anime storybook illustration"
+    },
+    {
+      "seed": 98077,
+      "location_id": "moonlit_bridge",
+      "action_id": "calm",
+      "prompt": "wide full-body front view, entire crown and both shoes inside frame, both hands visible, standing calmly, solo, lqxl Little Queen, on a moonlit stone bridge, polished anime storybook illustration"
+    },
+    {
+      "seed": 98078,
+      "location_id": "moonlit_bridge",
+      "action_id": "walking",
+      "prompt": "full-body three-quarter view, entire crown and both shoes inside frame, both hands visible, taking one graceful step, solo, lqxl Little Queen, on a moonlit stone bridge, polished anime storybook illustration"
+    },
+    {
+      "seed": 98079,
+      "location_id": "moonlit_bridge",
+      "action_id": "turning",
+      "prompt": "wide full-body motion view, entire crown and both shoes inside frame, both hands visible, turning as her hair and skirt flow, solo, lqxl Little Queen, on a moonlit stone bridge, polished anime storybook illustration"
+    },
+    {
+      "seed": 98080,
+      "location_id": "moonlit_bridge",
+      "action_id": "magic",
+      "prompt": "wide full-body action view, entire crown and both shoes inside frame, both hands visible, raising both hands as a bright magical aura begins, solo, lqxl Little Queen, on a moonlit stone bridge, polished anime storybook illustration"
+    },
+    {
+      "seed": 98081,
+      "location_id": "garden_steps",
+      "action_id": "calm",
+      "prompt": "wide full-body front view, entire crown and both shoes inside frame, both hands visible, standing calmly, solo, lqxl Little Queen, on ancient garden steps, polished anime storybook illustration"
+    },
+    {
+      "seed": 98082,
+      "location_id": "garden_steps",
+      "action_id": "walking",
+      "prompt": "full-body three-quarter view, entire crown and both shoes inside frame, both hands visible, taking one graceful step, solo, lqxl Little Queen, on ancient garden steps, polished anime storybook illustration"
+    },
+    {
+      "seed": 98083,
+      "location_id": "garden_steps",
+      "action_id": "turning",
+      "prompt": "wide full-body motion view, entire crown and both shoes inside frame, both hands visible, turning as her hair and skirt flow, solo, lqxl Little Queen, on ancient garden steps, polished anime storybook illustration"
+    },
+    {
+      "seed": 98084,
+      "location_id": "garden_steps",
+      "action_id": "magic",
+      "prompt": "wide full-body action view, entire crown and both shoes inside frame, both hands visible, raising both hands as a bright magical aura begins, solo, lqxl Little Queen, on ancient garden steps, polished anime storybook illustration"
+    },
+    {
+      "seed": 98085,
+      "location_id": "village_market",
+      "action_id": "calm",
+      "prompt": "wide full-body front view, entire crown and both shoes inside frame, both hands visible, standing calmly, solo, lqxl Little Queen, in a colorful village market, polished anime storybook illustration"
+    },
+    {
+      "seed": 98086,
+      "location_id": "village_market",
+      "action_id": "walking",
+      "prompt": "full-body three-quarter view, entire crown and both shoes inside frame, both hands visible, taking one graceful step, solo, lqxl Little Queen, in a colorful village market, polished anime storybook illustration"
+    },
+    {
+      "seed": 98087,
+      "location_id": "village_market",
+      "action_id": "turning",
+      "prompt": "wide full-body motion view, entire crown and both shoes inside frame, both hands visible, turning as her hair and skirt flow, solo, lqxl Little Queen, in a colorful village market, polished anime storybook illustration"
+    },
+    {
+      "seed": 98088,
+      "location_id": "village_market",
+      "action_id": "magic",
+      "prompt": "wide full-body action view, entire crown and both shoes inside frame, both hands visible, raising both hands as a bright magical aura begins, solo, lqxl Little Queen, in a colorful village market, polished anime storybook illustration"
+    },
+    {
+      "seed": 98089,
+      "location_id": "windy_cliff",
+      "action_id": "calm",
+      "prompt": "wide full-body front view, entire crown and both shoes inside frame, both hands visible, standing calmly, solo, lqxl Little Queen, on a windy cliff above the sea, polished anime storybook illustration"
+    },
+    {
+      "seed": 98090,
+      "location_id": "windy_cliff",
+      "action_id": "walking",
+      "prompt": "full-body three-quarter view, entire crown and both shoes inside frame, both hands visible, taking one graceful step, solo, lqxl Little Queen, on a windy cliff above the sea, polished anime storybook illustration"
+    },
+    {
+      "seed": 98091,
+      "location_id": "windy_cliff",
+      "action_id": "turning",
+      "prompt": "wide full-body motion view, entire crown and both shoes inside frame, both hands visible, turning as her hair and skirt flow, solo, lqxl Little Queen, on a windy cliff above the sea, polished anime storybook illustration"
+    },
+    {
+      "seed": 98092,
+      "location_id": "windy_cliff",
+      "action_id": "magic",
+      "prompt": "wide full-body action view, entire crown and both shoes inside frame, both hands visible, raising both hands as a bright magical aura begins, solo, lqxl Little Queen, on a windy cliff above the sea, polished anime storybook illustration"
+    },
+    {
+      "seed": 98093,
+      "location_id": "dragon_sanctuary",
+      "action_id": "calm",
+      "prompt": "wide full-body front view, entire crown and both shoes inside frame, both hands visible, standing calmly, solo, lqxl Little Queen, in a friendly dragon sanctuary, polished anime storybook illustration"
+    },
+    {
+      "seed": 98094,
+      "location_id": "dragon_sanctuary",
+      "action_id": "walking",
+      "prompt": "full-body three-quarter view, entire crown and both shoes inside frame, both hands visible, taking one graceful step, solo, lqxl Little Queen, in a friendly dragon sanctuary, polished anime storybook illustration"
+    },
+    {
+      "seed": 98095,
+      "location_id": "dragon_sanctuary",
+      "action_id": "turning",
+      "prompt": "wide full-body motion view, entire crown and both shoes inside frame, both hands visible, turning as her hair and skirt flow, solo, lqxl Little Queen, in a friendly dragon sanctuary, polished anime storybook illustration"
+    },
+    {
+      "seed": 98096,
+      "location_id": "dragon_sanctuary",
+      "action_id": "magic",
+      "prompt": "wide full-body action view, entire crown and both shoes inside frame, both hands visible, raising both hands as a bright magical aura begins, solo, lqxl Little Queen, in a friendly dragon sanctuary, polished anime storybook illustration"
+    },
+    {
+      "seed": 98097,
+      "location_id": "flower_maze",
+      "action_id": "calm",
+      "prompt": "wide full-body front view, entire crown and both shoes inside frame, both hands visible, standing calmly, solo, lqxl Little Queen, inside a tall flower maze, polished anime storybook illustration"
+    },
+    {
+      "seed": 98098,
+      "location_id": "flower_maze",
+      "action_id": "walking",
+      "prompt": "full-body three-quarter view, entire crown and both shoes inside frame, both hands visible, taking one graceful step, solo, lqxl Little Queen, inside a tall flower maze, polished anime storybook illustration"
+    },
+    {
+      "seed": 98099,
+      "location_id": "flower_maze",
+      "action_id": "turning",
+      "prompt": "wide full-body motion view, entire crown and both shoes inside frame, both hands visible, turning as her hair and skirt flow, solo, lqxl Little Queen, inside a tall flower maze, polished anime storybook illustration"
+    },
+    {
+      "seed": 98100,
+      "location_id": "flower_maze",
+      "action_id": "magic",
+      "prompt": "wide full-body action view, entire crown and both shoes inside frame, both hands visible, raising both hands as a bright magical aura begins, solo, lqxl Little Queen, inside a tall flower maze, polished anime storybook illustration"
+    }
+  ]
+}

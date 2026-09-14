@@ -1,0 +1,9 @@
+{
+  "description": "Matched-seed outfit LoRA alone versus stacked diagnostic",
+  "prompts": [
+    {
+      "seed": 100001,
+      "prompt": "wide full-body front view, entire head and both shoes inside frame, both hands visible, standing calmly, solo, lqmoonfit, lqxl Little Queen, in a quiet palace courtyard at sunset, polished anime storybook illustration"
+    }
+  ]
+}

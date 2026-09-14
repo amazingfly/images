@@ -1,0 +1,1239 @@
+{
+  "description": "Little Queen Moonstar outfit and variable equipment dataset",
+  "training_intent": "Bind the invariant dress and crown to a future outfit trigger while captioning equipment, pose, and scene as variables. Train signature equipment separately if exact item interchangeability is required.",
+  "image_count": 100,
+  "first_seed": 99001,
+  "scene_counts": {
+    "rose_courtyard": 10,
+    "throne_hall": 10,
+    "flower_greenhouse": 10,
+    "moonlit_balcony": 10,
+    "crystal_lake": 10,
+    "autumn_forest": 10,
+    "star_observatory": 10,
+    "lantern_festival": 10,
+    "ancient_ruins": 10,
+    "snow_garden": 10
+  },
+  "pose_counts": {
+    "formal_front": 10,
+    "walking_three_quarter": 10,
+    "gentle_curtsy": 10,
+    "seated_step": 10,
+    "profile_lookback": 10,
+    "inviting_reach": 10,
+    "guarded_action": 10,
+    "magic_overhead": 10,
+    "kneeling_vow": 10,
+    "spinning_motion": 10
+  },
+  "equipment_counts": {
+    "moonstar_wand": 20,
+    "royal_scepter": 20,
+    "starlight_staff": 20,
+    "ceremonial_spellblade": 20,
+    "crescent_glaive": 20
+  },
+  "prompts": [
+    {
+      "seed": 99001,
+      "scene_id": "rose_courtyard",
+      "pose_id": "formal_front",
+      "equipment_id": "moonstar_wand",
+      "prompt_sections": {
+        "subject_outfit_crown": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree",
+        "equipment": "holding one slender gold Moonstar wand: filigree grip, rose crystal, crescent cradle, star tip, moonstone chains",
+        "pose_scene_style": "full body, crown and shoes framed, clear face and arms, front-facing presentation, item upright, free hand open, in a sunlit palace rose courtyard, polished anime storybook art, crisp regalia, luminous color"
+      },
+      "prompt": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree, holding one slender gold Moonstar wand: filigree grip, rose crystal, crescent cradle, star tip, moonstone chains, full body, crown and shoes framed, clear face and arms, front-facing presentation, item upright, free hand open, in a sunlit palace rose courtyard, polished anime storybook art, crisp regalia, luminous color"
+    },
+    {
+      "seed": 99002,
+      "scene_id": "rose_courtyard",
+      "pose_id": "walking_three_quarter",
+      "equipment_id": "royal_scepter",
+      "prompt_sections": {
+        "subject_outfit_crown": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree",
+        "equipment": "holding one gold royal scepter: filigree shaft, rose-moonstone orb, crescent wings, star finial, ivy engraving",
+        "pose_scene_style": "full body, crown and shoes framed, clear face and arms, graceful step in three-quarter view, item lowered, in a sunlit palace rose courtyard, polished anime storybook art, crisp regalia, luminous color"
+      },
+      "prompt": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree, holding one gold royal scepter: filigree shaft, rose-moonstone orb, crescent wings, star finial, ivy engraving, full body, crown and shoes framed, clear face and arms, graceful step in three-quarter view, item lowered, in a sunlit palace rose courtyard, polished anime storybook art, crisp regalia, luminous color"
+    },
+    {
+      "seed": 99003,
+      "scene_id": "rose_courtyard",
+      "pose_id": "gentle_curtsy",
+      "equipment_id": "starlight_staff",
+      "prompt_sections": {
+        "subject_outfit_crown": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree",
+        "equipment": "holding one gold starlight staff: engraved shaft, crescent head, suspended rose crystal, star-map inlays, ribbon tassel",
+        "pose_scene_style": "full body, crown and shoes framed, clear face and arms, three-quarter curtsy, item angled across her, free hand lifting skirt, in a sunlit palace rose courtyard, polished anime storybook art, crisp regalia, luminous color"
+      },
+      "prompt": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree, holding one gold starlight staff: engraved shaft, crescent head, suspended rose crystal, star-map inlays, ribbon tassel, full body, crown and shoes framed, clear face and arms, three-quarter curtsy, item angled across her, free hand lifting skirt, in a sunlit palace rose courtyard, polished anime storybook art, crisp regalia, luminous color"
+    },
+    {
+      "seed": 99004,
+      "scene_id": "rose_courtyard",
+      "pose_id": "seated_step",
+      "equipment_id": "ceremonial_spellblade",
+      "prompt_sections": {
+        "subject_outfit_crown": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree",
+        "equipment": "holding one ceremonial spellblade: short ivory-gold blade, crescent guard, rose-gem pommel, etched stars and moon phases",
+        "pose_scene_style": "full body, crown and shoes framed, clear face and arms, seated upright, item across her lap, free hand relaxed, in a sunlit palace rose courtyard, polished anime storybook art, crisp regalia, luminous color"
+      },
+      "prompt": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree, holding one ceremonial spellblade: short ivory-gold blade, crescent guard, rose-gem pommel, etched stars and moon phases, full body, crown and shoes framed, clear face and arms, seated upright, item across her lap, free hand relaxed, in a sunlit palace rose courtyard, polished anime storybook art, crisp regalia, luminous color"
+    },
+    {
+      "seed": 99005,
+      "scene_id": "rose_courtyard",
+      "pose_id": "profile_lookback",
+      "equipment_id": "crescent_glaive",
+      "prompt_sections": {
+        "subject_outfit_crown": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree",
+        "equipment": "holding one crescent glaive: slender gold-ivory shaft, single curved blade, rose-crystal socket, constellation engraving",
+        "pose_scene_style": "full body, crown and shoes framed, clear face and arms, side profile looking back, item lowered, hair moving, in a sunlit palace rose courtyard, polished anime storybook art, crisp regalia, luminous color"
+      },
+      "prompt": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree, holding one crescent glaive: slender gold-ivory shaft, single curved blade, rose-crystal socket, constellation engraving, full body, crown and shoes framed, clear face and arms, side profile looking back, item lowered, hair moving, in a sunlit palace rose courtyard, polished anime storybook art, crisp regalia, luminous color"
+    },
+    {
+      "seed": 99006,
+      "scene_id": "rose_courtyard",
+      "pose_id": "inviting_reach",
+      "equipment_id": "moonstar_wand",
+      "prompt_sections": {
+        "subject_outfit_crown": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree",
+        "equipment": "holding one slender gold Moonstar wand: filigree grip, rose crystal, crescent cradle, star tip, moonstone chains",
+        "pose_scene_style": "full body, crown and shoes framed, clear face and arms, free hand reaching forward, item raised by shoulder, in a sunlit palace rose courtyard, polished anime storybook art, crisp regalia, luminous color"
+      },
+      "prompt": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree, holding one slender gold Moonstar wand: filigree grip, rose crystal, crescent cradle, star tip, moonstone chains, full body, crown and shoes framed, clear face and arms, free hand reaching forward, item raised by shoulder, in a sunlit palace rose courtyard, polished anime storybook art, crisp regalia, luminous color"
+    },
+    {
+      "seed": 99007,
+      "scene_id": "rose_courtyard",
+      "pose_id": "guarded_action",
+      "equipment_id": "royal_scepter",
+      "prompt_sections": {
+        "subject_outfit_crown": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree",
+        "equipment": "holding one gold royal scepter: filigree shaft, rose-moonstone orb, crescent wings, star finial, ivy engraving",
+        "pose_scene_style": "full body, crown and shoes framed, clear face and arms, grounded action stance, item forward, determined expression, in a sunlit palace rose courtyard, polished anime storybook art, crisp regalia, luminous color"
+      },
+      "prompt": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree, holding one gold royal scepter: filigree shaft, rose-moonstone orb, crescent wings, star finial, ivy engraving, full body, crown and shoes framed, clear face and arms, grounded action stance, item forward, determined expression, in a sunlit palace rose courtyard, polished anime storybook art, crisp regalia, luminous color"
+    },
+    {
+      "seed": 99008,
+      "scene_id": "rose_courtyard",
+      "pose_id": "magic_overhead",
+      "equipment_id": "starlight_staff",
+      "prompt_sections": {
+        "subject_outfit_crown": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree",
+        "equipment": "holding one gold starlight staff: engraved shaft, crescent head, suspended rose crystal, star-map inlays, ribbon tassel",
+        "pose_scene_style": "full body, crown and shoes framed, clear face and arms, item overhead inside one starlight ring, feet apart, in a sunlit palace rose courtyard, polished anime storybook art, crisp regalia, luminous color"
+      },
+      "prompt": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree, holding one gold starlight staff: engraved shaft, crescent head, suspended rose crystal, star-map inlays, ribbon tassel, full body, crown and shoes framed, clear face and arms, item overhead inside one starlight ring, feet apart, in a sunlit palace rose courtyard, polished anime storybook art, crisp regalia, luminous color"
+    },
+    {
+      "seed": 99009,
+      "scene_id": "rose_courtyard",
+      "pose_id": "kneeling_vow",
+      "equipment_id": "ceremonial_spellblade",
+      "prompt_sections": {
+        "subject_outfit_crown": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree",
+        "equipment": "holding one ceremonial spellblade: short ivory-gold blade, crescent guard, rose-gem pommel, etched stars and moon phases",
+        "pose_scene_style": "full body, crown and shoes framed, clear face and arms, kneeling on one knee, item upright, hand over heart, in a sunlit palace rose courtyard, polished anime storybook art, crisp regalia, luminous color"
+      },
+      "prompt": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree, holding one ceremonial spellblade: short ivory-gold blade, crescent guard, rose-gem pommel, etched stars and moon phases, full body, crown and shoes framed, clear face and arms, kneeling on one knee, item upright, hand over heart, in a sunlit palace rose courtyard, polished anime storybook art, crisp regalia, luminous color"
+    },
+    {
+      "seed": 99010,
+      "scene_id": "rose_courtyard",
+      "pose_id": "spinning_motion",
+      "equipment_id": "crescent_glaive",
+      "prompt_sections": {
+        "subject_outfit_crown": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree",
+        "equipment": "holding one crescent glaive: slender gold-ivory shaft, single curved blade, rose-crystal socket, constellation engraving",
+        "pose_scene_style": "full body, crown and shoes framed, clear face and arms, mid-turn, skirt and hair flowing, item swept aside, in a sunlit palace rose courtyard, polished anime storybook art, crisp regalia, luminous color"
+      },
+      "prompt": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree, holding one crescent glaive: slender gold-ivory shaft, single curved blade, rose-crystal socket, constellation engraving, full body, crown and shoes framed, clear face and arms, mid-turn, skirt and hair flowing, item swept aside, in a sunlit palace rose courtyard, polished anime storybook art, crisp regalia, luminous color"
+    },
+    {
+      "seed": 99011,
+      "scene_id": "throne_hall",
+      "pose_id": "formal_front",
+      "equipment_id": "royal_scepter",
+      "prompt_sections": {
+        "subject_outfit_crown": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree",
+        "equipment": "holding one gold royal scepter: filigree shaft, rose-moonstone orb, crescent wings, star finial, ivy engraving",
+        "pose_scene_style": "full body, crown and shoes framed, clear face and arms, front-facing presentation, item upright, free hand open, inside a luminous marble throne hall, polished anime storybook art, crisp regalia, luminous color"
+      },
+      "prompt": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree, holding one gold royal scepter: filigree shaft, rose-moonstone orb, crescent wings, star finial, ivy engraving, full body, crown and shoes framed, clear face and arms, front-facing presentation, item upright, free hand open, inside a luminous marble throne hall, polished anime storybook art, crisp regalia, luminous color"
+    },
+    {
+      "seed": 99012,
+      "scene_id": "throne_hall",
+      "pose_id": "walking_three_quarter",
+      "equipment_id": "starlight_staff",
+      "prompt_sections": {
+        "subject_outfit_crown": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree",
+        "equipment": "holding one gold starlight staff: engraved shaft, crescent head, suspended rose crystal, star-map inlays, ribbon tassel",
+        "pose_scene_style": "full body, crown and shoes framed, clear face and arms, graceful step in three-quarter view, item lowered, inside a luminous marble throne hall, polished anime storybook art, crisp regalia, luminous color"
+      },
+      "prompt": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree, holding one gold starlight staff: engraved shaft, crescent head, suspended rose crystal, star-map inlays, ribbon tassel, full body, crown and shoes framed, clear face and arms, graceful step in three-quarter view, item lowered, inside a luminous marble throne hall, polished anime storybook art, crisp regalia, luminous color"
+    },
+    {
+      "seed": 99013,
+      "scene_id": "throne_hall",
+      "pose_id": "gentle_curtsy",
+      "equipment_id": "ceremonial_spellblade",
+      "prompt_sections": {
+        "subject_outfit_crown": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree",
+        "equipment": "holding one ceremonial spellblade: short ivory-gold blade, crescent guard, rose-gem pommel, etched stars and moon phases",
+        "pose_scene_style": "full body, crown and shoes framed, clear face and arms, three-quarter curtsy, item angled across her, free hand lifting skirt, inside a luminous marble throne hall, polished anime storybook art, crisp regalia, luminous color"
+      },
+      "prompt": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree, holding one ceremonial spellblade: short ivory-gold blade, crescent guard, rose-gem pommel, etched stars and moon phases, full body, crown and shoes framed, clear face and arms, three-quarter curtsy, item angled across her, free hand lifting skirt, inside a luminous marble throne hall, polished anime storybook art, crisp regalia, luminous color"
+    },
+    {
+      "seed": 99014,
+      "scene_id": "throne_hall",
+      "pose_id": "seated_step",
+      "equipment_id": "crescent_glaive",
+      "prompt_sections": {
+        "subject_outfit_crown": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree",
+        "equipment": "holding one crescent glaive: slender gold-ivory shaft, single curved blade, rose-crystal socket, constellation engraving",
+        "pose_scene_style": "full body, crown and shoes framed, clear face and arms, seated upright, item across her lap, free hand relaxed, inside a luminous marble throne hall, polished anime storybook art, crisp regalia, luminous color"
+      },
+      "prompt": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree, holding one crescent glaive: slender gold-ivory shaft, single curved blade, rose-crystal socket, constellation engraving, full body, crown and shoes framed, clear face and arms, seated upright, item across her lap, free hand relaxed, inside a luminous marble throne hall, polished anime storybook art, crisp regalia, luminous color"
+    },
+    {
+      "seed": 99015,
+      "scene_id": "throne_hall",
+      "pose_id": "profile_lookback",
+      "equipment_id": "moonstar_wand",
+      "prompt_sections": {
+        "subject_outfit_crown": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree",
+        "equipment": "holding one slender gold Moonstar wand: filigree grip, rose crystal, crescent cradle, star tip, moonstone chains",
+        "pose_scene_style": "full body, crown and shoes framed, clear face and arms, side profile looking back, item lowered, hair moving, inside a luminous marble throne hall, polished anime storybook art, crisp regalia, luminous color"
+      },
+      "prompt": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree, holding one slender gold Moonstar wand: filigree grip, rose crystal, crescent cradle, star tip, moonstone chains, full body, crown and shoes framed, clear face and arms, side profile looking back, item lowered, hair moving, inside a luminous marble throne hall, polished anime storybook art, crisp regalia, luminous color"
+    },
+    {
+      "seed": 99016,
+      "scene_id": "throne_hall",
+      "pose_id": "inviting_reach",
+      "equipment_id": "royal_scepter",
+      "prompt_sections": {
+        "subject_outfit_crown": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree",
+        "equipment": "holding one gold royal scepter: filigree shaft, rose-moonstone orb, crescent wings, star finial, ivy engraving",
+        "pose_scene_style": "full body, crown and shoes framed, clear face and arms, free hand reaching forward, item raised by shoulder, inside a luminous marble throne hall, polished anime storybook art, crisp regalia, luminous color"
+      },
+      "prompt": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree, holding one gold royal scepter: filigree shaft, rose-moonstone orb, crescent wings, star finial, ivy engraving, full body, crown and shoes framed, clear face and arms, free hand reaching forward, item raised by shoulder, inside a luminous marble throne hall, polished anime storybook art, crisp regalia, luminous color"
+    },
+    {
+      "seed": 99017,
+      "scene_id": "throne_hall",
+      "pose_id": "guarded_action",
+      "equipment_id": "starlight_staff",
+      "prompt_sections": {
+        "subject_outfit_crown": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree",
+        "equipment": "holding one gold starlight staff: engraved shaft, crescent head, suspended rose crystal, star-map inlays, ribbon tassel",
+        "pose_scene_style": "full body, crown and shoes framed, clear face and arms, grounded action stance, item forward, determined expression, inside a luminous marble throne hall, polished anime storybook art, crisp regalia, luminous color"
+      },
+      "prompt": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree, holding one gold starlight staff: engraved shaft, crescent head, suspended rose crystal, star-map inlays, ribbon tassel, full body, crown and shoes framed, clear face and arms, grounded action stance, item forward, determined expression, inside a luminous marble throne hall, polished anime storybook art, crisp regalia, luminous color"
+    },
+    {
+      "seed": 99018,
+      "scene_id": "throne_hall",
+      "pose_id": "magic_overhead",
+      "equipment_id": "ceremonial_spellblade",
+      "prompt_sections": {
+        "subject_outfit_crown": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree",
+        "equipment": "holding one ceremonial spellblade: short ivory-gold blade, crescent guard, rose-gem pommel, etched stars and moon phases",
+        "pose_scene_style": "full body, crown and shoes framed, clear face and arms, item overhead inside one starlight ring, feet apart, inside a luminous marble throne hall, polished anime storybook art, crisp regalia, luminous color"
+      },
+      "prompt": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree, holding one ceremonial spellblade: short ivory-gold blade, crescent guard, rose-gem pommel, etched stars and moon phases, full body, crown and shoes framed, clear face and arms, item overhead inside one starlight ring, feet apart, inside a luminous marble throne hall, polished anime storybook art, crisp regalia, luminous color"
+    },
+    {
+      "seed": 99019,
+      "scene_id": "throne_hall",
+      "pose_id": "kneeling_vow",
+      "equipment_id": "crescent_glaive",
+      "prompt_sections": {
+        "subject_outfit_crown": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree",
+        "equipment": "holding one crescent glaive: slender gold-ivory shaft, single curved blade, rose-crystal socket, constellation engraving",
+        "pose_scene_style": "full body, crown and shoes framed, clear face and arms, kneeling on one knee, item upright, hand over heart, inside a luminous marble throne hall, polished anime storybook art, crisp regalia, luminous color"
+      },
+      "prompt": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree, holding one crescent glaive: slender gold-ivory shaft, single curved blade, rose-crystal socket, constellation engraving, full body, crown and shoes framed, clear face and arms, kneeling on one knee, item upright, hand over heart, inside a luminous marble throne hall, polished anime storybook art, crisp regalia, luminous color"
+    },
+    {
+      "seed": 99020,
+      "scene_id": "throne_hall",
+      "pose_id": "spinning_motion",
+      "equipment_id": "moonstar_wand",
+      "prompt_sections": {
+        "subject_outfit_crown": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree",
+        "equipment": "holding one slender gold Moonstar wand: filigree grip, rose crystal, crescent cradle, star tip, moonstone chains",
+        "pose_scene_style": "full body, crown and shoes framed, clear face and arms, mid-turn, skirt and hair flowing, item swept aside, inside a luminous marble throne hall, polished anime storybook art, crisp regalia, luminous color"
+      },
+      "prompt": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree, holding one slender gold Moonstar wand: filigree grip, rose crystal, crescent cradle, star tip, moonstone chains, full body, crown and shoes framed, clear face and arms, mid-turn, skirt and hair flowing, item swept aside, inside a luminous marble throne hall, polished anime storybook art, crisp regalia, luminous color"
+    },
+    {
+      "seed": 99021,
+      "scene_id": "flower_greenhouse",
+      "pose_id": "formal_front",
+      "equipment_id": "starlight_staff",
+      "prompt_sections": {
+        "subject_outfit_crown": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree",
+        "equipment": "holding one gold starlight staff: engraved shaft, crescent head, suspended rose crystal, star-map inlays, ribbon tassel",
+        "pose_scene_style": "full body, crown and shoes framed, clear face and arms, front-facing presentation, item upright, free hand open, inside a flowering castle greenhouse, polished anime storybook art, crisp regalia, luminous color"
+      },
+      "prompt": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree, holding one gold starlight staff: engraved shaft, crescent head, suspended rose crystal, star-map inlays, ribbon tassel, full body, crown and shoes framed, clear face and arms, front-facing presentation, item upright, free hand open, inside a flowering castle greenhouse, polished anime storybook art, crisp regalia, luminous color"
+    },
+    {
+      "seed": 99022,
+      "scene_id": "flower_greenhouse",
+      "pose_id": "walking_three_quarter",
+      "equipment_id": "ceremonial_spellblade",
+      "prompt_sections": {
+        "subject_outfit_crown": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree",
+        "equipment": "holding one ceremonial spellblade: short ivory-gold blade, crescent guard, rose-gem pommel, etched stars and moon phases",
+        "pose_scene_style": "full body, crown and shoes framed, clear face and arms, graceful step in three-quarter view, item lowered, inside a flowering castle greenhouse, polished anime storybook art, crisp regalia, luminous color"
+      },
+      "prompt": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree, holding one ceremonial spellblade: short ivory-gold blade, crescent guard, rose-gem pommel, etched stars and moon phases, full body, crown and shoes framed, clear face and arms, graceful step in three-quarter view, item lowered, inside a flowering castle greenhouse, polished anime storybook art, crisp regalia, luminous color"
+    },
+    {
+      "seed": 99023,
+      "scene_id": "flower_greenhouse",
+      "pose_id": "gentle_curtsy",
+      "equipment_id": "crescent_glaive",
+      "prompt_sections": {
+        "subject_outfit_crown": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree",
+        "equipment": "holding one crescent glaive: slender gold-ivory shaft, single curved blade, rose-crystal socket, constellation engraving",
+        "pose_scene_style": "full body, crown and shoes framed, clear face and arms, three-quarter curtsy, item angled across her, free hand lifting skirt, inside a flowering castle greenhouse, polished anime storybook art, crisp regalia, luminous color"
+      },
+      "prompt": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree, holding one crescent glaive: slender gold-ivory shaft, single curved blade, rose-crystal socket, constellation engraving, full body, crown and shoes framed, clear face and arms, three-quarter curtsy, item angled across her, free hand lifting skirt, inside a flowering castle greenhouse, polished anime storybook art, crisp regalia, luminous color"
+    },
+    {
+      "seed": 99024,
+      "scene_id": "flower_greenhouse",
+      "pose_id": "seated_step",
+      "equipment_id": "moonstar_wand",
+      "prompt_sections": {
+        "subject_outfit_crown": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree",
+        "equipment": "holding one slender gold Moonstar wand: filigree grip, rose crystal, crescent cradle, star tip, moonstone chains",
+        "pose_scene_style": "full body, crown and shoes framed, clear face and arms, seated upright, item across her lap, free hand relaxed, inside a flowering castle greenhouse, polished anime storybook art, crisp regalia, luminous color"
+      },
+      "prompt": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree, holding one slender gold Moonstar wand: filigree grip, rose crystal, crescent cradle, star tip, moonstone chains, full body, crown and shoes framed, clear face and arms, seated upright, item across her lap, free hand relaxed, inside a flowering castle greenhouse, polished anime storybook art, crisp regalia, luminous color"
+    },
+    {
+      "seed": 99025,
+      "scene_id": "flower_greenhouse",
+      "pose_id": "profile_lookback",
+      "equipment_id": "royal_scepter",
+      "prompt_sections": {
+        "subject_outfit_crown": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree",
+        "equipment": "holding one gold royal scepter: filigree shaft, rose-moonstone orb, crescent wings, star finial, ivy engraving",
+        "pose_scene_style": "full body, crown and shoes framed, clear face and arms, side profile looking back, item lowered, hair moving, inside a flowering castle greenhouse, polished anime storybook art, crisp regalia, luminous color"
+      },
+      "prompt": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree, holding one gold royal scepter: filigree shaft, rose-moonstone orb, crescent wings, star finial, ivy engraving, full body, crown and shoes framed, clear face and arms, side profile looking back, item lowered, hair moving, inside a flowering castle greenhouse, polished anime storybook art, crisp regalia, luminous color"
+    },
+    {
+      "seed": 99026,
+      "scene_id": "flower_greenhouse",
+      "pose_id": "inviting_reach",
+      "equipment_id": "starlight_staff",
+      "prompt_sections": {
+        "subject_outfit_crown": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree",
+        "equipment": "holding one gold starlight staff: engraved shaft, crescent head, suspended rose crystal, star-map inlays, ribbon tassel",
+        "pose_scene_style": "full body, crown and shoes framed, clear face and arms, free hand reaching forward, item raised by shoulder, inside a flowering castle greenhouse, polished anime storybook art, crisp regalia, luminous color"
+      },
+      "prompt": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree, holding one gold starlight staff: engraved shaft, crescent head, suspended rose crystal, star-map inlays, ribbon tassel, full body, crown and shoes framed, clear face and arms, free hand reaching forward, item raised by shoulder, inside a flowering castle greenhouse, polished anime storybook art, crisp regalia, luminous color"
+    },
+    {
+      "seed": 99027,
+      "scene_id": "flower_greenhouse",
+      "pose_id": "guarded_action",
+      "equipment_id": "ceremonial_spellblade",
+      "prompt_sections": {
+        "subject_outfit_crown": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree",
+        "equipment": "holding one ceremonial spellblade: short ivory-gold blade, crescent guard, rose-gem pommel, etched stars and moon phases",
+        "pose_scene_style": "full body, crown and shoes framed, clear face and arms, grounded action stance, item forward, determined expression, inside a flowering castle greenhouse, polished anime storybook art, crisp regalia, luminous color"
+      },
+      "prompt": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree, holding one ceremonial spellblade: short ivory-gold blade, crescent guard, rose-gem pommel, etched stars and moon phases, full body, crown and shoes framed, clear face and arms, grounded action stance, item forward, determined expression, inside a flowering castle greenhouse, polished anime storybook art, crisp regalia, luminous color"
+    },
+    {
+      "seed": 99028,
+      "scene_id": "flower_greenhouse",
+      "pose_id": "magic_overhead",
+      "equipment_id": "crescent_glaive",
+      "prompt_sections": {
+        "subject_outfit_crown": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree",
+        "equipment": "holding one crescent glaive: slender gold-ivory shaft, single curved blade, rose-crystal socket, constellation engraving",
+        "pose_scene_style": "full body, crown and shoes framed, clear face and arms, item overhead inside one starlight ring, feet apart, inside a flowering castle greenhouse, polished anime storybook art, crisp regalia, luminous color"
+      },
+      "prompt": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree, holding one crescent glaive: slender gold-ivory shaft, single curved blade, rose-crystal socket, constellation engraving, full body, crown and shoes framed, clear face and arms, item overhead inside one starlight ring, feet apart, inside a flowering castle greenhouse, polished anime storybook art, crisp regalia, luminous color"
+    },
+    {
+      "seed": 99029,
+      "scene_id": "flower_greenhouse",
+      "pose_id": "kneeling_vow",
+      "equipment_id": "moonstar_wand",
+      "prompt_sections": {
+        "subject_outfit_crown": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree",
+        "equipment": "holding one slender gold Moonstar wand: filigree grip, rose crystal, crescent cradle, star tip, moonstone chains",
+        "pose_scene_style": "full body, crown and shoes framed, clear face and arms, kneeling on one knee, item upright, hand over heart, inside a flowering castle greenhouse, polished anime storybook art, crisp regalia, luminous color"
+      },
+      "prompt": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree, holding one slender gold Moonstar wand: filigree grip, rose crystal, crescent cradle, star tip, moonstone chains, full body, crown and shoes framed, clear face and arms, kneeling on one knee, item upright, hand over heart, inside a flowering castle greenhouse, polished anime storybook art, crisp regalia, luminous color"
+    },
+    {
+      "seed": 99030,
+      "scene_id": "flower_greenhouse",
+      "pose_id": "spinning_motion",
+      "equipment_id": "royal_scepter",
+      "prompt_sections": {
+        "subject_outfit_crown": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree",
+        "equipment": "holding one gold royal scepter: filigree shaft, rose-moonstone orb, crescent wings, star finial, ivy engraving",
+        "pose_scene_style": "full body, crown and shoes framed, clear face and arms, mid-turn, skirt and hair flowing, item swept aside, inside a flowering castle greenhouse, polished anime storybook art, crisp regalia, luminous color"
+      },
+      "prompt": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree, holding one gold royal scepter: filigree shaft, rose-moonstone orb, crescent wings, star finial, ivy engraving, full body, crown and shoes framed, clear face and arms, mid-turn, skirt and hair flowing, item swept aside, inside a flowering castle greenhouse, polished anime storybook art, crisp regalia, luminous color"
+    },
+    {
+      "seed": 99031,
+      "scene_id": "moonlit_balcony",
+      "pose_id": "formal_front",
+      "equipment_id": "ceremonial_spellblade",
+      "prompt_sections": {
+        "subject_outfit_crown": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree",
+        "equipment": "holding one ceremonial spellblade: short ivory-gold blade, crescent guard, rose-gem pommel, etched stars and moon phases",
+        "pose_scene_style": "full body, crown and shoes framed, clear face and arms, front-facing presentation, item upright, free hand open, on a moonlit palace balcony, polished anime storybook art, crisp regalia, luminous color"
+      },
+      "prompt": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree, holding one ceremonial spellblade: short ivory-gold blade, crescent guard, rose-gem pommel, etched stars and moon phases, full body, crown and shoes framed, clear face and arms, front-facing presentation, item upright, free hand open, on a moonlit palace balcony, polished anime storybook art, crisp regalia, luminous color"
+    },
+    {
+      "seed": 99032,
+      "scene_id": "moonlit_balcony",
+      "pose_id": "walking_three_quarter",
+      "equipment_id": "crescent_glaive",
+      "prompt_sections": {
+        "subject_outfit_crown": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree",
+        "equipment": "holding one crescent glaive: slender gold-ivory shaft, single curved blade, rose-crystal socket, constellation engraving",
+        "pose_scene_style": "full body, crown and shoes framed, clear face and arms, graceful step in three-quarter view, item lowered, on a moonlit palace balcony, polished anime storybook art, crisp regalia, luminous color"
+      },
+      "prompt": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree, holding one crescent glaive: slender gold-ivory shaft, single curved blade, rose-crystal socket, constellation engraving, full body, crown and shoes framed, clear face and arms, graceful step in three-quarter view, item lowered, on a moonlit palace balcony, polished anime storybook art, crisp regalia, luminous color"
+    },
+    {
+      "seed": 99033,
+      "scene_id": "moonlit_balcony",
+      "pose_id": "gentle_curtsy",
+      "equipment_id": "moonstar_wand",
+      "prompt_sections": {
+        "subject_outfit_crown": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree",
+        "equipment": "holding one slender gold Moonstar wand: filigree grip, rose crystal, crescent cradle, star tip, moonstone chains",
+        "pose_scene_style": "full body, crown and shoes framed, clear face and arms, three-quarter curtsy, item angled across her, free hand lifting skirt, on a moonlit palace balcony, polished anime storybook art, crisp regalia, luminous color"
+      },
+      "prompt": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree, holding one slender gold Moonstar wand: filigree grip, rose crystal, crescent cradle, star tip, moonstone chains, full body, crown and shoes framed, clear face and arms, three-quarter curtsy, item angled across her, free hand lifting skirt, on a moonlit palace balcony, polished anime storybook art, crisp regalia, luminous color"
+    },
+    {
+      "seed": 99034,
+      "scene_id": "moonlit_balcony",
+      "pose_id": "seated_step",
+      "equipment_id": "royal_scepter",
+      "prompt_sections": {
+        "subject_outfit_crown": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree",
+        "equipment": "holding one gold royal scepter: filigree shaft, rose-moonstone orb, crescent wings, star finial, ivy engraving",
+        "pose_scene_style": "full body, crown and shoes framed, clear face and arms, seated upright, item across her lap, free hand relaxed, on a moonlit palace balcony, polished anime storybook art, crisp regalia, luminous color"
+      },
+      "prompt": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree, holding one gold royal scepter: filigree shaft, rose-moonstone orb, crescent wings, star finial, ivy engraving, full body, crown and shoes framed, clear face and arms, seated upright, item across her lap, free hand relaxed, on a moonlit palace balcony, polished anime storybook art, crisp regalia, luminous color"
+    },
+    {
+      "seed": 99035,
+      "scene_id": "moonlit_balcony",
+      "pose_id": "profile_lookback",
+      "equipment_id": "starlight_staff",
+      "prompt_sections": {
+        "subject_outfit_crown": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree",
+        "equipment": "holding one gold starlight staff: engraved shaft, crescent head, suspended rose crystal, star-map inlays, ribbon tassel",
+        "pose_scene_style": "full body, crown and shoes framed, clear face and arms, side profile looking back, item lowered, hair moving, on a moonlit palace balcony, polished anime storybook art, crisp regalia, luminous color"
+      },
+      "prompt": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree, holding one gold starlight staff: engraved shaft, crescent head, suspended rose crystal, star-map inlays, ribbon tassel, full body, crown and shoes framed, clear face and arms, side profile looking back, item lowered, hair moving, on a moonlit palace balcony, polished anime storybook art, crisp regalia, luminous color"
+    },
+    {
+      "seed": 99036,
+      "scene_id": "moonlit_balcony",
+      "pose_id": "inviting_reach",
+      "equipment_id": "ceremonial_spellblade",
+      "prompt_sections": {
+        "subject_outfit_crown": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree",
+        "equipment": "holding one ceremonial spellblade: short ivory-gold blade, crescent guard, rose-gem pommel, etched stars and moon phases",
+        "pose_scene_style": "full body, crown and shoes framed, clear face and arms, free hand reaching forward, item raised by shoulder, on a moonlit palace balcony, polished anime storybook art, crisp regalia, luminous color"
+      },
+      "prompt": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree, holding one ceremonial spellblade: short ivory-gold blade, crescent guard, rose-gem pommel, etched stars and moon phases, full body, crown and shoes framed, clear face and arms, free hand reaching forward, item raised by shoulder, on a moonlit palace balcony, polished anime storybook art, crisp regalia, luminous color"
+    },
+    {
+      "seed": 99037,
+      "scene_id": "moonlit_balcony",
+      "pose_id": "guarded_action",
+      "equipment_id": "crescent_glaive",
+      "prompt_sections": {
+        "subject_outfit_crown": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree",
+        "equipment": "holding one crescent glaive: slender gold-ivory shaft, single curved blade, rose-crystal socket, constellation engraving",
+        "pose_scene_style": "full body, crown and shoes framed, clear face and arms, grounded action stance, item forward, determined expression, on a moonlit palace balcony, polished anime storybook art, crisp regalia, luminous color"
+      },
+      "prompt": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree, holding one crescent glaive: slender gold-ivory shaft, single curved blade, rose-crystal socket, constellation engraving, full body, crown and shoes framed, clear face and arms, grounded action stance, item forward, determined expression, on a moonlit palace balcony, polished anime storybook art, crisp regalia, luminous color"
+    },
+    {
+      "seed": 99038,
+      "scene_id": "moonlit_balcony",
+      "pose_id": "magic_overhead",
+      "equipment_id": "moonstar_wand",
+      "prompt_sections": {
+        "subject_outfit_crown": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree",
+        "equipment": "holding one slender gold Moonstar wand: filigree grip, rose crystal, crescent cradle, star tip, moonstone chains",
+        "pose_scene_style": "full body, crown and shoes framed, clear face and arms, item overhead inside one starlight ring, feet apart, on a moonlit palace balcony, polished anime storybook art, crisp regalia, luminous color"
+      },
+      "prompt": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree, holding one slender gold Moonstar wand: filigree grip, rose crystal, crescent cradle, star tip, moonstone chains, full body, crown and shoes framed, clear face and arms, item overhead inside one starlight ring, feet apart, on a moonlit palace balcony, polished anime storybook art, crisp regalia, luminous color"
+    },
+    {
+      "seed": 99039,
+      "scene_id": "moonlit_balcony",
+      "pose_id": "kneeling_vow",
+      "equipment_id": "royal_scepter",
+      "prompt_sections": {
+        "subject_outfit_crown": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree",
+        "equipment": "holding one gold royal scepter: filigree shaft, rose-moonstone orb, crescent wings, star finial, ivy engraving",
+        "pose_scene_style": "full body, crown and shoes framed, clear face and arms, kneeling on one knee, item upright, hand over heart, on a moonlit palace balcony, polished anime storybook art, crisp regalia, luminous color"
+      },
+      "prompt": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree, holding one gold royal scepter: filigree shaft, rose-moonstone orb, crescent wings, star finial, ivy engraving, full body, crown and shoes framed, clear face and arms, kneeling on one knee, item upright, hand over heart, on a moonlit palace balcony, polished anime storybook art, crisp regalia, luminous color"
+    },
+    {
+      "seed": 99040,
+      "scene_id": "moonlit_balcony",
+      "pose_id": "spinning_motion",
+      "equipment_id": "starlight_staff",
+      "prompt_sections": {
+        "subject_outfit_crown": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree",
+        "equipment": "holding one gold starlight staff: engraved shaft, crescent head, suspended rose crystal, star-map inlays, ribbon tassel",
+        "pose_scene_style": "full body, crown and shoes framed, clear face and arms, mid-turn, skirt and hair flowing, item swept aside, on a moonlit palace balcony, polished anime storybook art, crisp regalia, luminous color"
+      },
+      "prompt": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree, holding one gold starlight staff: engraved shaft, crescent head, suspended rose crystal, star-map inlays, ribbon tassel, full body, crown and shoes framed, clear face and arms, mid-turn, skirt and hair flowing, item swept aside, on a moonlit palace balcony, polished anime storybook art, crisp regalia, luminous color"
+    },
+    {
+      "seed": 99041,
+      "scene_id": "crystal_lake",
+      "pose_id": "formal_front",
+      "equipment_id": "crescent_glaive",
+      "prompt_sections": {
+        "subject_outfit_crown": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree",
+        "equipment": "holding one crescent glaive: slender gold-ivory shaft, single curved blade, rose-crystal socket, constellation engraving",
+        "pose_scene_style": "full body, crown and shoes framed, clear face and arms, front-facing presentation, item upright, free hand open, beside a still crystal lake at dawn, polished anime storybook art, crisp regalia, luminous color"
+      },
+      "prompt": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree, holding one crescent glaive: slender gold-ivory shaft, single curved blade, rose-crystal socket, constellation engraving, full body, crown and shoes framed, clear face and arms, front-facing presentation, item upright, free hand open, beside a still crystal lake at dawn, polished anime storybook art, crisp regalia, luminous color"
+    },
+    {
+      "seed": 99042,
+      "scene_id": "crystal_lake",
+      "pose_id": "walking_three_quarter",
+      "equipment_id": "moonstar_wand",
+      "prompt_sections": {
+        "subject_outfit_crown": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree",
+        "equipment": "holding one slender gold Moonstar wand: filigree grip, rose crystal, crescent cradle, star tip, moonstone chains",
+        "pose_scene_style": "full body, crown and shoes framed, clear face and arms, graceful step in three-quarter view, item lowered, beside a still crystal lake at dawn, polished anime storybook art, crisp regalia, luminous color"
+      },
+      "prompt": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree, holding one slender gold Moonstar wand: filigree grip, rose crystal, crescent cradle, star tip, moonstone chains, full body, crown and shoes framed, clear face and arms, graceful step in three-quarter view, item lowered, beside a still crystal lake at dawn, polished anime storybook art, crisp regalia, luminous color"
+    },
+    {
+      "seed": 99043,
+      "scene_id": "crystal_lake",
+      "pose_id": "gentle_curtsy",
+      "equipment_id": "royal_scepter",
+      "prompt_sections": {
+        "subject_outfit_crown": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree",
+        "equipment": "holding one gold royal scepter: filigree shaft, rose-moonstone orb, crescent wings, star finial, ivy engraving",
+        "pose_scene_style": "full body, crown and shoes framed, clear face and arms, three-quarter curtsy, item angled across her, free hand lifting skirt, beside a still crystal lake at dawn, polished anime storybook art, crisp regalia, luminous color"
+      },
+      "prompt": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree, holding one gold royal scepter: filigree shaft, rose-moonstone orb, crescent wings, star finial, ivy engraving, full body, crown and shoes framed, clear face and arms, three-quarter curtsy, item angled across her, free hand lifting skirt, beside a still crystal lake at dawn, polished anime storybook art, crisp regalia, luminous color"
+    },
+    {
+      "seed": 99044,
+      "scene_id": "crystal_lake",
+      "pose_id": "seated_step",
+      "equipment_id": "starlight_staff",
+      "prompt_sections": {
+        "subject_outfit_crown": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree",
+        "equipment": "holding one gold starlight staff: engraved shaft, crescent head, suspended rose crystal, star-map inlays, ribbon tassel",
+        "pose_scene_style": "full body, crown and shoes framed, clear face and arms, seated upright, item across her lap, free hand relaxed, beside a still crystal lake at dawn, polished anime storybook art, crisp regalia, luminous color"
+      },
+      "prompt": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree, holding one gold starlight staff: engraved shaft, crescent head, suspended rose crystal, star-map inlays, ribbon tassel, full body, crown and shoes framed, clear face and arms, seated upright, item across her lap, free hand relaxed, beside a still crystal lake at dawn, polished anime storybook art, crisp regalia, luminous color"
+    },
+    {
+      "seed": 99045,
+      "scene_id": "crystal_lake",
+      "pose_id": "profile_lookback",
+      "equipment_id": "ceremonial_spellblade",
+      "prompt_sections": {
+        "subject_outfit_crown": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree",
+        "equipment": "holding one ceremonial spellblade: short ivory-gold blade, crescent guard, rose-gem pommel, etched stars and moon phases",
+        "pose_scene_style": "full body, crown and shoes framed, clear face and arms, side profile looking back, item lowered, hair moving, beside a still crystal lake at dawn, polished anime storybook art, crisp regalia, luminous color"
+      },
+      "prompt": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree, holding one ceremonial spellblade: short ivory-gold blade, crescent guard, rose-gem pommel, etched stars and moon phases, full body, crown and shoes framed, clear face and arms, side profile looking back, item lowered, hair moving, beside a still crystal lake at dawn, polished anime storybook art, crisp regalia, luminous color"
+    },
+    {
+      "seed": 99046,
+      "scene_id": "crystal_lake",
+      "pose_id": "inviting_reach",
+      "equipment_id": "crescent_glaive",
+      "prompt_sections": {
+        "subject_outfit_crown": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree",
+        "equipment": "holding one crescent glaive: slender gold-ivory shaft, single curved blade, rose-crystal socket, constellation engraving",
+        "pose_scene_style": "full body, crown and shoes framed, clear face and arms, free hand reaching forward, item raised by shoulder, beside a still crystal lake at dawn, polished anime storybook art, crisp regalia, luminous color"
+      },
+      "prompt": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree, holding one crescent glaive: slender gold-ivory shaft, single curved blade, rose-crystal socket, constellation engraving, full body, crown and shoes framed, clear face and arms, free hand reaching forward, item raised by shoulder, beside a still crystal lake at dawn, polished anime storybook art, crisp regalia, luminous color"
+    },
+    {
+      "seed": 99047,
+      "scene_id": "crystal_lake",
+      "pose_id": "guarded_action",
+      "equipment_id": "moonstar_wand",
+      "prompt_sections": {
+        "subject_outfit_crown": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree",
+        "equipment": "holding one slender gold Moonstar wand: filigree grip, rose crystal, crescent cradle, star tip, moonstone chains",
+        "pose_scene_style": "full body, crown and shoes framed, clear face and arms, grounded action stance, item forward, determined expression, beside a still crystal lake at dawn, polished anime storybook art, crisp regalia, luminous color"
+      },
+      "prompt": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree, holding one slender gold Moonstar wand: filigree grip, rose crystal, crescent cradle, star tip, moonstone chains, full body, crown and shoes framed, clear face and arms, grounded action stance, item forward, determined expression, beside a still crystal lake at dawn, polished anime storybook art, crisp regalia, luminous color"
+    },
+    {
+      "seed": 99048,
+      "scene_id": "crystal_lake",
+      "pose_id": "magic_overhead",
+      "equipment_id": "royal_scepter",
+      "prompt_sections": {
+        "subject_outfit_crown": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree",
+        "equipment": "holding one gold royal scepter: filigree shaft, rose-moonstone orb, crescent wings, star finial, ivy engraving",
+        "pose_scene_style": "full body, crown and shoes framed, clear face and arms, item overhead inside one starlight ring, feet apart, beside a still crystal lake at dawn, polished anime storybook art, crisp regalia, luminous color"
+      },
+      "prompt": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree, holding one gold royal scepter: filigree shaft, rose-moonstone orb, crescent wings, star finial, ivy engraving, full body, crown and shoes framed, clear face and arms, item overhead inside one starlight ring, feet apart, beside a still crystal lake at dawn, polished anime storybook art, crisp regalia, luminous color"
+    },
+    {
+      "seed": 99049,
+      "scene_id": "crystal_lake",
+      "pose_id": "kneeling_vow",
+      "equipment_id": "starlight_staff",
+      "prompt_sections": {
+        "subject_outfit_crown": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree",
+        "equipment": "holding one gold starlight staff: engraved shaft, crescent head, suspended rose crystal, star-map inlays, ribbon tassel",
+        "pose_scene_style": "full body, crown and shoes framed, clear face and arms, kneeling on one knee, item upright, hand over heart, beside a still crystal lake at dawn, polished anime storybook art, crisp regalia, luminous color"
+      },
+      "prompt": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree, holding one gold starlight staff: engraved shaft, crescent head, suspended rose crystal, star-map inlays, ribbon tassel, full body, crown and shoes framed, clear face and arms, kneeling on one knee, item upright, hand over heart, beside a still crystal lake at dawn, polished anime storybook art, crisp regalia, luminous color"
+    },
+    {
+      "seed": 99050,
+      "scene_id": "crystal_lake",
+      "pose_id": "spinning_motion",
+      "equipment_id": "ceremonial_spellblade",
+      "prompt_sections": {
+        "subject_outfit_crown": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree",
+        "equipment": "holding one ceremonial spellblade: short ivory-gold blade, crescent guard, rose-gem pommel, etched stars and moon phases",
+        "pose_scene_style": "full body, crown and shoes framed, clear face and arms, mid-turn, skirt and hair flowing, item swept aside, beside a still crystal lake at dawn, polished anime storybook art, crisp regalia, luminous color"
+      },
+      "prompt": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree, holding one ceremonial spellblade: short ivory-gold blade, crescent guard, rose-gem pommel, etched stars and moon phases, full body, crown and shoes framed, clear face and arms, mid-turn, skirt and hair flowing, item swept aside, beside a still crystal lake at dawn, polished anime storybook art, crisp regalia, luminous color"
+    },
+    {
+      "seed": 99051,
+      "scene_id": "autumn_forest",
+      "pose_id": "formal_front",
+      "equipment_id": "moonstar_wand",
+      "prompt_sections": {
+        "subject_outfit_crown": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree",
+        "equipment": "holding one slender gold Moonstar wand: filigree grip, rose crystal, crescent cradle, star tip, moonstone chains",
+        "pose_scene_style": "full body, crown and shoes framed, clear face and arms, front-facing presentation, item upright, free hand open, on an autumn forest path with drifting leaves, polished anime storybook art, crisp regalia, luminous color"
+      },
+      "prompt": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree, holding one slender gold Moonstar wand: filigree grip, rose crystal, crescent cradle, star tip, moonstone chains, full body, crown and shoes framed, clear face and arms, front-facing presentation, item upright, free hand open, on an autumn forest path with drifting leaves, polished anime storybook art, crisp regalia, luminous color"
+    },
+    {
+      "seed": 99052,
+      "scene_id": "autumn_forest",
+      "pose_id": "walking_three_quarter",
+      "equipment_id": "royal_scepter",
+      "prompt_sections": {
+        "subject_outfit_crown": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree",
+        "equipment": "holding one gold royal scepter: filigree shaft, rose-moonstone orb, crescent wings, star finial, ivy engraving",
+        "pose_scene_style": "full body, crown and shoes framed, clear face and arms, graceful step in three-quarter view, item lowered, on an autumn forest path with drifting leaves, polished anime storybook art, crisp regalia, luminous color"
+      },
+      "prompt": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree, holding one gold royal scepter: filigree shaft, rose-moonstone orb, crescent wings, star finial, ivy engraving, full body, crown and shoes framed, clear face and arms, graceful step in three-quarter view, item lowered, on an autumn forest path with drifting leaves, polished anime storybook art, crisp regalia, luminous color"
+    },
+    {
+      "seed": 99053,
+      "scene_id": "autumn_forest",
+      "pose_id": "gentle_curtsy",
+      "equipment_id": "starlight_staff",
+      "prompt_sections": {
+        "subject_outfit_crown": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree",
+        "equipment": "holding one gold starlight staff: engraved shaft, crescent head, suspended rose crystal, star-map inlays, ribbon tassel",
+        "pose_scene_style": "full body, crown and shoes framed, clear face and arms, three-quarter curtsy, item angled across her, free hand lifting skirt, on an autumn forest path with drifting leaves, polished anime storybook art, crisp regalia, luminous color"
+      },
+      "prompt": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree, holding one gold starlight staff: engraved shaft, crescent head, suspended rose crystal, star-map inlays, ribbon tassel, full body, crown and shoes framed, clear face and arms, three-quarter curtsy, item angled across her, free hand lifting skirt, on an autumn forest path with drifting leaves, polished anime storybook art, crisp regalia, luminous color"
+    },
+    {
+      "seed": 99054,
+      "scene_id": "autumn_forest",
+      "pose_id": "seated_step",
+      "equipment_id": "ceremonial_spellblade",
+      "prompt_sections": {
+        "subject_outfit_crown": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree",
+        "equipment": "holding one ceremonial spellblade: short ivory-gold blade, crescent guard, rose-gem pommel, etched stars and moon phases",
+        "pose_scene_style": "full body, crown and shoes framed, clear face and arms, seated upright, item across her lap, free hand relaxed, on an autumn forest path with drifting leaves, polished anime storybook art, crisp regalia, luminous color"
+      },
+      "prompt": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree, holding one ceremonial spellblade: short ivory-gold blade, crescent guard, rose-gem pommel, etched stars and moon phases, full body, crown and shoes framed, clear face and arms, seated upright, item across her lap, free hand relaxed, on an autumn forest path with drifting leaves, polished anime storybook art, crisp regalia, luminous color"
+    },
+    {
+      "seed": 99055,
+      "scene_id": "autumn_forest",
+      "pose_id": "profile_lookback",
+      "equipment_id": "crescent_glaive",
+      "prompt_sections": {
+        "subject_outfit_crown": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree",
+        "equipment": "holding one crescent glaive: slender gold-ivory shaft, single curved blade, rose-crystal socket, constellation engraving",
+        "pose_scene_style": "full body, crown and shoes framed, clear face and arms, side profile looking back, item lowered, hair moving, on an autumn forest path with drifting leaves, polished anime storybook art, crisp regalia, luminous color"
+      },
+      "prompt": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree, holding one crescent glaive: slender gold-ivory shaft, single curved blade, rose-crystal socket, constellation engraving, full body, crown and shoes framed, clear face and arms, side profile looking back, item lowered, hair moving, on an autumn forest path with drifting leaves, polished anime storybook art, crisp regalia, luminous color"
+    },
+    {
+      "seed": 99056,
+      "scene_id": "autumn_forest",
+      "pose_id": "inviting_reach",
+      "equipment_id": "moonstar_wand",
+      "prompt_sections": {
+        "subject_outfit_crown": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree",
+        "equipment": "holding one slender gold Moonstar wand: filigree grip, rose crystal, crescent cradle, star tip, moonstone chains",
+        "pose_scene_style": "full body, crown and shoes framed, clear face and arms, free hand reaching forward, item raised by shoulder, on an autumn forest path with drifting leaves, polished anime storybook art, crisp regalia, luminous color"
+      },
+      "prompt": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree, holding one slender gold Moonstar wand: filigree grip, rose crystal, crescent cradle, star tip, moonstone chains, full body, crown and shoes framed, clear face and arms, free hand reaching forward, item raised by shoulder, on an autumn forest path with drifting leaves, polished anime storybook art, crisp regalia, luminous color"
+    },
+    {
+      "seed": 99057,
+      "scene_id": "autumn_forest",
+      "pose_id": "guarded_action",
+      "equipment_id": "royal_scepter",
+      "prompt_sections": {
+        "subject_outfit_crown": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree",
+        "equipment": "holding one gold royal scepter: filigree shaft, rose-moonstone orb, crescent wings, star finial, ivy engraving",
+        "pose_scene_style": "full body, crown and shoes framed, clear face and arms, grounded action stance, item forward, determined expression, on an autumn forest path with drifting leaves, polished anime storybook art, crisp regalia, luminous color"
+      },
+      "prompt": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree, holding one gold royal scepter: filigree shaft, rose-moonstone orb, crescent wings, star finial, ivy engraving, full body, crown and shoes framed, clear face and arms, grounded action stance, item forward, determined expression, on an autumn forest path with drifting leaves, polished anime storybook art, crisp regalia, luminous color"
+    },
+    {
+      "seed": 99058,
+      "scene_id": "autumn_forest",
+      "pose_id": "magic_overhead",
+      "equipment_id": "starlight_staff",
+      "prompt_sections": {
+        "subject_outfit_crown": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree",
+        "equipment": "holding one gold starlight staff: engraved shaft, crescent head, suspended rose crystal, star-map inlays, ribbon tassel",
+        "pose_scene_style": "full body, crown and shoes framed, clear face and arms, item overhead inside one starlight ring, feet apart, on an autumn forest path with drifting leaves, polished anime storybook art, crisp regalia, luminous color"
+      },
+      "prompt": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree, holding one gold starlight staff: engraved shaft, crescent head, suspended rose crystal, star-map inlays, ribbon tassel, full body, crown and shoes framed, clear face and arms, item overhead inside one starlight ring, feet apart, on an autumn forest path with drifting leaves, polished anime storybook art, crisp regalia, luminous color"
+    },
+    {
+      "seed": 99059,
+      "scene_id": "autumn_forest",
+      "pose_id": "kneeling_vow",
+      "equipment_id": "ceremonial_spellblade",
+      "prompt_sections": {
+        "subject_outfit_crown": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree",
+        "equipment": "holding one ceremonial spellblade: short ivory-gold blade, crescent guard, rose-gem pommel, etched stars and moon phases",
+        "pose_scene_style": "full body, crown and shoes framed, clear face and arms, kneeling on one knee, item upright, hand over heart, on an autumn forest path with drifting leaves, polished anime storybook art, crisp regalia, luminous color"
+      },
+      "prompt": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree, holding one ceremonial spellblade: short ivory-gold blade, crescent guard, rose-gem pommel, etched stars and moon phases, full body, crown and shoes framed, clear face and arms, kneeling on one knee, item upright, hand over heart, on an autumn forest path with drifting leaves, polished anime storybook art, crisp regalia, luminous color"
+    },
+    {
+      "seed": 99060,
+      "scene_id": "autumn_forest",
+      "pose_id": "spinning_motion",
+      "equipment_id": "crescent_glaive",
+      "prompt_sections": {
+        "subject_outfit_crown": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree",
+        "equipment": "holding one crescent glaive: slender gold-ivory shaft, single curved blade, rose-crystal socket, constellation engraving",
+        "pose_scene_style": "full body, crown and shoes framed, clear face and arms, mid-turn, skirt and hair flowing, item swept aside, on an autumn forest path with drifting leaves, polished anime storybook art, crisp regalia, luminous color"
+      },
+      "prompt": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree, holding one crescent glaive: slender gold-ivory shaft, single curved blade, rose-crystal socket, constellation engraving, full body, crown and shoes framed, clear face and arms, mid-turn, skirt and hair flowing, item swept aside, on an autumn forest path with drifting leaves, polished anime storybook art, crisp regalia, luminous color"
+    },
+    {
+      "seed": 99061,
+      "scene_id": "star_observatory",
+      "pose_id": "formal_front",
+      "equipment_id": "royal_scepter",
+      "prompt_sections": {
+        "subject_outfit_crown": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree",
+        "equipment": "holding one gold royal scepter: filigree shaft, rose-moonstone orb, crescent wings, star finial, ivy engraving",
+        "pose_scene_style": "full body, crown and shoes framed, clear face and arms, front-facing presentation, item upright, free hand open, inside a royal star observatory, polished anime storybook art, crisp regalia, luminous color"
+      },
+      "prompt": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree, holding one gold royal scepter: filigree shaft, rose-moonstone orb, crescent wings, star finial, ivy engraving, full body, crown and shoes framed, clear face and arms, front-facing presentation, item upright, free hand open, inside a royal star observatory, polished anime storybook art, crisp regalia, luminous color"
+    },
+    {
+      "seed": 99062,
+      "scene_id": "star_observatory",
+      "pose_id": "walking_three_quarter",
+      "equipment_id": "starlight_staff",
+      "prompt_sections": {
+        "subject_outfit_crown": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree",
+        "equipment": "holding one gold starlight staff: engraved shaft, crescent head, suspended rose crystal, star-map inlays, ribbon tassel",
+        "pose_scene_style": "full body, crown and shoes framed, clear face and arms, graceful step in three-quarter view, item lowered, inside a royal star observatory, polished anime storybook art, crisp regalia, luminous color"
+      },
+      "prompt": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree, holding one gold starlight staff: engraved shaft, crescent head, suspended rose crystal, star-map inlays, ribbon tassel, full body, crown and shoes framed, clear face and arms, graceful step in three-quarter view, item lowered, inside a royal star observatory, polished anime storybook art, crisp regalia, luminous color"
+    },
+    {
+      "seed": 99063,
+      "scene_id": "star_observatory",
+      "pose_id": "gentle_curtsy",
+      "equipment_id": "ceremonial_spellblade",
+      "prompt_sections": {
+        "subject_outfit_crown": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree",
+        "equipment": "holding one ceremonial spellblade: short ivory-gold blade, crescent guard, rose-gem pommel, etched stars and moon phases",
+        "pose_scene_style": "full body, crown and shoes framed, clear face and arms, three-quarter curtsy, item angled across her, free hand lifting skirt, inside a royal star observatory, polished anime storybook art, crisp regalia, luminous color"
+      },
+      "prompt": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree, holding one ceremonial spellblade: short ivory-gold blade, crescent guard, rose-gem pommel, etched stars and moon phases, full body, crown and shoes framed, clear face and arms, three-quarter curtsy, item angled across her, free hand lifting skirt, inside a royal star observatory, polished anime storybook art, crisp regalia, luminous color"
+    },
+    {
+      "seed": 99064,
+      "scene_id": "star_observatory",
+      "pose_id": "seated_step",
+      "equipment_id": "crescent_glaive",
+      "prompt_sections": {
+        "subject_outfit_crown": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree",
+        "equipment": "holding one crescent glaive: slender gold-ivory shaft, single curved blade, rose-crystal socket, constellation engraving",
+        "pose_scene_style": "full body, crown and shoes framed, clear face and arms, seated upright, item across her lap, free hand relaxed, inside a royal star observatory, polished anime storybook art, crisp regalia, luminous color"
+      },
+      "prompt": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree, holding one crescent glaive: slender gold-ivory shaft, single curved blade, rose-crystal socket, constellation engraving, full body, crown and shoes framed, clear face and arms, seated upright, item across her lap, free hand relaxed, inside a royal star observatory, polished anime storybook art, crisp regalia, luminous color"
+    },
+    {
+      "seed": 99065,
+      "scene_id": "star_observatory",
+      "pose_id": "profile_lookback",
+      "equipment_id": "moonstar_wand",
+      "prompt_sections": {
+        "subject_outfit_crown": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree",
+        "equipment": "holding one slender gold Moonstar wand: filigree grip, rose crystal, crescent cradle, star tip, moonstone chains",
+        "pose_scene_style": "full body, crown and shoes framed, clear face and arms, side profile looking back, item lowered, hair moving, inside a royal star observatory, polished anime storybook art, crisp regalia, luminous color"
+      },
+      "prompt": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree, holding one slender gold Moonstar wand: filigree grip, rose crystal, crescent cradle, star tip, moonstone chains, full body, crown and shoes framed, clear face and arms, side profile looking back, item lowered, hair moving, inside a royal star observatory, polished anime storybook art, crisp regalia, luminous color"
+    },
+    {
+      "seed": 99066,
+      "scene_id": "star_observatory",
+      "pose_id": "inviting_reach",
+      "equipment_id": "royal_scepter",
+      "prompt_sections": {
+        "subject_outfit_crown": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree",
+        "equipment": "holding one gold royal scepter: filigree shaft, rose-moonstone orb, crescent wings, star finial, ivy engraving",
+        "pose_scene_style": "full body, crown and shoes framed, clear face and arms, free hand reaching forward, item raised by shoulder, inside a royal star observatory, polished anime storybook art, crisp regalia, luminous color"
+      },
+      "prompt": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree, holding one gold royal scepter: filigree shaft, rose-moonstone orb, crescent wings, star finial, ivy engraving, full body, crown and shoes framed, clear face and arms, free hand reaching forward, item raised by shoulder, inside a royal star observatory, polished anime storybook art, crisp regalia, luminous color"
+    },
+    {
+      "seed": 99067,
+      "scene_id": "star_observatory",
+      "pose_id": "guarded_action",
+      "equipment_id": "starlight_staff",
+      "prompt_sections": {
+        "subject_outfit_crown": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree",
+        "equipment": "holding one gold starlight staff: engraved shaft, crescent head, suspended rose crystal, star-map inlays, ribbon tassel",
+        "pose_scene_style": "full body, crown and shoes framed, clear face and arms, grounded action stance, item forward, determined expression, inside a royal star observatory, polished anime storybook art, crisp regalia, luminous color"
+      },
+      "prompt": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree, holding one gold starlight staff: engraved shaft, crescent head, suspended rose crystal, star-map inlays, ribbon tassel, full body, crown and shoes framed, clear face and arms, grounded action stance, item forward, determined expression, inside a royal star observatory, polished anime storybook art, crisp regalia, luminous color"
+    },
+    {
+      "seed": 99068,
+      "scene_id": "star_observatory",
+      "pose_id": "magic_overhead",
+      "equipment_id": "ceremonial_spellblade",
+      "prompt_sections": {
+        "subject_outfit_crown": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree",
+        "equipment": "holding one ceremonial spellblade: short ivory-gold blade, crescent guard, rose-gem pommel, etched stars and moon phases",
+        "pose_scene_style": "full body, crown and shoes framed, clear face and arms, item overhead inside one starlight ring, feet apart, inside a royal star observatory, polished anime storybook art, crisp regalia, luminous color"
+      },
+      "prompt": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree, holding one ceremonial spellblade: short ivory-gold blade, crescent guard, rose-gem pommel, etched stars and moon phases, full body, crown and shoes framed, clear face and arms, item overhead inside one starlight ring, feet apart, inside a royal star observatory, polished anime storybook art, crisp regalia, luminous color"
+    },
+    {
+      "seed": 99069,
+      "scene_id": "star_observatory",
+      "pose_id": "kneeling_vow",
+      "equipment_id": "crescent_glaive",
+      "prompt_sections": {
+        "subject_outfit_crown": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree",
+        "equipment": "holding one crescent glaive: slender gold-ivory shaft, single curved blade, rose-crystal socket, constellation engraving",
+        "pose_scene_style": "full body, crown and shoes framed, clear face and arms, kneeling on one knee, item upright, hand over heart, inside a royal star observatory, polished anime storybook art, crisp regalia, luminous color"
+      },
+      "prompt": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree, holding one crescent glaive: slender gold-ivory shaft, single curved blade, rose-crystal socket, constellation engraving, full body, crown and shoes framed, clear face and arms, kneeling on one knee, item upright, hand over heart, inside a royal star observatory, polished anime storybook art, crisp regalia, luminous color"
+    },
+    {
+      "seed": 99070,
+      "scene_id": "star_observatory",
+      "pose_id": "spinning_motion",
+      "equipment_id": "moonstar_wand",
+      "prompt_sections": {
+        "subject_outfit_crown": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree",
+        "equipment": "holding one slender gold Moonstar wand: filigree grip, rose crystal, crescent cradle, star tip, moonstone chains",
+        "pose_scene_style": "full body, crown and shoes framed, clear face and arms, mid-turn, skirt and hair flowing, item swept aside, inside a royal star observatory, polished anime storybook art, crisp regalia, luminous color"
+      },
+      "prompt": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree, holding one slender gold Moonstar wand: filigree grip, rose crystal, crescent cradle, star tip, moonstone chains, full body, crown and shoes framed, clear face and arms, mid-turn, skirt and hair flowing, item swept aside, inside a royal star observatory, polished anime storybook art, crisp regalia, luminous color"
+    },
+    {
+      "seed": 99071,
+      "scene_id": "lantern_festival",
+      "pose_id": "formal_front",
+      "equipment_id": "starlight_staff",
+      "prompt_sections": {
+        "subject_outfit_crown": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree",
+        "equipment": "holding one gold starlight staff: engraved shaft, crescent head, suspended rose crystal, star-map inlays, ribbon tassel",
+        "pose_scene_style": "full body, crown and shoes framed, clear face and arms, front-facing presentation, item upright, free hand open, in a village square during a lantern festival, polished anime storybook art, crisp regalia, luminous color"
+      },
+      "prompt": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree, holding one gold starlight staff: engraved shaft, crescent head, suspended rose crystal, star-map inlays, ribbon tassel, full body, crown and shoes framed, clear face and arms, front-facing presentation, item upright, free hand open, in a village square during a lantern festival, polished anime storybook art, crisp regalia, luminous color"
+    },
+    {
+      "seed": 99072,
+      "scene_id": "lantern_festival",
+      "pose_id": "walking_three_quarter",
+      "equipment_id": "ceremonial_spellblade",
+      "prompt_sections": {
+        "subject_outfit_crown": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree",
+        "equipment": "holding one ceremonial spellblade: short ivory-gold blade, crescent guard, rose-gem pommel, etched stars and moon phases",
+        "pose_scene_style": "full body, crown and shoes framed, clear face and arms, graceful step in three-quarter view, item lowered, in a village square during a lantern festival, polished anime storybook art, crisp regalia, luminous color"
+      },
+      "prompt": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree, holding one ceremonial spellblade: short ivory-gold blade, crescent guard, rose-gem pommel, etched stars and moon phases, full body, crown and shoes framed, clear face and arms, graceful step in three-quarter view, item lowered, in a village square during a lantern festival, polished anime storybook art, crisp regalia, luminous color"
+    },
+    {
+      "seed": 99073,
+      "scene_id": "lantern_festival",
+      "pose_id": "gentle_curtsy",
+      "equipment_id": "crescent_glaive",
+      "prompt_sections": {
+        "subject_outfit_crown": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree",
+        "equipment": "holding one crescent glaive: slender gold-ivory shaft, single curved blade, rose-crystal socket, constellation engraving",
+        "pose_scene_style": "full body, crown and shoes framed, clear face and arms, three-quarter curtsy, item angled across her, free hand lifting skirt, in a village square during a lantern festival, polished anime storybook art, crisp regalia, luminous color"
+      },
+      "prompt": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree, holding one crescent glaive: slender gold-ivory shaft, single curved blade, rose-crystal socket, constellation engraving, full body, crown and shoes framed, clear face and arms, three-quarter curtsy, item angled across her, free hand lifting skirt, in a village square during a lantern festival, polished anime storybook art, crisp regalia, luminous color"
+    },
+    {
+      "seed": 99074,
+      "scene_id": "lantern_festival",
+      "pose_id": "seated_step",
+      "equipment_id": "moonstar_wand",
+      "prompt_sections": {
+        "subject_outfit_crown": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree",
+        "equipment": "holding one slender gold Moonstar wand: filigree grip, rose crystal, crescent cradle, star tip, moonstone chains",
+        "pose_scene_style": "full body, crown and shoes framed, clear face and arms, seated upright, item across her lap, free hand relaxed, in a village square during a lantern festival, polished anime storybook art, crisp regalia, luminous color"
+      },
+      "prompt": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree, holding one slender gold Moonstar wand: filigree grip, rose crystal, crescent cradle, star tip, moonstone chains, full body, crown and shoes framed, clear face and arms, seated upright, item across her lap, free hand relaxed, in a village square during a lantern festival, polished anime storybook art, crisp regalia, luminous color"
+    },
+    {
+      "seed": 99075,
+      "scene_id": "lantern_festival",
+      "pose_id": "profile_lookback",
+      "equipment_id": "royal_scepter",
+      "prompt_sections": {
+        "subject_outfit_crown": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree",
+        "equipment": "holding one gold royal scepter: filigree shaft, rose-moonstone orb, crescent wings, star finial, ivy engraving",
+        "pose_scene_style": "full body, crown and shoes framed, clear face and arms, side profile looking back, item lowered, hair moving, in a village square during a lantern festival, polished anime storybook art, crisp regalia, luminous color"
+      },
+      "prompt": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree, holding one gold royal scepter: filigree shaft, rose-moonstone orb, crescent wings, star finial, ivy engraving, full body, crown and shoes framed, clear face and arms, side profile looking back, item lowered, hair moving, in a village square during a lantern festival, polished anime storybook art, crisp regalia, luminous color"
+    },
+    {
+      "seed": 99076,
+      "scene_id": "lantern_festival",
+      "pose_id": "inviting_reach",
+      "equipment_id": "starlight_staff",
+      "prompt_sections": {
+        "subject_outfit_crown": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree",
+        "equipment": "holding one gold starlight staff: engraved shaft, crescent head, suspended rose crystal, star-map inlays, ribbon tassel",
+        "pose_scene_style": "full body, crown and shoes framed, clear face and arms, free hand reaching forward, item raised by shoulder, in a village square during a lantern festival, polished anime storybook art, crisp regalia, luminous color"
+      },
+      "prompt": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree, holding one gold starlight staff: engraved shaft, crescent head, suspended rose crystal, star-map inlays, ribbon tassel, full body, crown and shoes framed, clear face and arms, free hand reaching forward, item raised by shoulder, in a village square during a lantern festival, polished anime storybook art, crisp regalia, luminous color"
+    },
+    {
+      "seed": 99077,
+      "scene_id": "lantern_festival",
+      "pose_id": "guarded_action",
+      "equipment_id": "ceremonial_spellblade",
+      "prompt_sections": {
+        "subject_outfit_crown": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree",
+        "equipment": "holding one ceremonial spellblade: short ivory-gold blade, crescent guard, rose-gem pommel, etched stars and moon phases",
+        "pose_scene_style": "full body, crown and shoes framed, clear face and arms, grounded action stance, item forward, determined expression, in a village square during a lantern festival, polished anime storybook art, crisp regalia, luminous color"
+      },
+      "prompt": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree, holding one ceremonial spellblade: short ivory-gold blade, crescent guard, rose-gem pommel, etched stars and moon phases, full body, crown and shoes framed, clear face and arms, grounded action stance, item forward, determined expression, in a village square during a lantern festival, polished anime storybook art, crisp regalia, luminous color"
+    },
+    {
+      "seed": 99078,
+      "scene_id": "lantern_festival",
+      "pose_id": "magic_overhead",
+      "equipment_id": "crescent_glaive",
+      "prompt_sections": {
+        "subject_outfit_crown": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree",
+        "equipment": "holding one crescent glaive: slender gold-ivory shaft, single curved blade, rose-crystal socket, constellation engraving",
+        "pose_scene_style": "full body, crown and shoes framed, clear face and arms, item overhead inside one starlight ring, feet apart, in a village square during a lantern festival, polished anime storybook art, crisp regalia, luminous color"
+      },
+      "prompt": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree, holding one crescent glaive: slender gold-ivory shaft, single curved blade, rose-crystal socket, constellation engraving, full body, crown and shoes framed, clear face and arms, item overhead inside one starlight ring, feet apart, in a village square during a lantern festival, polished anime storybook art, crisp regalia, luminous color"
+    },
+    {
+      "seed": 99079,
+      "scene_id": "lantern_festival",
+      "pose_id": "kneeling_vow",
+      "equipment_id": "moonstar_wand",
+      "prompt_sections": {
+        "subject_outfit_crown": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree",
+        "equipment": "holding one slender gold Moonstar wand: filigree grip, rose crystal, crescent cradle, star tip, moonstone chains",
+        "pose_scene_style": "full body, crown and shoes framed, clear face and arms, kneeling on one knee, item upright, hand over heart, in a village square during a lantern festival, polished anime storybook art, crisp regalia, luminous color"
+      },
+      "prompt": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree, holding one slender gold Moonstar wand: filigree grip, rose crystal, crescent cradle, star tip, moonstone chains, full body, crown and shoes framed, clear face and arms, kneeling on one knee, item upright, hand over heart, in a village square during a lantern festival, polished anime storybook art, crisp regalia, luminous color"
+    },
+    {
+      "seed": 99080,
+      "scene_id": "lantern_festival",
+      "pose_id": "spinning_motion",
+      "equipment_id": "royal_scepter",
+      "prompt_sections": {
+        "subject_outfit_crown": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree",
+        "equipment": "holding one gold royal scepter: filigree shaft, rose-moonstone orb, crescent wings, star finial, ivy engraving",
+        "pose_scene_style": "full body, crown and shoes framed, clear face and arms, mid-turn, skirt and hair flowing, item swept aside, in a village square during a lantern festival, polished anime storybook art, crisp regalia, luminous color"
+      },
+      "prompt": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree, holding one gold royal scepter: filigree shaft, rose-moonstone orb, crescent wings, star finial, ivy engraving, full body, crown and shoes framed, clear face and arms, mid-turn, skirt and hair flowing, item swept aside, in a village square during a lantern festival, polished anime storybook art, crisp regalia, luminous color"
+    },
+    {
+      "seed": 99081,
+      "scene_id": "ancient_ruins",
+      "pose_id": "formal_front",
+      "equipment_id": "ceremonial_spellblade",
+      "prompt_sections": {
+        "subject_outfit_crown": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree",
+        "equipment": "holding one ceremonial spellblade: short ivory-gold blade, crescent guard, rose-gem pommel, etched stars and moon phases",
+        "pose_scene_style": "full body, crown and shoes framed, clear face and arms, front-facing presentation, item upright, free hand open, among moon-temple ruins at golden hour, polished anime storybook art, crisp regalia, luminous color"
+      },
+      "prompt": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree, holding one ceremonial spellblade: short ivory-gold blade, crescent guard, rose-gem pommel, etched stars and moon phases, full body, crown and shoes framed, clear face and arms, front-facing presentation, item upright, free hand open, among moon-temple ruins at golden hour, polished anime storybook art, crisp regalia, luminous color"
+    },
+    {
+      "seed": 99082,
+      "scene_id": "ancient_ruins",
+      "pose_id": "walking_three_quarter",
+      "equipment_id": "crescent_glaive",
+      "prompt_sections": {
+        "subject_outfit_crown": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree",
+        "equipment": "holding one crescent glaive: slender gold-ivory shaft, single curved blade, rose-crystal socket, constellation engraving",
+        "pose_scene_style": "full body, crown and shoes framed, clear face and arms, graceful step in three-quarter view, item lowered, among moon-temple ruins at golden hour, polished anime storybook art, crisp regalia, luminous color"
+      },
+      "prompt": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree, holding one crescent glaive: slender gold-ivory shaft, single curved blade, rose-crystal socket, constellation engraving, full body, crown and shoes framed, clear face and arms, graceful step in three-quarter view, item lowered, among moon-temple ruins at golden hour, polished anime storybook art, crisp regalia, luminous color"
+    },
+    {
+      "seed": 99083,
+      "scene_id": "ancient_ruins",
+      "pose_id": "gentle_curtsy",
+      "equipment_id": "moonstar_wand",
+      "prompt_sections": {
+        "subject_outfit_crown": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree",
+        "equipment": "holding one slender gold Moonstar wand: filigree grip, rose crystal, crescent cradle, star tip, moonstone chains",
+        "pose_scene_style": "full body, crown and shoes framed, clear face and arms, three-quarter curtsy, item angled across her, free hand lifting skirt, among moon-temple ruins at golden hour, polished anime storybook art, crisp regalia, luminous color"
+      },
+      "prompt": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree, holding one slender gold Moonstar wand: filigree grip, rose crystal, crescent cradle, star tip, moonstone chains, full body, crown and shoes framed, clear face and arms, three-quarter curtsy, item angled across her, free hand lifting skirt, among moon-temple ruins at golden hour, polished anime storybook art, crisp regalia, luminous color"
+    },
+    {
+      "seed": 99084,
+      "scene_id": "ancient_ruins",
+      "pose_id": "seated_step",
+      "equipment_id": "royal_scepter",
+      "prompt_sections": {
+        "subject_outfit_crown": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree",
+        "equipment": "holding one gold royal scepter: filigree shaft, rose-moonstone orb, crescent wings, star finial, ivy engraving",
+        "pose_scene_style": "full body, crown and shoes framed, clear face and arms, seated upright, item across her lap, free hand relaxed, among moon-temple ruins at golden hour, polished anime storybook art, crisp regalia, luminous color"
+      },
+      "prompt": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree, holding one gold royal scepter: filigree shaft, rose-moonstone orb, crescent wings, star finial, ivy engraving, full body, crown and shoes framed, clear face and arms, seated upright, item across her lap, free hand relaxed, among moon-temple ruins at golden hour, polished anime storybook art, crisp regalia, luminous color"
+    },
+    {
+      "seed": 99085,
+      "scene_id": "ancient_ruins",
+      "pose_id": "profile_lookback",
+      "equipment_id": "starlight_staff",
+      "prompt_sections": {
+        "subject_outfit_crown": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree",
+        "equipment": "holding one gold starlight staff: engraved shaft, crescent head, suspended rose crystal, star-map inlays, ribbon tassel",
+        "pose_scene_style": "full body, crown and shoes framed, clear face and arms, side profile looking back, item lowered, hair moving, among moon-temple ruins at golden hour, polished anime storybook art, crisp regalia, luminous color"
+      },
+      "prompt": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree, holding one gold starlight staff: engraved shaft, crescent head, suspended rose crystal, star-map inlays, ribbon tassel, full body, crown and shoes framed, clear face and arms, side profile looking back, item lowered, hair moving, among moon-temple ruins at golden hour, polished anime storybook art, crisp regalia, luminous color"
+    },
+    {
+      "seed": 99086,
+      "scene_id": "ancient_ruins",
+      "pose_id": "inviting_reach",
+      "equipment_id": "ceremonial_spellblade",
+      "prompt_sections": {
+        "subject_outfit_crown": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree",
+        "equipment": "holding one ceremonial spellblade: short ivory-gold blade, crescent guard, rose-gem pommel, etched stars and moon phases",
+        "pose_scene_style": "full body, crown and shoes framed, clear face and arms, free hand reaching forward, item raised by shoulder, among moon-temple ruins at golden hour, polished anime storybook art, crisp regalia, luminous color"
+      },
+      "prompt": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree, holding one ceremonial spellblade: short ivory-gold blade, crescent guard, rose-gem pommel, etched stars and moon phases, full body, crown and shoes framed, clear face and arms, free hand reaching forward, item raised by shoulder, among moon-temple ruins at golden hour, polished anime storybook art, crisp regalia, luminous color"
+    },
+    {
+      "seed": 99087,
+      "scene_id": "ancient_ruins",
+      "pose_id": "guarded_action",
+      "equipment_id": "crescent_glaive",
+      "prompt_sections": {
+        "subject_outfit_crown": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree",
+        "equipment": "holding one crescent glaive: slender gold-ivory shaft, single curved blade, rose-crystal socket, constellation engraving",
+        "pose_scene_style": "full body, crown and shoes framed, clear face and arms, grounded action stance, item forward, determined expression, among moon-temple ruins at golden hour, polished anime storybook art, crisp regalia, luminous color"
+      },
+      "prompt": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree, holding one crescent glaive: slender gold-ivory shaft, single curved blade, rose-crystal socket, constellation engraving, full body, crown and shoes framed, clear face and arms, grounded action stance, item forward, determined expression, among moon-temple ruins at golden hour, polished anime storybook art, crisp regalia, luminous color"
+    },
+    {
+      "seed": 99088,
+      "scene_id": "ancient_ruins",
+      "pose_id": "magic_overhead",
+      "equipment_id": "moonstar_wand",
+      "prompt_sections": {
+        "subject_outfit_crown": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree",
+        "equipment": "holding one slender gold Moonstar wand: filigree grip, rose crystal, crescent cradle, star tip, moonstone chains",
+        "pose_scene_style": "full body, crown and shoes framed, clear face and arms, item overhead inside one starlight ring, feet apart, among moon-temple ruins at golden hour, polished anime storybook art, crisp regalia, luminous color"
+      },
+      "prompt": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree, holding one slender gold Moonstar wand: filigree grip, rose crystal, crescent cradle, star tip, moonstone chains, full body, crown and shoes framed, clear face and arms, item overhead inside one starlight ring, feet apart, among moon-temple ruins at golden hour, polished anime storybook art, crisp regalia, luminous color"
+    },
+    {
+      "seed": 99089,
+      "scene_id": "ancient_ruins",
+      "pose_id": "kneeling_vow",
+      "equipment_id": "royal_scepter",
+      "prompt_sections": {
+        "subject_outfit_crown": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree",
+        "equipment": "holding one gold royal scepter: filigree shaft, rose-moonstone orb, crescent wings, star finial, ivy engraving",
+        "pose_scene_style": "full body, crown and shoes framed, clear face and arms, kneeling on one knee, item upright, hand over heart, among moon-temple ruins at golden hour, polished anime storybook art, crisp regalia, luminous color"
+      },
+      "prompt": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree, holding one gold royal scepter: filigree shaft, rose-moonstone orb, crescent wings, star finial, ivy engraving, full body, crown and shoes framed, clear face and arms, kneeling on one knee, item upright, hand over heart, among moon-temple ruins at golden hour, polished anime storybook art, crisp regalia, luminous color"
+    },
+    {
+      "seed": 99090,
+      "scene_id": "ancient_ruins",
+      "pose_id": "spinning_motion",
+      "equipment_id": "starlight_staff",
+      "prompt_sections": {
+        "subject_outfit_crown": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree",
+        "equipment": "holding one gold starlight staff: engraved shaft, crescent head, suspended rose crystal, star-map inlays, ribbon tassel",
+        "pose_scene_style": "full body, crown and shoes framed, clear face and arms, mid-turn, skirt and hair flowing, item swept aside, among moon-temple ruins at golden hour, polished anime storybook art, crisp regalia, luminous color"
+      },
+      "prompt": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree, holding one gold starlight staff: engraved shaft, crescent head, suspended rose crystal, star-map inlays, ribbon tassel, full body, crown and shoes framed, clear face and arms, mid-turn, skirt and hair flowing, item swept aside, among moon-temple ruins at golden hour, polished anime storybook art, crisp regalia, luminous color"
+    },
+    {
+      "seed": 99091,
+      "scene_id": "snow_garden",
+      "pose_id": "formal_front",
+      "equipment_id": "crescent_glaive",
+      "prompt_sections": {
+        "subject_outfit_crown": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree",
+        "equipment": "holding one crescent glaive: slender gold-ivory shaft, single curved blade, rose-crystal socket, constellation engraving",
+        "pose_scene_style": "full body, crown and shoes framed, clear face and arms, front-facing presentation, item upright, free hand open, in a snowy palace garden with warm lanterns, polished anime storybook art, crisp regalia, luminous color"
+      },
+      "prompt": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree, holding one crescent glaive: slender gold-ivory shaft, single curved blade, rose-crystal socket, constellation engraving, full body, crown and shoes framed, clear face and arms, front-facing presentation, item upright, free hand open, in a snowy palace garden with warm lanterns, polished anime storybook art, crisp regalia, luminous color"
+    },
+    {
+      "seed": 99092,
+      "scene_id": "snow_garden",
+      "pose_id": "walking_three_quarter",
+      "equipment_id": "moonstar_wand",
+      "prompt_sections": {
+        "subject_outfit_crown": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree",
+        "equipment": "holding one slender gold Moonstar wand: filigree grip, rose crystal, crescent cradle, star tip, moonstone chains",
+        "pose_scene_style": "full body, crown and shoes framed, clear face and arms, graceful step in three-quarter view, item lowered, in a snowy palace garden with warm lanterns, polished anime storybook art, crisp regalia, luminous color"
+      },
+      "prompt": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree, holding one slender gold Moonstar wand: filigree grip, rose crystal, crescent cradle, star tip, moonstone chains, full body, crown and shoes framed, clear face and arms, graceful step in three-quarter view, item lowered, in a snowy palace garden with warm lanterns, polished anime storybook art, crisp regalia, luminous color"
+    },
+    {
+      "seed": 99093,
+      "scene_id": "snow_garden",
+      "pose_id": "gentle_curtsy",
+      "equipment_id": "royal_scepter",
+      "prompt_sections": {
+        "subject_outfit_crown": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree",
+        "equipment": "holding one gold royal scepter: filigree shaft, rose-moonstone orb, crescent wings, star finial, ivy engraving",
+        "pose_scene_style": "full body, crown and shoes framed, clear face and arms, three-quarter curtsy, item angled across her, free hand lifting skirt, in a snowy palace garden with warm lanterns, polished anime storybook art, crisp regalia, luminous color"
+      },
+      "prompt": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree, holding one gold royal scepter: filigree shaft, rose-moonstone orb, crescent wings, star finial, ivy engraving, full body, crown and shoes framed, clear face and arms, three-quarter curtsy, item angled across her, free hand lifting skirt, in a snowy palace garden with warm lanterns, polished anime storybook art, crisp regalia, luminous color"
+    },
+    {
+      "seed": 99094,
+      "scene_id": "snow_garden",
+      "pose_id": "seated_step",
+      "equipment_id": "starlight_staff",
+      "prompt_sections": {
+        "subject_outfit_crown": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree",
+        "equipment": "holding one gold starlight staff: engraved shaft, crescent head, suspended rose crystal, star-map inlays, ribbon tassel",
+        "pose_scene_style": "full body, crown and shoes framed, clear face and arms, seated upright, item across her lap, free hand relaxed, in a snowy palace garden with warm lanterns, polished anime storybook art, crisp regalia, luminous color"
+      },
+      "prompt": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree, holding one gold starlight staff: engraved shaft, crescent head, suspended rose crystal, star-map inlays, ribbon tassel, full body, crown and shoes framed, clear face and arms, seated upright, item across her lap, free hand relaxed, in a snowy palace garden with warm lanterns, polished anime storybook art, crisp regalia, luminous color"
+    },
+    {
+      "seed": 99095,
+      "scene_id": "snow_garden",
+      "pose_id": "profile_lookback",
+      "equipment_id": "ceremonial_spellblade",
+      "prompt_sections": {
+        "subject_outfit_crown": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree",
+        "equipment": "holding one ceremonial spellblade: short ivory-gold blade, crescent guard, rose-gem pommel, etched stars and moon phases",
+        "pose_scene_style": "full body, crown and shoes framed, clear face and arms, side profile looking back, item lowered, hair moving, in a snowy palace garden with warm lanterns, polished anime storybook art, crisp regalia, luminous color"
+      },
+      "prompt": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree, holding one ceremonial spellblade: short ivory-gold blade, crescent guard, rose-gem pommel, etched stars and moon phases, full body, crown and shoes framed, clear face and arms, side profile looking back, item lowered, hair moving, in a snowy palace garden with warm lanterns, polished anime storybook art, crisp regalia, luminous color"
+    },
+    {
+      "seed": 99096,
+      "scene_id": "snow_garden",
+      "pose_id": "inviting_reach",
+      "equipment_id": "crescent_glaive",
+      "prompt_sections": {
+        "subject_outfit_crown": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree",
+        "equipment": "holding one crescent glaive: slender gold-ivory shaft, single curved blade, rose-crystal socket, constellation engraving",
+        "pose_scene_style": "full body, crown and shoes framed, clear face and arms, free hand reaching forward, item raised by shoulder, in a snowy palace garden with warm lanterns, polished anime storybook art, crisp regalia, luminous color"
+      },
+      "prompt": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree, holding one crescent glaive: slender gold-ivory shaft, single curved blade, rose-crystal socket, constellation engraving, full body, crown and shoes framed, clear face and arms, free hand reaching forward, item raised by shoulder, in a snowy palace garden with warm lanterns, polished anime storybook art, crisp regalia, luminous color"
+    },
+    {
+      "seed": 99097,
+      "scene_id": "snow_garden",
+      "pose_id": "guarded_action",
+      "equipment_id": "moonstar_wand",
+      "prompt_sections": {
+        "subject_outfit_crown": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree",
+        "equipment": "holding one slender gold Moonstar wand: filigree grip, rose crystal, crescent cradle, star tip, moonstone chains",
+        "pose_scene_style": "full body, crown and shoes framed, clear face and arms, grounded action stance, item forward, determined expression, in a snowy palace garden with warm lanterns, polished anime storybook art, crisp regalia, luminous color"
+      },
+      "prompt": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree, holding one slender gold Moonstar wand: filigree grip, rose crystal, crescent cradle, star tip, moonstone chains, full body, crown and shoes framed, clear face and arms, grounded action stance, item forward, determined expression, in a snowy palace garden with warm lanterns, polished anime storybook art, crisp regalia, luminous color"
+    },
+    {
+      "seed": 99098,
+      "scene_id": "snow_garden",
+      "pose_id": "magic_overhead",
+      "equipment_id": "royal_scepter",
+      "prompt_sections": {
+        "subject_outfit_crown": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree",
+        "equipment": "holding one gold royal scepter: filigree shaft, rose-moonstone orb, crescent wings, star finial, ivy engraving",
+        "pose_scene_style": "full body, crown and shoes framed, clear face and arms, item overhead inside one starlight ring, feet apart, in a snowy palace garden with warm lanterns, polished anime storybook art, crisp regalia, luminous color"
+      },
+      "prompt": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree, holding one gold royal scepter: filigree shaft, rose-moonstone orb, crescent wings, star finial, ivy engraving, full body, crown and shoes framed, clear face and arms, item overhead inside one starlight ring, feet apart, in a snowy palace garden with warm lanterns, polished anime storybook art, crisp regalia, luminous color"
+    },
+    {
+      "seed": 99099,
+      "scene_id": "snow_garden",
+      "pose_id": "kneeling_vow",
+      "equipment_id": "starlight_staff",
+      "prompt_sections": {
+        "subject_outfit_crown": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree",
+        "equipment": "holding one gold starlight staff: engraved shaft, crescent head, suspended rose crystal, star-map inlays, ribbon tassel",
+        "pose_scene_style": "full body, crown and shoes framed, clear face and arms, kneeling on one knee, item upright, hand over heart, in a snowy palace garden with warm lanterns, polished anime storybook art, crisp regalia, luminous color"
+      },
+      "prompt": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree, holding one gold starlight staff: engraved shaft, crescent head, suspended rose crystal, star-map inlays, ribbon tassel, full body, crown and shoes framed, clear face and arms, kneeling on one knee, item upright, hand over heart, in a snowy palace garden with warm lanterns, polished anime storybook art, crisp regalia, luminous color"
+    },
+    {
+      "seed": 99100,
+      "scene_id": "snow_garden",
+      "pose_id": "spinning_motion",
+      "equipment_id": "ceremonial_spellblade",
+      "prompt_sections": {
+        "subject_outfit_crown": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree",
+        "equipment": "holding one ceremonial spellblade: short ivory-gold blade, crescent guard, rose-gem pommel, etched stars and moon phases",
+        "pose_scene_style": "full body, crown and shoes framed, clear face and arms, mid-turn, skirt and hair flowing, item swept aside, in a snowy palace garden with warm lanterns, polished anime storybook art, crisp regalia, luminous color"
+      },
+      "prompt": "solo, lqxl Little Queen, Moonstar dress: rose-pink bodice, high collar, puff sleeves, eight-petal skirt, ivory underskirt, gold piping, star-crescent hem, rose-gem brooch, white stockings, pink strap shoes, one five-point gold crown, rose gem, moonstones, star-crescent filigree, holding one ceremonial spellblade: short ivory-gold blade, crescent guard, rose-gem pommel, etched stars and moon phases, full body, crown and shoes framed, clear face and arms, mid-turn, skirt and hair flowing, item swept aside, in a snowy palace garden with warm lanterns, polished anime storybook art, crisp regalia, luminous color"
+    }
+  ]
+}

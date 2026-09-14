@@ -1,0 +1,110 @@
+{
+  "description": "Decorrelated v2 Moonstar crown and Rosekeeper wand-staff test",
+  "image_count": 13,
+  "prompts": [
+    {
+      "seed": 124001,
+      "case_id": "crown_w035",
+      "item_id": "none",
+      "regalia_weight": 0.35,
+      "equipment_weight": 0.0,
+      "prompt": "full-body front view, entire head and both shoes framed, inside a plain blue stone hall, solo, lqxl Little Queen, lqmoonfit, lqmooncrest, wearing one exact Moonstar flame-leaf diadem: a slim symmetrical polished gold band, five upward flame-leaf points, one centered round amber moonstone, two pale leaf inlays, two small rose-gold side blossoms, empty hands, no wand, no staff, no scepter, no weapon, polished anime storybook illustration"
+    },
+    {
+      "seed": 124001,
+      "case_id": "crown_w055",
+      "item_id": "none",
+      "regalia_weight": 0.55,
+      "equipment_weight": 0.0,
+      "prompt": "full-body front view, entire head and both shoes framed, inside a plain blue stone hall, solo, lqxl Little Queen, lqmoonfit, lqmooncrest, wearing one exact Moonstar flame-leaf diadem: a slim symmetrical polished gold band, five upward flame-leaf points, one centered round amber moonstone, two pale leaf inlays, two small rose-gold side blossoms, empty hands, no wand, no staff, no scepter, no weapon, polished anime storybook illustration"
+    },
+    {
+      "seed": 124001,
+      "case_id": "crown_w075",
+      "item_id": "none",
+      "regalia_weight": 0.75,
+      "equipment_weight": 0.0,
+      "prompt": "full-body front view, entire head and both shoes framed, inside a plain blue stone hall, solo, lqxl Little Queen, lqmoonfit, lqmooncrest, wearing one exact Moonstar flame-leaf diadem: a slim symmetrical polished gold band, five upward flame-leaf points, one centered round amber moonstone, two pale leaf inlays, two small rose-gold side blossoms, empty hands, no wand, no staff, no scepter, no weapon, polished anime storybook illustration"
+    },
+    {
+      "seed": 124002,
+      "case_id": "crown_woodland",
+      "item_id": "none",
+      "regalia_weight": 0.55,
+      "equipment_weight": 0.0,
+      "prompt": "head-and-shoulders three-quarter portrait, both ears visible, in a green woodland clearing, solo, lqxl Little Queen, lqmoonfit, lqmooncrest, wearing one exact Moonstar flame-leaf diadem: a slim symmetrical polished gold band, five upward flame-leaf points, one centered round amber moonstone, two pale leaf inlays, two small rose-gold side blossoms, empty hands, no wand, no staff, no scepter, no weapon, polished anime storybook illustration"
+    },
+    {
+      "seed": 124003,
+      "case_id": "crown_seaside",
+      "item_id": "none",
+      "regalia_weight": 0.55,
+      "equipment_weight": 0.0,
+      "prompt": "wide full-body turning view, entire head and both shoes framed, on a blue seaside cliff, solo, lqxl Little Queen, lqmoonfit, lqmooncrest, wearing one exact Moonstar flame-leaf diadem: a slim symmetrical polished gold band, five upward flame-leaf points, one centered round amber moonstone, two pale leaf inlays, two small rose-gold side blossoms, empty hands, no wand, no staff, no scepter, no weapon, polished anime storybook illustration"
+    },
+    {
+      "seed": 124010,
+      "case_id": "staff_w025",
+      "item_id": "rosekeeper_wand_staff",
+      "regalia_weight": 0.55,
+      "equipment_weight": 0.25,
+      "prompt": "wide full-body presentation, entire head, staff, and both shoes framed, inside a plain blue stone hall, solo, lqxl Little Queen, lqmoonfit, lqmooncrest, wearing one exact Moonstar flame-leaf diadem: a slim symmetrical polished gold band, five upward flame-leaf points, one centered round amber moonstone, two pale leaf inlays, two small rose-gold side blossoms, lqrosewand2, holding exactly one signature Rosekeeper wand-staff in one hand: one long straight slender gold shaft, one natural pink rose finial, one small oval rose crystal, one clear faceted teardrop crystal in a gold cage at the base, polished anime storybook illustration"
+    },
+    {
+      "seed": 124010,
+      "case_id": "staff_w045",
+      "item_id": "rosekeeper_wand_staff",
+      "regalia_weight": 0.55,
+      "equipment_weight": 0.45,
+      "prompt": "wide full-body presentation, entire head, staff, and both shoes framed, inside a plain blue stone hall, solo, lqxl Little Queen, lqmoonfit, lqmooncrest, wearing one exact Moonstar flame-leaf diadem: a slim symmetrical polished gold band, five upward flame-leaf points, one centered round amber moonstone, two pale leaf inlays, two small rose-gold side blossoms, lqrosewand2, holding exactly one signature Rosekeeper wand-staff in one hand: one long straight slender gold shaft, one natural pink rose finial, one small oval rose crystal, one clear faceted teardrop crystal in a gold cage at the base, polished anime storybook illustration"
+    },
+    {
+      "seed": 124010,
+      "case_id": "staff_w065",
+      "item_id": "rosekeeper_wand_staff",
+      "regalia_weight": 0.55,
+      "equipment_weight": 0.65,
+      "prompt": "wide full-body presentation, entire head, staff, and both shoes framed, inside a plain blue stone hall, solo, lqxl Little Queen, lqmoonfit, lqmooncrest, wearing one exact Moonstar flame-leaf diadem: a slim symmetrical polished gold band, five upward flame-leaf points, one centered round amber moonstone, two pale leaf inlays, two small rose-gold side blossoms, lqrosewand2, holding exactly one signature Rosekeeper wand-staff in one hand: one long straight slender gold shaft, one natural pink rose finial, one small oval rose crystal, one clear faceted teardrop crystal in a gold cage at the base, polished anime storybook illustration"
+    },
+    {
+      "seed": 124011,
+      "case_id": "staff_walking",
+      "item_id": "rosekeeper_wand_staff",
+      "regalia_weight": 0.55,
+      "equipment_weight": 0.45,
+      "prompt": "wide full-body walking view, entire head, staff, and both shoes framed, staff lowered at her side, beside a snowy forest path, solo, lqxl Little Queen, lqmoonfit, lqmooncrest, wearing one exact Moonstar flame-leaf diadem: a slim symmetrical polished gold band, five upward flame-leaf points, one centered round amber moonstone, two pale leaf inlays, two small rose-gold side blossoms, lqrosewand2, holding exactly one signature Rosekeeper wand-staff in one hand: one long straight slender gold shaft, one natural pink rose finial, one small oval rose crystal, one clear faceted teardrop crystal in a gold cage at the base, polished anime storybook illustration"
+    },
+    {
+      "seed": 124012,
+      "case_id": "staff_casting",
+      "item_id": "rosekeeper_wand_staff",
+      "regalia_weight": 0.55,
+      "equipment_weight": 0.45,
+      "prompt": "wide full-body action view, entire head, staff, and both shoes framed, pointing the staff forward, among desert ruins, solo, lqxl Little Queen, lqmoonfit, lqmooncrest, wearing one exact Moonstar flame-leaf diadem: a slim symmetrical polished gold band, five upward flame-leaf points, one centered round amber moonstone, two pale leaf inlays, two small rose-gold side blossoms, lqrosewand2, holding exactly one signature Rosekeeper wand-staff in one hand: one long straight slender gold shaft, one natural pink rose finial, one small oval rose crystal, one clear faceted teardrop crystal in a gold cage at the base, polished anime storybook illustration"
+    },
+    {
+      "seed": 124013,
+      "case_id": "staff_seated",
+      "item_id": "rosekeeper_wand_staff",
+      "regalia_weight": 0.55,
+      "equipment_weight": 0.45,
+      "prompt": "full-body seated view, entire head and staff framed, staff resting diagonally across her lap, inside a quiet library, solo, lqxl Little Queen, lqmoonfit, lqmooncrest, wearing one exact Moonstar flame-leaf diadem: a slim symmetrical polished gold band, five upward flame-leaf points, one centered round amber moonstone, two pale leaf inlays, two small rose-gold side blossoms, lqrosewand2, holding exactly one signature Rosekeeper wand-staff in one hand: one long straight slender gold shaft, one natural pink rose finial, one small oval rose crystal, one clear faceted teardrop crystal in a gold cage at the base, polished anime storybook illustration"
+    },
+    {
+      "seed": 124014,
+      "case_id": "staff_close",
+      "item_id": "rosekeeper_wand_staff",
+      "regalia_weight": 0.55,
+      "equipment_weight": 0.45,
+      "prompt": "three-quarter portrait from knees upward, crown and complete upright staff framed, at a lakeside dock, solo, lqxl Little Queen, lqmoonfit, lqmooncrest, wearing one exact Moonstar flame-leaf diadem: a slim symmetrical polished gold band, five upward flame-leaf points, one centered round amber moonstone, two pale leaf inlays, two small rose-gold side blossoms, lqrosewand2, holding exactly one signature Rosekeeper wand-staff in one hand: one long straight slender gold shaft, one natural pink rose finial, one small oval rose crystal, one clear faceted teardrop crystal in a gold cage at the base, polished anime storybook illustration"
+    },
+    {
+      "seed": 124015,
+      "case_id": "both_strong",
+      "item_id": "rosekeeper_wand_staff",
+      "regalia_weight": 0.72,
+      "equipment_weight": 0.62,
+      "prompt": "wide full-body guard stance, entire head, staff, and both shoes framed, inside a moonlit castle gate, solo, lqxl Little Queen, lqmoonfit, lqmooncrest, wearing one exact Moonstar flame-leaf diadem: a slim symmetrical polished gold band, five upward flame-leaf points, one centered round amber moonstone, two pale leaf inlays, two small rose-gold side blossoms, lqrosewand2, holding exactly one signature Rosekeeper wand-staff in one hand: one long straight slender gold shaft, one natural pink rose finial, one small oval rose crystal, one clear faceted teardrop crystal in a gold cage at the base, polished anime storybook illustration"
+    }
+  ]
+}

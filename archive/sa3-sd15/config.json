@@ -1,0 +1,7 @@
+{
+  "prompt_count": 100,
+  "gemma_scripts_path": "/mnt/storage/projects/agentic/images/scripts/hug",
+  "output_dir": "/home/derek/projects/agentic/sa3/sd15Files/scripts/output/manual-cabf80af",
+  "upscaled_dir": "/home/derek/projects/agentic/sa3/sd15Files/scripts/output/manual-cabf80af/upscaled",
+  "prompts_file": "/mnt/storage/projects/agentic/images/scripts/prompts.json"
+}

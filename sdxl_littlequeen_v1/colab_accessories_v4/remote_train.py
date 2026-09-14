@@ -1,0 +1,72 @@
+#!/usr/bin/env python3
+"""Configure exact-alpha V4 Moonstar regalia and wand LoRA training."""
+
+from __future__ import annotations
+
+import importlib.util
+import shutil
+from pathlib import Path
+
+
+BASE_PATH = Path("/content/remote_train_accessories_base.py")
+spec = importlib.util.spec_from_file_location("accessory_train_base", BASE_PATH)
+if spec is None or spec.loader is None:
+    raise RuntimeError(f"cannot load training base: {BASE_PATH}")
+base = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(base)
+
+base.ROOT = Path("/content/lqaccessories_v4")
+base.BUNDLE = Path("/content/lqaccessories_v4_bundle.tar.gz")
+base.BUNDLE_PART_PREFIX = Path("/content/lqaccessories_v4_bundle.tar.gz.part_")
+base.SD_SCRIPTS = base.ROOT / "sd-scripts"
+base.LOGS = base.ROOT / "logs"
+base.MODEL_DIR = base.ROOT / "models"
+base.JOBS = (
+    {
+        "id": "regalia",
+        "config": base.ROOT / "dataset_regalia.toml",
+        "output": base.ROOT / "output_regalia",
+        "name": "lqmoonregalia_sdxl_v4",
+        "dim": 16,
+        "alpha": 8,
+        "steps": 700,
+        "seed": 128001,
+    },
+    {
+        "id": "wand",
+        "config": base.ROOT / "dataset_wand.toml",
+        "output": base.ROOT / "output_wand",
+        "name": "lqmoonwand_sdxl_v4",
+        "dim": 16,
+        "alpha": 8,
+        "steps": 700,
+        "seed": 128002,
+    },
+)
+
+original_extract_bundle = base.extract_bundle
+
+
+def extract_bundle() -> None:
+    original_extract_bundle()
+    fixed_cache = Path("/content/isolated_cache_v4.py")
+    if fixed_cache.is_file():
+        shutil.copy2(fixed_cache, base.ROOT / "isolated_cache.py")
+
+
+base.extract_bundle = extract_bundle
+original_training_command = base.training_command
+
+
+def training_command(model: Path, job: dict) -> list[str]:
+    command = original_training_command(model, job)
+    return [
+        argument.replace("--save_every_n_steps=300", "--save_every_n_steps=350")
+        .replace("--learning_rate=0.0001", "--learning_rate=0.00003")
+        .replace("--unet_lr=0.0001", "--unet_lr=0.00003")
+        for argument in command
+    ]
+
+
+base.training_command = training_command
+raise SystemExit(base.main())

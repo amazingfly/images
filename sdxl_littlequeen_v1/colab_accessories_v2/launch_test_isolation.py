@@ -1,0 +1,7 @@
+import runpy
+
+try:
+    runpy.run_path("/content/remote_test_accessories_v2_isolation.py", run_name="__main__")
+except SystemExit as exc:
+    if exc.code not in (None, 0):
+        raise

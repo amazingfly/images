@@ -1,0 +1,94 @@
+{
+  "prompts": [
+    {
+      "case_id": "regalia_long_w000",
+      "seed": 129100,
+      "identity_weight": 0.9,
+      "outfit_weight": 0.0,
+      "regalia_weight": 0.0,
+      "equipment_weight": 0.0,
+      "prompt": "full-body front view inside a plain blue stone room, solo, one girl, lqxl Little Queen, polished anime storybook illustration, wearing a simple blue travel dress, wearing exactly one symmetrical polished gold flame-leaf diadem with five points and one centered amber-rose oval moonstone, matched gold leaf-drop earrings, a narrow gold collar necklace, empty hands"
+    },
+    {
+      "case_id": "regalia_long_w025",
+      "seed": 129100,
+      "identity_weight": 0.9,
+      "outfit_weight": 0.0,
+      "regalia_weight": 0.25,
+      "equipment_weight": 0.0,
+      "prompt": "full-body front view inside a plain blue stone room, solo, one girl, lqxl Little Queen, polished anime storybook illustration, wearing a simple blue travel dress, lqmoonregalia3, wearing exactly one symmetrical polished gold flame-leaf diadem with five points and one centered amber-rose oval moonstone, matched gold leaf-drop earrings, a narrow gold collar necklace, empty hands"
+    },
+    {
+      "case_id": "regalia_compact_w000",
+      "seed": 129101,
+      "identity_weight": 0.9,
+      "outfit_weight": 0.0,
+      "regalia_weight": 0.0,
+      "equipment_weight": 0.0,
+      "prompt": "full-body Little Queen in a plain gray room, simple blue dress, one fitted five-point gold leaf crown with a central amber gem, matching drop earrings and collar necklace, empty hands, anime storybook illustration"
+    },
+    {
+      "case_id": "regalia_compact_w020",
+      "seed": 129101,
+      "identity_weight": 0.9,
+      "outfit_weight": 0.0,
+      "regalia_weight": 0.2,
+      "equipment_weight": 0.0,
+      "prompt": "full-body lqxl Little Queen in a plain gray room, simple blue dress, wearing lqmoonregalia3, one fitted five-point gold leaf crown with a central amber gem, matching drop earrings and collar necklace, empty hands, anime storybook illustration"
+    },
+    {
+      "case_id": "regalia_trigger_w020",
+      "seed": 129102,
+      "identity_weight": 0.9,
+      "outfit_weight": 0.0,
+      "regalia_weight": 0.2,
+      "equipment_weight": 0.0,
+      "prompt": "full-body lqxl Little Queen in a plain gray room, simple blue dress, wearing lqmoonregalia3, empty hands, anime storybook illustration"
+    },
+    {
+      "case_id": "staff_long_w000",
+      "seed": 129200,
+      "identity_weight": 0.9,
+      "outfit_weight": 0.0,
+      "regalia_weight": 0.0,
+      "equipment_weight": 0.0,
+      "prompt": "full-body presentation inside a plain gray practice room, solo, one girl, lqxl Little Queen, simple green travel dress, holding exactly one human-scale wand-staff in her right hand, natural pink rose finial, long straight slender gold shaft, small rose crystal, clear teardrop crystal base, anime storybook illustration"
+    },
+    {
+      "case_id": "staff_long_w025",
+      "seed": 129200,
+      "identity_weight": 0.9,
+      "outfit_weight": 0.0,
+      "regalia_weight": 0.0,
+      "equipment_weight": 0.25,
+      "prompt": "full-body presentation inside a plain gray practice room, solo, one girl, lqxl Little Queen, simple green travel dress, holding lqrosekeeper3, exactly one human-scale wand-staff in her right hand, natural pink rose finial, long straight slender gold shaft, small rose crystal, clear teardrop crystal base, anime storybook illustration"
+    },
+    {
+      "case_id": "staff_compact_w000",
+      "seed": 129201,
+      "identity_weight": 0.9,
+      "outfit_weight": 0.0,
+      "regalia_weight": 0.0,
+      "equipment_weight": 0.0,
+      "prompt": "full-body lqxl Little Queen in a plain gray room, simple green dress, right hand gripping one upright gold wand with a pink rose tip, anime storybook illustration"
+    },
+    {
+      "case_id": "staff_compact_w020",
+      "seed": 129201,
+      "identity_weight": 0.9,
+      "outfit_weight": 0.0,
+      "regalia_weight": 0.0,
+      "equipment_weight": 0.2,
+      "prompt": "full-body lqxl Little Queen in a plain gray room, simple green dress, right hand gripping one upright lqrosekeeper3 gold wand with a pink rose tip, anime storybook illustration"
+    },
+    {
+      "case_id": "staff_trigger_w020",
+      "seed": 129202,
+      "identity_weight": 0.9,
+      "outfit_weight": 0.0,
+      "regalia_weight": 0.0,
+      "equipment_weight": 0.2,
+      "prompt": "full-body lqxl Little Queen in a plain gray room, simple green dress, holding one lqrosekeeper3 upright in her right hand, anime storybook illustration"
+    }
+  ]
+}

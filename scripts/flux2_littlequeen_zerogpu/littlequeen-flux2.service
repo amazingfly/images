@@ -1,0 +1,16 @@
+[Unit]
+Description=Little Queen FLUX.2 Klein ZeroGPU trainer supervisor
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+WorkingDirectory=/home/derek/projects/agentic/ltxVideo
+ExecStart=/home/derek/projects/agentic/ltxVideo/scripts/flux2_littlequeen_zerogpu/start.sh
+Restart=on-failure
+RestartSec=60
+KillMode=control-group
+TimeoutStopSec=30
+
+[Install]
+WantedBy=default.target

@@ -1,0 +1,86 @@
+{
+  "name": "littlequeen_accessories_v2_identity_only_isolation",
+  "prompts": [
+    {
+      "case_id": "baseline_plain",
+      "seed": 125001,
+      "identity_weight": 0.9,
+      "outfit_weight": 0.0,
+      "regalia_weight": 0.0,
+      "equipment_weight": 0.0,
+      "prompt": "wide full-body front view, entire head and both shoes framed, inside a plain blue stone hall with undecorated walls, solo, lqxl Little Queen, wearing a simple blue travel dress, bare head, empty hands, no crown, no diadem, no rose, no flower, no archway, no wand, no staff, polished anime storybook illustration"
+    },
+    {
+      "case_id": "crown_w035",
+      "seed": 125001,
+      "identity_weight": 0.9,
+      "outfit_weight": 0.0,
+      "regalia_weight": 0.35,
+      "equipment_weight": 0.0,
+      "prompt": "wide full-body front view, entire head and both shoes framed, inside a plain blue stone hall with undecorated walls, solo, lqxl Little Queen, wearing a simple blue travel dress, lqmooncrest, wearing one exact Moonstar flame-leaf diadem: a slim symmetrical polished gold band, five upward flame-leaf points, one centered round amber moonstone, two pale leaf inlays, two small rose-gold side blossoms, empty hands, no rose, no flower, no archway, no wand, no staff, polished anime storybook illustration"
+    },
+    {
+      "case_id": "crown_w055",
+      "seed": 125001,
+      "identity_weight": 0.9,
+      "outfit_weight": 0.0,
+      "regalia_weight": 0.55,
+      "equipment_weight": 0.0,
+      "prompt": "wide full-body front view, entire head and both shoes framed, inside a plain blue stone hall with undecorated walls, solo, lqxl Little Queen, wearing a simple blue travel dress, lqmooncrest, wearing one exact Moonstar flame-leaf diadem: a slim symmetrical polished gold band, five upward flame-leaf points, one centered round amber moonstone, two pale leaf inlays, two small rose-gold side blossoms, empty hands, no rose, no flower, no archway, no wand, no staff, polished anime storybook illustration"
+    },
+    {
+      "case_id": "crown_w075",
+      "seed": 125001,
+      "identity_weight": 0.9,
+      "outfit_weight": 0.0,
+      "regalia_weight": 0.75,
+      "equipment_weight": 0.0,
+      "prompt": "wide full-body front view, entire head and both shoes framed, inside a plain blue stone hall with undecorated walls, solo, lqxl Little Queen, wearing a simple blue travel dress, lqmooncrest, wearing one exact Moonstar flame-leaf diadem: a slim symmetrical polished gold band, five upward flame-leaf points, one centered round amber moonstone, two pale leaf inlays, two small rose-gold side blossoms, empty hands, no rose, no flower, no archway, no wand, no staff, polished anime storybook illustration"
+    },
+    {
+      "case_id": "staff_w025",
+      "seed": 125010,
+      "identity_weight": 0.9,
+      "outfit_weight": 0.0,
+      "regalia_weight": 0.0,
+      "equipment_weight": 0.25,
+      "prompt": "wide full-body presentation, entire head, wand-staff, and both shoes framed, in a plain gray practice room with undecorated walls, solo, lqxl Little Queen, wearing a simple blue travel dress, bare head, lqrosewand2, holding exactly one signature Rosekeeper wand-staff in one hand: one long straight slender gold shaft, one natural pink rose finial, one small oval rose crystal, one clear faceted teardrop crystal in a gold cage at the base, no archway, polished anime storybook illustration"
+    },
+    {
+      "case_id": "staff_w045",
+      "seed": 125010,
+      "identity_weight": 0.9,
+      "outfit_weight": 0.0,
+      "regalia_weight": 0.0,
+      "equipment_weight": 0.45,
+      "prompt": "wide full-body presentation, entire head, wand-staff, and both shoes framed, in a plain gray practice room with undecorated walls, solo, lqxl Little Queen, wearing a simple blue travel dress, bare head, lqrosewand2, holding exactly one signature Rosekeeper wand-staff in one hand: one long straight slender gold shaft, one natural pink rose finial, one small oval rose crystal, one clear faceted teardrop crystal in a gold cage at the base, no archway, polished anime storybook illustration"
+    },
+    {
+      "case_id": "staff_w065",
+      "seed": 125010,
+      "identity_weight": 0.9,
+      "outfit_weight": 0.0,
+      "regalia_weight": 0.0,
+      "equipment_weight": 0.65,
+      "prompt": "wide full-body presentation, entire head, wand-staff, and both shoes framed, in a plain gray practice room with undecorated walls, solo, lqxl Little Queen, wearing a simple blue travel dress, bare head, lqrosewand2, holding exactly one signature Rosekeeper wand-staff in one hand: one long straight slender gold shaft, one natural pink rose finial, one small oval rose crystal, one clear faceted teardrop crystal in a gold cage at the base, no archway, polished anime storybook illustration"
+    },
+    {
+      "case_id": "crown_woodland",
+      "seed": 125020,
+      "identity_weight": 0.9,
+      "outfit_weight": 0.0,
+      "regalia_weight": 0.55,
+      "equipment_weight": 0.0,
+      "prompt": "head-and-shoulders three-quarter portrait, both ears visible, in a mossy green woodland clearing, solo, lqxl Little Queen, lqmooncrest, wearing one exact Moonstar flame-leaf diadem: a slim symmetrical polished gold band, five upward flame-leaf points, one centered round amber moonstone, two pale leaf inlays, two small rose-gold side blossoms, no rose, no flower, no archway, polished anime storybook illustration"
+    },
+    {
+      "case_id": "staff_desert",
+      "seed": 125021,
+      "identity_weight": 0.9,
+      "outfit_weight": 0.0,
+      "regalia_weight": 0.0,
+      "equipment_weight": 0.45,
+      "prompt": "wide full-body action view, entire head, wand-staff, and both shoes framed, crossing a dry desert plain, solo, lqxl Little Queen, wearing a simple blue travel dress, bare head, lqrosewand2, holding exactly one signature Rosekeeper wand-staff in one hand: one long straight slender gold shaft, one natural pink rose finial, one small oval rose crystal, one clear faceted teardrop crystal in a gold cage at the base, no garden, no archway, polished anime storybook illustration"
+    }
+  ]
+}

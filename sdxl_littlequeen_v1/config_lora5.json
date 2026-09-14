@@ -1,0 +1,60 @@
+{
+  "name": "littlequeen_sdxl_q8_lcm_lora5",
+  "binary": ".tooling/stable-diffusion.cpp/build-cpu/bin/sd-cli",
+  "model": "models/quantized/sd_xl_base_1.0-q8_0.gguf",
+  "lora_dir": "models/loras",
+  "output_root": "outputs/lora5",
+  "log_root": "logs/lora5",
+  "generation": {
+    "width": 768,
+    "height": 1024,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "sampling_method": "lcm",
+    "scheduler": "discrete",
+    "threads": 6,
+    "rng": "cpu",
+    "mmap": true,
+    "vae_tiling": false,
+    "lora_apply_mode": "at_runtime"
+  },
+  "memory": {
+    "sample_interval_seconds": 1.0,
+    "minimum_available_mb": 1200,
+    "maximum_process_rss_mb": 12500,
+    "maximum_swap_used_mb": 4096
+  },
+  "loras": [
+    {
+      "name": "lcm-lora-sdxl",
+      "weight": 1.0
+    },
+    {
+      "name": "lqxl_sdxl_v1",
+      "weight": 0.65
+    }
+  ],
+  "negative_prompt": "close-up crop, cropped body, out of frame, cropped crown, cropped feet, missing arms, missing forearms, missing hands, hidden hands, extra limbs, extra arms, extra fingers, fused hands, extra crown, duplicate crown, floating crown, two girls, multiple people, twin, clone, adult woman, mature body, broad adult shoulders, low neckline, cleavage, photorealistic, blonde hair, black hair, blue dress, silver crown, malformed face, asymmetrical eyes, crossed eyes, open mouth, visible teeth, text, watermark, low detail, blurry",
+  "prompts": [
+    {
+      "seed": 92001,
+      "prompt": "waist-up three-quarter portrait with the entire crown and both hands visible, solo, lqxl Little Queen, canonical round face, petite child proportions, warm brown eyes, long wavy brown hair with straight bangs, one simple gold crown, modest high-neck pink ruffled puff-sleeve gown, hands folded gently, closed-mouth smile, flowering palace garden, polished anime storybook illustration"
+    },
+    {
+      "seed": 92002,
+      "prompt": "full-body front view from crown to shoes, feet inside frame, solo, lqxl Little Queen, canonical round face, petite child proportions, warm brown eyes, brown hair gathered into one thick side braid, one delicate gold tiara, modest pink fitted bodice and layered petal skirt, both hands visible holding one crystal wand, bright candy castle courtyard, polished anime storybook illustration"
+    },
+    {
+      "seed": 92003,
+      "prompt": "wide full-body action shot, entire figure visible from crown to boots, feet inside frame, solo, lqxl Little Queen, canonical round face, petite child proportions, warm brown eyes, brown hair in a high windblown ponytail with straight bangs, one small gold crown, short-sleeve pink battle dress with gold trim and flared skirt, powering up in a wide grounded stance, both clenched fists clearly visible, brilliant gold energy aura around her body, determined closed-mouth expression, polished anime action illustration"
+    },
+    {
+      "seed": 92004,
+      "prompt": "seated full-body three-quarter view with crown and shoes inside frame, solo, lqxl Little Queen, canonical round face, petite child proportions, warm brown eyes, half-up brown curls, one floral gold circlet, modest pink ball gown with a tiered skirt, both hands visible cradling one tiny friendly dragon, enchanted rose garden, closed-mouth smile, polished anime storybook illustration"
+    },
+    {
+      "seed": 92005,
+      "prompt": "wide full-body attack pose from crown to boots, feet inside frame, solo, lqxl Little Queen, canonical round face, petite child proportions, warm brown eyes, long brown side ponytail with straight bangs, one broad gold crown, pink ruffled princess dress with fitted gold armor accents, both hands visible swinging one star-tipped scepter, one clean arc of light, clear silhouette, determined closed-mouth expression, polished anime action illustration"
+    }
+  ]
+}

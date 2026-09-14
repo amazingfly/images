@@ -1,0 +1,184 @@
+{
+  "version": "littlequeen-storybook-accessories-v2-moonstar-wand",
+  "input": "/mnt/storage/projects/agentic/images/agy/outputs/storybook_v2_local100/20260722_103202/base/candidate_91.png",
+  "output": "/mnt/storage/projects/agentic/images/sdxl_littlequeen_v1/storybook_accessories_v2/example_candidate_91_v2.png",
+  "blend_mask": "/mnt/storage/projects/agentic/images/sdxl_littlequeen_v1/storybook_accessories_v2/example_candidate_91_v2_blend_mask.png",
+  "cleanup_mask": "/mnt/storage/projects/agentic/images/sdxl_littlequeen_v1/storybook_accessories_v2/example_candidate_91_v2_cleanup_mask.png",
+  "regalia_mask": "/mnt/storage/projects/agentic/images/sdxl_littlequeen_v1/storybook_accessories_v2/example_candidate_91_v2_regalia_mask.png",
+  "hand_prop_mask": "/mnt/storage/projects/agentic/images/sdxl_littlequeen_v1/storybook_accessories_v2/example_candidate_91_v2_hand_prop_mask.png",
+  "image_size": [
+    768,
+    1024
+  ],
+  "person_box": [
+    249.00416564941406,
+    113.20404052734375,
+    645.142578125,
+    949.8493041992188
+  ],
+  "face_box": [
+    327.2750549316406,
+    256.4078369140625,
+    509.05096435546875,
+    437.95843505859375
+  ],
+  "face_source": "detected",
+  "existing_crown_box": [
+    291.8961181640625,
+    104.73296356201172,
+    562.0731811523438,
+    213.91522216796875
+  ],
+  "inherited_accessory_detections": [
+    {
+      "label": "crown",
+      "score": 0.5628970265388489,
+      "box": [
+        291.8961181640625,
+        104.73296356201172,
+        562.0731811523438,
+        213.91522216796875
+      ]
+    },
+    {
+      "label": "necklace",
+      "score": 0.23832745850086212,
+      "box": [
+        404.05517578125,
+        451.8272399902344,
+        448.2447509765625,
+        472.7461242675781
+      ]
+    },
+    {
+      "label": "necklace",
+      "score": 0.44813019037246704,
+      "box": [
+        395.73431396484375,
+        452.0164794921875,
+        449.9211730957031,
+        484.64105224609375
+      ]
+    },
+    {
+      "label": "staff",
+      "score": 0.2198495864868164,
+      "box": [
+        2.1269989013671875,
+        2.3349609375,
+        764.80859375,
+        772.6759033203125
+      ]
+    },
+    {
+      "label": "necklace",
+      "score": 0.31476685404777527,
+      "box": [
+        376.799560546875,
+        453.3418884277344,
+        460.7203674316406,
+        585.353271484375
+      ]
+    },
+    {
+      "label": "staff",
+      "score": 0.2187815010547638,
+      "box": [
+        249.15110778808594,
+        111.42788696289062,
+        645.1004028320312,
+        949.9278564453125
+      ]
+    },
+    {
+      "label": "earring",
+      "score": 0.22902606427669525,
+      "box": [
+        509.3475036621094,
+        347.1886901855469,
+        542.1634521484375,
+        395.0525207519531
+      ]
+    },
+    {
+      "label": "crown",
+      "score": 0.23614124953746796,
+      "box": [
+        271.9228820800781,
+        104.05709075927734,
+        567.1008911132812,
+        323.2500305175781
+      ]
+    }
+  ],
+  "existing_crown_removed": false,
+  "placements": {
+    "staff": {
+      "box": [
+        107,
+        305,
+        381,
+        733
+      ],
+      "grip_anchor": [
+        244.09,
+        617.56
+      ],
+      "detected_hand_box": [
+        248.25535583496094,
+        594.5403442382812,
+        303.3042297363281,
+        640.5741577148438
+      ],
+      "angle": 7.0
+    },
+    "crown": {
+      "box": [
+        296,
+        130,
+        541,
+        264
+      ]
+    },
+    "earrings": {
+      "left_box": [
+        319,
+        362,
+        327,
+        402
+      ],
+      "right_box": [
+        510,
+        362,
+        518,
+        402
+      ]
+    },
+    "necklace": {
+      "box": [
+        371,
+        444,
+        466,
+        492
+      ]
+    }
+  },
+  "assets": {
+    "staff": {
+      "path": "/mnt/storage/projects/agentic/images/sdxl_littlequeen_v1/storybook_accessories_v1/assets/moonstar_wand_v1.png",
+      "sha256": "d6c202c8dc0195ae560efeca18d38d8a57baf1708074e23a89362fa6fddd1233"
+    },
+    "crown": {
+      "path": "/mnt/storage/projects/agentic/images/sdxl_littlequeen_v1/storybook_accessories_v1/assets/moonstar_crown_trimmed.png",
+      "sha256": "fa3dce0d6f75c1135b381cde1c7216a043b8b1fed9ec4a2e4cb8a6aec56ff338"
+    },
+    "earring": {
+      "path": "/mnt/storage/projects/agentic/images/sdxl_littlequeen_v1/storybook_accessories_v1/assets/moonstar_earring_trimmed.png",
+      "sha256": "027c8d6d438ef4aabd0784675aaa15e31c68ceed48f017750ff619b893491b97"
+    },
+    "necklace": {
+      "path": "/mnt/storage/projects/agentic/images/sdxl_littlequeen_v1/storybook_accessories_v1/assets/moonstar_necklace_trimmed.png",
+      "sha256": "c761d97dcfc2ffd87b9223bc889c08183be8f34fe5c3be3fa62876ada524cf13"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+[Unit]
+Description=Little Queen LoRA ZeroGPU evaluation supervisor
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+WorkingDirectory=/home/derek/projects/agentic/ltxVideo/scripts/flux2_lora_zerogpu_eval
+ExecStart=/home/derek/miniforge3/bin/python supervise.py
+Restart=on-failure
+RestartSec=60
+
+[Install]
+WantedBy=default.target

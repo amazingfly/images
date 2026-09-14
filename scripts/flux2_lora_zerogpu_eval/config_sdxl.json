@@ -1,0 +1,33 @@
+{
+  "version": "little-queen-sdxl-zerogpu-eval-v1",
+  "owner": "amazingfly",
+  "space_repo": "amazingfly/little-queen-flux2-klein-trainer",
+  "result_repo": "amazingfly/little-queen-lora-eval-results",
+  "base_model": "stabilityai/stable-diffusion-xl-base-1.0",
+  "adapter": {
+    "repo": "amazingfly/little-queen-sdxl-lora-v2",
+    "weight_name": "lqxl_sdxl_v2.safetensors",
+    "source": "/mnt/storage/projects/agentic/images/sdxl_littlequeen_v1/models/loras/lqxl_sdxl_v2.safetensors",
+    "sha256": "3799128d4bfd4fbc7848d5b1de099a3e99cf3f718845c98efa7d4d48a7953994"
+  },
+  "trigger": "lqxl Little Queen",
+  "style_prefix": "Polished children's storybook illustration, luminous painterly digital art, clear readable composition, expressive natural anatomy.",
+  "negative_prompt": "two people, multiple people, duplicate, twins, clone, cropped head, cropped feet, out of frame, extra limbs, missing limbs, malformed hands, adult, photorealistic, text, watermark, blurry",
+  "width": 768,
+  "height": 1024,
+  "num_inference_steps": 28,
+  "guidance_scale": 5.0,
+  "gpu_duration_seconds": 60,
+  "manifest": "manifest_stage2_sdxl.json",
+  "baseline_manifest": "manifest_stage1.json",
+  "token_path": "/home/derek/projects/hug/token",
+  "output_dir": "/mnt/storage/projects/agentic/images/flux2_lora_zerogpu_eval",
+  "stage1_state": "/mnt/storage/projects/agentic/images/flux2_lora_zerogpu_eval/supervisor_state.json",
+  "deployment_marker": "/mnt/storage/projects/agentic/images/flux2_lora_zerogpu_eval/stage2_space_deployed.json",
+  "state_filename": "supervisor_sdxl_state.json",
+  "log_filename": "supervisor_sdxl.log",
+  "short_retry_count": 5,
+  "short_retry_seconds": 60,
+  "quota_retry_buffer_seconds": 60,
+  "general_retry_seconds": 1800
+}

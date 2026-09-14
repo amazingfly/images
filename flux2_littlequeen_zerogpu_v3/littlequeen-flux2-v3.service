@@ -1,0 +1,15 @@
+[Unit]
+Description=Little Queen FLUX.2 Klein v3 ZeroGPU training
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+WorkingDirectory=/mnt/storage/projects/agentic/images
+ExecStart=/home/derek/miniforge3/bin/python /mnt/storage/projects/agentic/images/flux2_littlequeen_zerogpu_v3/supervise.py
+Restart=on-failure
+RestartSec=60
+TimeoutStopSec=30
+
+[Install]
+WantedBy=default.target

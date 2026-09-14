@@ -1,0 +1,35 @@
+{
+  "version": "littlequeen-storybook-accessories-v4-production",
+  "strategy": "canonical structure plus exact-mask regional LoRA refinement",
+  "accessory_set": "../storybook_accessories_v2/accessory_set.json",
+  "models": {
+    "regalia": {
+      "path": "../models/loras/lqmoonregalia_sdxl_v4.safetensors",
+      "sha256": "8d3757aa6cfc0b55b5af5c653075b961709c321077c2afabcc79407e4ca29014",
+      "trigger": "lqmoonregalia4",
+      "adapter_weight": 0.45
+    },
+    "wand": {
+      "path": "../models/loras/lqmoonwand_sdxl_v4.safetensors",
+      "sha256": "4714e064ae0bbc31c33b3398a21b98227d764fb8b0a0024932bb6f3359a34503",
+      "trigger": "lqmoonwand4",
+      "adapter_weight": 0.5
+    }
+  },
+  "regional_refinement": {
+    "strength": 0.28,
+    "num_inference_steps": 28,
+    "guidance_scale": 3.5,
+    "padding_mask_crop": 32,
+    "scheduler": "DPM++ Karras"
+  },
+  "composition": {
+    "place_wand": true,
+    "person_occludes_wand": true,
+    "regalia_mask": "exact visible changed pixels",
+    "wand_mask": "exact visible changed pixels without hand grip"
+  },
+  "unsupported": {
+    "global_text_to_image_accessory_weights": "Do not use V4 globally at 0.65 or above; it over-applies gold motifs and does not preserve exact geometry."
+  }
+}

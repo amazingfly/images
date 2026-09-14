@@ -1,0 +1,32 @@
+{
+  "version": "little-queen-lora-zerogpu-eval-v1",
+  "owner": "amazingfly",
+  "space_repo": "amazingfly/little-queen-flux2-klein-trainer",
+  "result_repo": "amazingfly/little-queen-lora-eval-results",
+  "base_model": "black-forest-labs/FLUX.2-klein-base-4B",
+  "adapters": {
+    "flux_v1": {
+      "repo": "amazingfly/little-queen-flux2-klein-lora-v1",
+      "weight_name": "littlequeen-flux2-klein-v1.safetensors"
+    },
+    "flux_v2": {
+      "repo": "amazingfly/little-queen-flux2-klein-lora-v2",
+      "weight_name": "littlequeen-flux2-klein-v2.safetensors"
+    }
+  },
+  "trigger": "LQK4N",
+  "style_prefix": "Polished children's storybook illustration, luminous painterly digital art, clear readable composition, expressive natural anatomy.",
+  "width": 832,
+  "height": 1216,
+  "num_inference_steps": 50,
+  "guidance_scale": 4.0,
+  "max_sequence_length": 512,
+  "gpu_duration_seconds": 60,
+  "manifest": "manifest_stage1.json",
+  "token_path": "/home/derek/projects/hug/token",
+  "output_dir": "/mnt/storage/projects/agentic/images/flux2_lora_zerogpu_eval",
+  "short_retry_count": 5,
+  "short_retry_seconds": 60,
+  "quota_retry_buffer_seconds": 60,
+  "general_retry_seconds": 1800
+}

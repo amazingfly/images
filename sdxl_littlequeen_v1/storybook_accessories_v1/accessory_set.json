@@ -1,0 +1,29 @@
+{
+  "version": "littlequeen-storybook-accessories-v1",
+  "assets": {
+    "crown": "assets/moonstar_crown_trimmed.png",
+    "earring": "assets/moonstar_earring_trimmed.png",
+    "necklace": "assets/moonstar_necklace_trimmed.png",
+    "staff": "assets/rosekeeper_staff_trimmed.png"
+  },
+  "geometry": {
+    "crown_width_in_face_widths": 1.75,
+    "crown_max_width_in_person_widths": 0.72,
+    "crown_max_width_in_image_widths": 0.42,
+    "crown_band_below_face_top": 0.08,
+    "earring_height_in_face_heights": 0.3,
+    "earring_outset_in_face_widths": 0.04,
+    "earring_top_below_face_top": 0.54,
+    "necklace_width_in_face_widths": 0.9,
+    "necklace_max_width_in_person_widths": 0.35,
+    "necklace_top_below_face_bottom": 0.04,
+    "staff_height_in_person_heights": 0.92,
+    "staff_grip_fraction_from_top": 0.53
+  },
+  "design": {
+    "crown": "Moonstar five-flame polished-gold leaf diadem with a centered rose-amber moonstone, two amber side gems, crescent and star engraving",
+    "earrings": "matched crescent and flame-leaf gold drops with rose-amber teardrop gems",
+    "necklace": "narrow symmetrical flame-leaf gold collar with a centered rose-amber moonstone and crescent charm",
+    "staff": "Rosekeeper straight gold wand-staff with one pink rose finial, midpoint rose crystal, crescent and star engraving, and a clear teardrop crystal base"
+  }
+}

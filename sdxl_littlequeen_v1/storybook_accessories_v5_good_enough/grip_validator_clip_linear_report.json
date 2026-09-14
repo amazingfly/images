@@ -1,0 +1,183 @@
+{
+  "version": "littlequeen-grip-clip-linear-v1",
+  "training_example_count": 22,
+  "positive_count": 8,
+  "runs": [
+    "colab_check_v4_20260726",
+    "colab_check_v5_20260726"
+  ],
+  "threshold": 0.25,
+  "leave_one_run_out": {
+    "agreement": 0.363636,
+    "accept_precision": 0.363636,
+    "accept_recall": 1.0,
+    "confusion": {
+      "true_accept": 8,
+      "true_reject": 0,
+      "false_accept": 14,
+      "false_reject": 0
+    },
+    "folds_at_0_5": [
+      {
+        "held_out_run": "colab_check_v4_20260726",
+        "example_count": 9,
+        "agreement": 0.777778,
+        "accept_precision": 0.6,
+        "accept_recall": 1.0,
+        "confusion": {
+          "true_accept": 3,
+          "true_reject": 4,
+          "false_accept": 2,
+          "false_reject": 0
+        }
+      },
+      {
+        "held_out_run": "colab_check_v5_20260726",
+        "example_count": 13,
+        "agreement": 0.692308,
+        "accept_precision": 0.666667,
+        "accept_recall": 0.4,
+        "confusion": {
+          "true_accept": 2,
+          "true_reject": 7,
+          "false_accept": 1,
+          "false_reject": 3
+        }
+      }
+    ],
+    "predictions": [
+      {
+        "run": "colab_check_v4_20260726",
+        "id": "candidate_05",
+        "human": "accept",
+        "probability": 0.500496
+      },
+      {
+        "run": "colab_check_v4_20260726",
+        "id": "candidate_07",
+        "human": "accept",
+        "probability": 0.501302
+      },
+      {
+        "run": "colab_check_v4_20260726",
+        "id": "candidate_24",
+        "human": "reject",
+        "probability": 0.49903
+      },
+      {
+        "run": "colab_check_v4_20260726",
+        "id": "candidate_25",
+        "human": "reject",
+        "probability": 0.498497
+      },
+      {
+        "run": "colab_check_v4_20260726",
+        "id": "candidate_27",
+        "human": "reject",
+        "probability": 0.500845
+      },
+      {
+        "run": "colab_check_v4_20260726",
+        "id": "candidate_33",
+        "human": "accept",
+        "probability": 0.501391
+      },
+      {
+        "run": "colab_check_v4_20260726",
+        "id": "candidate_44",
+        "human": "reject",
+        "probability": 0.502288
+      },
+      {
+        "run": "colab_check_v4_20260726",
+        "id": "candidate_45",
+        "human": "reject",
+        "probability": 0.498645
+      },
+      {
+        "run": "colab_check_v4_20260726",
+        "id": "candidate_47",
+        "human": "reject",
+        "probability": 0.498254
+      },
+      {
+        "run": "colab_check_v5_20260726",
+        "id": "candidate_04",
+        "human": "reject",
+        "probability": 0.499581
+      },
+      {
+        "run": "colab_check_v5_20260726",
+        "id": "candidate_05",
+        "human": "accept",
+        "probability": 0.500668
+      },
+      {
+        "run": "colab_check_v5_20260726",
+        "id": "candidate_06",
+        "human": "reject",
+        "probability": 0.501432
+      },
+      {
+        "run": "colab_check_v5_20260726",
+        "id": "candidate_08",
+        "human": "reject",
+        "probability": 0.498276
+      },
+      {
+        "run": "colab_check_v5_20260726",
+        "id": "candidate_10",
+        "human": "accept",
+        "probability": 0.496997
+      },
+      {
+        "run": "colab_check_v5_20260726",
+        "id": "candidate_14",
+        "human": "reject",
+        "probability": 0.497116
+      },
+      {
+        "run": "colab_check_v5_20260726",
+        "id": "candidate_15",
+        "human": "reject",
+        "probability": 0.498153
+      },
+      {
+        "run": "colab_check_v5_20260726",
+        "id": "candidate_21",
+        "human": "accept",
+        "probability": 0.500684
+      },
+      {
+        "run": "colab_check_v5_20260726",
+        "id": "candidate_22",
+        "human": "reject",
+        "probability": 0.498555
+      },
+      {
+        "run": "colab_check_v5_20260726",
+        "id": "candidate_26",
+        "human": "reject",
+        "probability": 0.496995
+      },
+      {
+        "run": "colab_check_v5_20260726",
+        "id": "candidate_27",
+        "human": "accept",
+        "probability": 0.499488
+      },
+      {
+        "run": "colab_check_v5_20260726",
+        "id": "candidate_30",
+        "human": "accept",
+        "probability": 0.49963
+      },
+      {
+        "run": "colab_check_v5_20260726",
+        "id": "candidate_31",
+        "human": "reject",
+        "probability": 0.497661
+      }
+    ]
+  }
+}
