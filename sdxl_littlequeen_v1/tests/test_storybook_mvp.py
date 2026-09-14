@@ -6,6 +6,7 @@ import io
 import json
 import tempfile
 import unittest
+from unittest.mock import patch
 from pathlib import Path
 from types import SimpleNamespace
 
@@ -90,11 +91,23 @@ def scene(number: int, *, include_little_queen: bool = True) -> dict:
 
 
 def compile_story(path: Path) -> dict:
-    return COMPILER.compile_story(
-        path,
-        ROOT / "storybook_mvp_v1" / "lora_catalog.json",
-        ROOT / "storybook_mvp_v1" / "story_schema.json",
-    )
+    # Compilation reads and hashes assets but does not load model tensors.
+    # Build tiny fixtures instead of relying on workstation weights and outputs.
+    catalog_path = ROOT / "storybook_mvp_v1" / "lora_catalog.json"
+    catalog = json.loads(catalog_path.read_text())["loras"]
+    assets = path.parent / "assets"
+    for item in catalog.values():
+        names = ([item["path"]] if "path" in item else [])
+        names += item.get("validation_references", [])
+        names += [entry["path"] for entry in item.get("files", [])]
+        for name in names:
+            target = assets / name
+            target.parent.mkdir(parents=True, exist_ok=True)
+            target.write_bytes(b"compiler test fixture")
+    with patch.object(COMPILER, "ROOT", assets):
+        return COMPILER.compile_story(
+            path, catalog_path, ROOT / "storybook_mvp_v1" / "story_schema.json"
+        )
 
 
 class StorybookMvpTest(unittest.TestCase):
