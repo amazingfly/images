@@ -1,8 +1,9 @@
-# Image generation and storybook workflows
+# Image generation and training
 
 Stable Diffusion/SDXL image generation, Little Queen LoRA training, FLUX ZeroGPU
-experiments, and storybook validation/rendering. This repository owns the image
-stage used by `sa3`, `ltx-video`, and `media-pipeline`.
+experiments, and reusable image validation. Storybook orchestration lives in
+[storybook-pipeline](https://github.com/amazingfly/storybook-pipeline). This
+repository owns the image backends used by the audio, video, and story workflows.
 
 ## Choose a workflow
 
@@ -12,9 +13,7 @@ stage used by `sa3`, `ltx-video`, and `media-pipeline`.
 | SD 1.5 LoRA | `run_pipeline_lora.sh` | Uses `config_lora_littlequeen.json` |
 | Curated image dataset | `run_littlequeen_dataset.sh` | Configurable dataset generation and curation |
 | SDXL generation/training | [SDXL guide](sdxl_littlequeen_v1/README.md) | Local CPU and versioned Colab workers |
-| Storybook compilation/rendering | [storybook guide](sdxl_littlequeen_v1/storybook_mvp_v1/README.md) | Scripts, schemas, candidate selection and page rendering |
-| Qwen visual review | [local Qwen guide](scripts/qwen35_storybook_local/README.md) | Validate candidates, narrate, assemble story videos |
-| Qwen Colab review | [Colab Qwen guide](scripts/qwen35_storybook_validation/README.md) | Dataset upload and remote validation |
+| Storybook compilation, review and narration | [storybook-pipeline](https://github.com/amazingfly/storybook-pipeline) | Separate repository using these image backends |
 | FLUX training v3 | [FLUX v3 guide](flux2_littlequeen_zerogpu_v3/README.md) | Current versioned training configuration |
 | FLUX v1/v2 and evaluation | `scripts/flux2_*` | Earlier training and evaluation packages |
 
@@ -49,17 +48,15 @@ uv pip install --python .venv-check/bin/python -r requirements-dev.txt
 .venv-check/bin/python -m pytest
 ```
 
-Tests cover existing storybook selection, schema/compilation, approved accessory
-exports, and Qwen response/validation behavior. They use temporary fixtures and do
+Tests cover the reusable image backend contract, including required models,
+per-scene LoRA availability, and scene overrides. They use temporary fixtures and do
 not require model downloads or cloud access.
 
 ## Source and local data
 
-- `scripts/`: SD 1.5, dataset tools, and migrated FLUX/Qwen workflows.
-- `sdxl_littlequeen_v1/`: SDXL and storybook source, presets, and tests.
+- `scripts/`: SD 1.5, dataset tools, and FLUX training/evaluation workflows.
+- `sdxl_littlequeen_v1/`: SDXL backends, training, accessory validators, and presets.
 - `flux2_littlequeen_zerogpu_v3/`: versioned FLUX training source.
-- `agy/`: alternative local storybook accessory workflow.
-- `theWitchesTrick/`: story source examples.
 - `archive/`: earlier SA3-bundled image workflow, preserved for reference.
 - `LORA/`, model/dataset/output directories, logs, and runtime state: ignored local data.
 
@@ -71,3 +68,7 @@ Gemma-based curation can use the LTX launchers through `LTX_REPO=/path/to/ltx-vi
 or explicit `--gemma-start`/`--gemma-stop` arguments. The Qwen workflow has its
 own launchers. Service files are workstation examples; adjust paths when installing
 on another machine. Existing installed services were not restarted by migration.
+
+Storybook source and tests have moved to [storybook-pipeline](https://github.com/amazingfly/storybook-pipeline).
+Ignored local links retain historical launch paths. The rendering, accessory
+validation code, catalogs, and trained assets used by that pipeline remain here.

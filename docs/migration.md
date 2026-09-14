@@ -19,3 +19,10 @@ locations preserve workstation launch commands.
 - `/home/derek/projects/agentic/ltxVideo/tests/test_qwen35_storybook_local.py` → `/mnt/storage/projects/agentic/images/tests/test_qwen35_storybook_local.py`
 - `/home/derek/projects/agentic/ltxVideo/tests/test_qwen35_storybook_validation.py` → `/mnt/storage/projects/agentic/images/tests/test_qwen35_storybook_validation.py`
 - `/home/derek/projects/agentic/sa3/sd15Files` → `/mnt/storage/projects/agentic/images/archive/sa3-sd15`
+
+## Subsequent storybook extraction
+
+Story compilation, orchestration, narration, Qwen review, and their tests now live
+in [storybook-pipeline](https://github.com/amazingfly/storybook-pipeline). The
+corresponding local paths above continue through compatibility links. Reusable
+image rendering and accessory backends remain in this repository.

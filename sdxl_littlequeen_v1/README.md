@@ -1,3 +1,5 @@
+> Story orchestration and its tests have moved to [storybook-pipeline](https://github.com/amazingfly/storybook-pipeline). This directory owns the image backends, training, and assets. Historical story commands below describe the original layout; use the new repository for fresh installations.
+
 # Little Queen SDXL CPU v1
 
 This is a separate SDXL path. It does not modify or replace the existing SD1.5
