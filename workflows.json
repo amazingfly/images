@@ -1,0 +1,73 @@
+{
+  "version": 1,
+  "status_definition": "supported = maintained entry point with CPU checks; GPU access/deployment is not implied. experimental = specialized recipe. archived = preserved, not the default.",
+  "workflows": [
+    {
+      "id": "sd15",
+      "status": "supported",
+      "entrypoints": [
+        "scripts/generate_images.py",
+        "scripts/generate_images_lora.py"
+      ],
+      "requirements": "SD15 runtime/weights"
+    },
+    {
+      "id": "dataset-curation",
+      "status": "supported",
+      "entrypoints": [
+        "scripts/curate_littlequeen_dataset.py"
+      ],
+      "requirements": "Image runtime and vision server"
+    },
+    {
+      "id": "sdxl-backend",
+      "status": "supported",
+      "entrypoints": [
+        "sdxl_littlequeen_v1/scripts/run_sdxl_cpu.py"
+      ],
+      "requirements": "SDXL tool and weights"
+    },
+    {
+      "id": "accessory-backends",
+      "status": "supported",
+      "entrypoints": [
+        "sdxl_littlequeen_v1/scripts/apply_storybook_accessories.py",
+        "sdxl_littlequeen_v1/scripts/validate_storybook_accessories_v4.py"
+      ],
+      "requirements": "Torch/Transformers, accessory resources"
+    },
+    {
+      "id": "flux-training-v3",
+      "status": "experimental",
+      "entrypoints": [
+        "flux2_littlequeen_zerogpu_v3/"
+      ],
+      "requirements": "Versioned training experiment; deployment is external state"
+    },
+    {
+      "id": "flux-training-v1-v2",
+      "status": "archived",
+      "entrypoints": [
+        "scripts/flux2_littlequeen_zerogpu/",
+        "scripts/flux2_littlequeen_zerogpu_v2/"
+      ],
+      "requirements": "Historical recipes; retained service compatibility"
+    },
+    {
+      "id": "flux-evaluation",
+      "status": "experimental",
+      "entrypoints": [
+        "scripts/flux2_lora_zerogpu_eval/"
+      ],
+      "requirements": "Model-specific evaluation"
+    },
+    {
+      "id": "sa3-image-copy",
+      "status": "archived",
+      "entrypoints": [
+        "archive/sa3-sd15/"
+      ],
+      "requirements": "Reference only"
+    }
+  ]
+}

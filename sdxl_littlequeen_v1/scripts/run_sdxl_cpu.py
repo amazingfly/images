@@ -3,6 +3,17 @@
 
 from __future__ import annotations
 
+# Load centralized workstation defaults; explicit environment/CLI values win.
+import sys as _workspace_sys
+from pathlib import Path as _WorkspacePath
+for _workspace_root in _WorkspacePath(__file__).resolve().parents:
+    if (_workspace_root / "media_workspace").is_dir():
+        _workspace_sys.path.insert(0, str(_workspace_root))
+        break
+from media_workspace.config import apply_environment as _apply_workspace
+_apply_workspace()
+
+
 import argparse
 import csv
 import json
@@ -44,6 +55,9 @@ def load_config(path: Path) -> dict[str, Any]:
     path = path if path.is_absolute() else (ROOT / path).resolve()
     with path.open(encoding="utf-8") as handle:
         config = json.load(handle)
+    for key, variable in [("binary", "SDXL_BINARY"), ("model", "SDXL_MODEL"), ("lora_dir", "SDXL_LORA_DIR")]:
+        if os.environ.get(variable):
+            config[key] = os.environ[variable]
     if not config.get("prompts") and config.get("prompts_file"):
         prompts_path = resolve(config["prompts_file"])
         with prompts_path.open(encoding="utf-8") as handle:

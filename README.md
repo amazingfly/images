@@ -72,3 +72,9 @@ on another machine. Existing installed services were not restarted by migration.
 Storybook source and tests have moved to [storybook-pipeline](https://github.com/amazingfly/storybook-pipeline).
 Ignored local links retain historical launch paths. The rendering, accessory
 validation code, catalogs, and trained assets used by that pipeline remain here.
+
+See [workflow support status](docs/workflows.md). Use `python scripts/workspace.py doctor`
+to check centralized checkout/interpreter configuration, and
+`python scripts/workspace.py run --component images -- {python} SCRIPT [ARGS]`
+to launch with shared paths. Workspace setup is documented in
+[media-pipeline](https://github.com/amazingfly/media-pipeline/blob/main/docs/workspace.md).

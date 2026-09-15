@@ -1,3 +1,14 @@
+
+# Load centralized workstation defaults; explicit environment/CLI values win.
+import sys as _workspace_sys
+from pathlib import Path as _WorkspacePath
+for _workspace_root in _WorkspacePath(__file__).resolve().parents:
+    if (_workspace_root / "media_workspace").is_dir():
+        _workspace_sys.path.insert(0, str(_workspace_root))
+        break
+from media_workspace.config import apply_environment as _apply_workspace
+_apply_workspace()
+
 import json
 import psutil
 import os
@@ -555,7 +566,7 @@ def generate_images(config_path):
     logger.info(f"local_files_only={generation_config['local_files_only']}")
 
     # Load SD 1.5 components sequentially
-    model_id = "runwayml/stable-diffusion-v1-5"
+    model_id = os.environ.get("SD15_MODEL", "runwayml/stable-diffusion-v1-5")
     logger.info("Loading SD components sequentially...")
 
     logger.info("Loading SD tokenizer...")
